@@ -21,53 +21,51 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ---
 
-## Included Parameters
+## What's Included vs Custom Development
 
-Parameters already in your build — adjust and apply automatically:
+| Category | Parameter Type | Included | Custom |
+|----------|---------------|:--------:|:------:|
+| **UI Layer** | | | |
+| | Images (logo, icons, backgrounds) | ✓ | |
+| | Text (headlines, labels, CTA) | ✓ | |
+| | Colors (buttons, UI, backgrounds) | ✓ | |
+| | Audio (music, sound effects) | ✓ | |
+| | Styling (appearance, opacity) | ✓ | |
+| | Animation presets (fade, bounce, slide) | ✓ | |
+| **Config Layer** | | | |
+| | Health/Damage values | ✓ | |
+| | Timing (duration, delay, cooldown) | ✓ | |
+| | Speed (movement, animation rate) | ✓ | |
+| | Counts (bullets, enemies, attempts) | ✓ | |
+| | Flags (show/hide, enable/disable) | ✓ | |
+| **New Systems** | | | |
+| | Generate map from image | | ✓ |
+| | New animation frames/sprites | | ✓ |
+| | 3D model/texture changes | | ✓ |
+| | New game mechanics | | ✓ |
+| | New AI behavior/patterns | | ✓ |
+| | New screen types | | ✓ |
 
-### UI Layer
-| Type | Examples |
-|------|----------|
-| **Images** | Logo, app icon, backgrounds, character sprites, UI icons |
-| **Text** | Headlines, labels, CTA text, instructions, end card messages |
-| **Colors** | Button colors, text colors, UI colors, backgrounds |
-| **Audio** | Background music, sound effects |
-| **Styling** | Button appearance, visibility toggles, opacity |
-| **Animation Presets** | Fade, scale, bounce, pulse, slide, tap (speed/delay adjustable) |
+| | Included | Custom Development |
+|---|:---:|:---:|
+| **What it means** | Adjust existing values | Build new systems |
+| **Quote needed** | No | Yes |
+| **Apply time** | Instant | Development time |
 
-### Config Layer (Simple Values)
-| Type | Examples |
-|------|----------|
-| **Health/Damage** | Player HP, enemy HP, damage values |
-| **Timing** | Duration, delay, cooldown, timeout |
-| **Speed** | Movement speed, animation rate, game pace |
-| **Counts** | Max bullets, enemy count, attempt limits |
-| **Flags** | Show/hide tutorial, enable power-ups, visible UI |
+See [Custom Development](help/custom-development.md) for quote requests.
 
 ---
 
-## Custom Development
+## Recurring Parameters Offer
 
-New systems requiring development work (not just adjusting existing values):
+Custom parameters that repeat across future games become included after first implementation.
 
-| Task | What's Involved |
-|------|-----------------|
-| Generate map from image | Image processing + level generation |
-| New animation frames | Sprite editing + animation system |
-| 3D model/texture changes | Asset pipeline + rendering |
-| New game mechanics | Game flow implementation |
-| New AI behavior/patterns | Behavior code + spawn systems |
-| New screen types | UI system development |
+| | First Game | Future Games |
+|---|:---:|:---:|
+| **Cost** | Quote required | ✓ Included |
+| **Setup** | We build it | Already in template |
 
-See [Custom Development](help/custom-development.md) to request a quote.
-
-### Recurring Parameters
-
-If a custom parameter will repeat across future games, tell us upfront:
-1. **First game**: Custom development (quote required)
-2. **Future games**: Included (no additional cost)
-
-> 💡 **To qualify:** List the recurring parameters when requesting. We'll add them to your standard template.
+> 💡 **To qualify:** List the recurring parameters when requesting. We add them to your standard template.
 
 ---
 
