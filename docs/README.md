@@ -23,7 +23,7 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ## What's Included
 
-All parameters in your dashboard — adjust instantly, no quote needed.
+Parameters already built into your playable — adjust via dashboard, apply instantly.
 
 ### 🎨 UI Layer
 - **Images** — Logo, app icon, backgrounds, character sprites, UI icons
@@ -44,7 +44,7 @@ All parameters in your dashboard — adjust instantly, no quote needed.
 
 ## Custom Development
 
-New systems not in your build — we create them for you (quote required).
+New systems not yet in your build — we create them for you.
 
 - **Asset Processing** — Generate map from image, new animation frames, 3D model changes
 - **Game Logic** — New mechanics, new AI behavior, new spawn patterns
@@ -62,13 +62,13 @@ See [Custom Development](help/custom-development.md) for details.
 
 ---
 
-## Pricing Summary
+## Pricing
 
-| What | Cost |
-|------|------|
-| **Included** — UI + Config parameters already in your build | ✓ No cost |
-| **Recurring** — Custom parameters reused in future games | ✓ No cost (after first game) |
-| **Custom** — New systems, mechanics, or assets | Quote required |
+| Type | What It Means | What You Provide | Cost | Apply Time |
+|------|---------------|------------------|:----:|------------|
+| **Included** | Parameters already in your build | Just the new values (image files, text, colors, numbers) | ✓ No cost | Instant |
+| **Recurring** | Custom parameters reused in future games | List of parameters to standardize | ✓ No cost | Instant (after first game) |
+| **Custom** | New systems we build for you | Requirements, references, timeline | Quote required | Development time |
 
 ### Recurring Parameters Offer
 
@@ -77,6 +77,7 @@ Tell us which custom parameters will repeat across future games:
 | | First Game | Future Games |
 |---|---|---|
 | **Cost** | Quote required | ✓ No cost |
+| **What you provide** | Requirements + references | Just the new values |
 | **Setup** | We build it | Already in template |
 
 > 💡 **To qualify:** List the recurring parameters when requesting.
