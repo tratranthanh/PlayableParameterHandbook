@@ -23,31 +23,45 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ## What's Included?
 
-**UI components and visual changes** are included with your playable ad:
-- Images, logos, icons
-- Colors, backgrounds
-- Text labels, headlines
-- Button styling
+UI components and visual changes already in your build:
 
-**Gameplay config** that's already wired in your build is also adjustable via dashboard.
+* Images, logos, icons
+* Colors, backgrounds
+* Text labels, headlines
+* Button styling
+* Pre-wired gameplay config
+
+**Rule:** If the parameter exists in your dashboard, you can change it.
 
 ---
 
-## What Requires a Quote?
+## Pricing
 
-Changes that need **game flow implementation** require custom development:
+### Included (No Extra Cost)
 
-| Included | Requires Quote |
-|----------|----------------|
-| Replace existing logo | Add new logo positions |
-| Change button color | Add new button behaviors |
-| Edit existing text | Add new text fields |
-| Adjust pre-wired difficulty | Add new difficulty mechanics |
-| Modify existing timers | Add new timer features |
+Simple parameter changes visible in your dashboard:
 
-**Rule:** If the parameter exists in your dashboard, you can change it. If you need something new that affects game flow, it requires development work.
+| Type | Examples |
+|------|----------|
+| Images | Replace logo, swap background, change icons |
+| Colors | Button color, text color, UI colors |
+| Text | Headlines, labels, CTA text |
+| Config | Pre-wired difficulty, timers, values |
 
-See [Custom Development](help/custom-development.md) for quote requests.
+### Requires Quote
+
+Complex tasks requiring development work:
+
+| Task | Why It's Charged |
+|------|------------------|
+| **Generate map from image** | Requires image processing + level generation code |
+| **Update animation frames** | Requires animation system changes |
+| **Change 3D model/texture** | Requires asset pipeline + rendering updates |
+| **Add new game mechanics** | Requires game flow implementation |
+| **New screen types** | Requires UI system changes |
+| **New button behaviors** | Requires event handling code |
+
+See [Pricing Details](help/pricing.md) for quote requests.
 
 ---
 

@@ -31,6 +31,7 @@
   * [Limits & Constraints](reference/limits.md)
 
 * [Help](help/README.md)
+  * [Pricing](help/pricing.md)
   * [FAQ](help/faq.md)
   * [Troubleshooting](help/troubleshooting.md)
   * [Custom Development](help/custom-development.md)

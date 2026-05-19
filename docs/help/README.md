@@ -6,12 +6,16 @@ Get answers and assistance with the Parameter Dashboard.
 
 | Resource | What You'll Find |
 |----------|------------------|
+| [Pricing](pricing.md) | What's included vs requires quote |
 | [FAQ](faq.md) | Quick answers to common questions |
 | [Troubleshooting](troubleshooting.md) | Solutions for common issues |
 | [Custom Development](custom-development.md) | Request features beyond the dashboard |
 | [Contact Support](contact.md) | Get personalized help |
 
 ## Quick Help
+
+### What costs extra?
+See [Pricing](pricing.md) for included vs quoted work.
 
 ### Have a question?
 Start with the [FAQ](faq.md) for instant answers.
