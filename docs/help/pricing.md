@@ -2,60 +2,27 @@
 
 ## Included (No Extra Cost)
 
-UI parameters that auto-apply when changed:
+UI parameters that auto-apply when changed. Examples by type:
 
-### Images (SpriteParameter)
-| Parameter | Examples |
-|-----------|----------|
-| **Logo** | Company logo, brand mark |
-| **App Icon** | Store icon display |
-| **Background** | Screen backgrounds, gameplay backgrounds |
-| **Icons** | UI icons, currency icons, item icons |
-| **Character Sprites** | Player/enemy visuals (swap, not animate) |
+> **Note:** Each playable has different parameters. These are common examples, not an exhaustive list.
 
-### Text (LabelParameter)
-| Parameter | Examples |
-|-----------|----------|
-| **Headlines** | Screen titles, section headers |
-| **Labels** | UI labels, button text |
-| **Instructions** | Tutorial text, help text |
-| **CTA Text** | "Download Now", "Play Free" |
-| **End Card Text** | Win/lose messages |
+| Type | Example Parameters |
+|------|-------------------|
+| **Images** | Logo, app icon, backgrounds, character sprites, UI icons |
+| **Text** | Headlines, labels, CTA text, instructions, end card messages |
+| **Colors** | Button colors, text colors, UI colors, background colors |
+| **Audio** | Background music, sound effects |
+| **Styling** | Button appearance, visibility, opacity |
+| **Animation Presets** | Preset type, speed, delay, loop settings |
 
-### Colors (ColorParameter)
-| Parameter | Examples |
-|-----------|----------|
-| **Button Colors** | CTA background, secondary buttons |
-| **Text Colors** | Headlines, labels, instructions |
-| **UI Colors** | HP bar fill, timer, score display |
-| **Background Colors** | Solid color backgrounds |
+### Animation Presets (20 built-in)
 
-### Audio (AudioParameter)
-| Parameter | Examples |
-|-----------|----------|
-| **Music** | Background music track |
-| **Sound Effects** | Button clicks, win/lose sounds |
+If the UI component is already included, its animation preset is adjustable:
 
-### UI Styling
-| Parameter | Examples |
-|-----------|----------|
-| **Button Style** | CTA appearance, corners, borders |
-| **Visibility** | Show/hide tutorial, UI elements |
-| **Opacity** | Transparency levels |
-
-### Animation Presets (if UI already included)
-| Parameter | Examples |
-|-----------|----------|
-| **Preset Type** | Fade In/Out, Scale In/Out, Bounce, Pulse, Slide |
-| **Speed** | Animation duration multiplier |
-| **Delay** | Seconds before animation starts |
-| **Loop** | Enable/disable repeat |
-
-20 built-in presets:
-- **General:** Fade In/Out, Scale In/Out, Bounce, Bounce In, Pulse, Slide Up/Down
-- **Tutorial:** Tap, Hold, Swipe (Left/Right/Up/Down), Drag
-- **Rich Text:** Typewriter (character-by-character reveal)
-- **End Card:** Bounce In, Slide Up (entrance animations)
+- **General:** Fade In/Out, Scale In/Out, Bounce, Pulse, Slide Up/Down
+- **Tutorial:** Tap, Hold, Swipe (4 directions), Drag
+- **Rich Text:** Typewriter
+- **End Card:** Bounce In, Slide Up
 
 ---
 
