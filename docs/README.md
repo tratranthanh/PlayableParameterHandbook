@@ -1,78 +1,58 @@
 # Parameter Dashboard Handbook
 
-Welcome to the Parameter Dashboard Handbook! This guide will help you customize your playable ads quickly and easily.
+## ✅ All Customizations Are FREE
 
-## Who is This For?
+Every parameter in this dashboard is **included at no extra cost**. Change logos, colors, text, buttons, gameplay settings, and screens — all FREE.
 
-This handbook is for ad network clients who want to customize their playable ads using the Parameter Dashboard. No technical knowledge required!
-
-## The Golden Rule
-
-> **If you see it in the dashboard, you can change it for free.**
-
-Everything visible in the Parameter Dashboard is included at no extra cost. Only custom development work requires a quote.
+> **The Rule:** If you see it in the dashboard, you can change it for free.
+> 
+> **Only exception:** Custom development (new features not in the dashboard) requires a quote.
 
 ---
 
-## What Do You Need?
+## What's Included FREE
 
 | 🖼️ **Images & Colors** | 🎮 **Gameplay** | 📱 **Screens** |
 |------------------------|-----------------|----------------|
-| [Add my logo](branding/logos-icons.md) | [Adjust difficulty](gameplay/difficulty.md) | [Edit end card](screens/end-cards.md) |
-| [Change colors](branding/colors.md) | [Change timing](gameplay/timing.md) | [Customize loading](screens/loading.md) |
-| [Style buttons](branding/buttons.md) | [Modify UI elements](gameplay/ui-elements.md) | [Tutorial screens](screens/tutorial.md) |
-| [Update text](branding/text.md) | [Gameplay values](gameplay/values.md) | |
+| ✅ [Logos & Icons](branding/logos-icons.md) | ✅ [Difficulty](gameplay/difficulty.md) | ✅ [End Cards](screens/end-cards.md) |
+| ✅ [Colors](branding/colors.md) | ✅ [Timing & Speed](gameplay/timing.md) | ✅ [Loading Screen](screens/loading.md) |
+| ✅ [Buttons](branding/buttons.md) | ✅ [UI Elements](gameplay/ui-elements.md) | ✅ [Tutorial](screens/tutorial.md) |
+| ✅ [Text](branding/text.md) | ✅ [Gameplay Values](gameplay/values.md) | |
+| ✅ [Backgrounds](branding/backgrounds.md) | | |
+
+**All of the above = FREE. No hidden costs.**
 
 ---
 
-## Quick Links
+## What Requires a Quote?
 
-| I want to... | Go to... |
-|--------------|----------|
-| Get started fast | [Quick Start Guide](getting-started/quick-start.md) |
-| See all my options | [All Parameters](reference/all-parameters.md) |
-| Check file requirements | [File Formats](reference/file-formats.md) |
-| Request custom work | [Custom Development](help/custom-development.md) |
-| Get help | [FAQ](help/faq.md) |
+Only custom development work — features that don't exist in the dashboard:
 
----
+| FREE (In Dashboard) | Requires Quote |
+|---------------------|----------------|
+| Change button color | Add a new button type |
+| Replace logo | Add new animations |
+| Adjust difficulty | New game mechanics |
+| Edit end card text | New screen types |
 
-## What Can You Customize?
-
-### Images & Colors
-* **Logos & Icons** - Replace logo and app icon images
-* **Colors** - Change element colors with hex codes
-* **Backgrounds** - Custom background images
-* **Text** - Headlines, labels, instructions
-* **Buttons** - Style CTA buttons
-
-### Gameplay
-* **UI Elements** - HP bars, timers, scores
-* **Difficulty** - Adjust challenge level
-* **Timing** - Control pacing and speed
-* **Values** - Points, rewards, thresholds
-
-### Screens
-* **Loading** - Loading screen appearance
-* **Tutorial** - Onboarding instructions
-* **End Cards** - Win/lose screens with CTA
+See [Custom Development](help/custom-development.md) for details.
 
 ---
 
-## Getting Started
+## Quick Start
 
-1. **[Quick Start](getting-started/quick-start.md)** - Make your first change in 3 steps
-2. **[Common Tasks](getting-started/common-tasks.md)** - Checklist for essential customizations
-3. **[All Parameters](reference/all-parameters.md)** - Complete reference
+1. **[Quick Start Guide](getting-started/quick-start.md)** - Make your first FREE change in 3 steps
+2. **[All Parameters](reference/all-parameters.md)** - See everything you can customize for FREE
+3. **[Common Tasks](getting-started/common-tasks.md)** - Checklist for essential customizations
 
 ---
 
 ## Need Help?
 
-* [FAQ](help/faq.md) - Quick answers to common questions
-* [Troubleshooting](help/troubleshooting.md) - Fix common issues
-* [Contact Support](help/contact.md) - Get personalized help
+* [FAQ](help/faq.md) - Quick answers
+* [Troubleshooting](help/troubleshooting.md) - Fix issues
+* [Contact Support](help/contact.md) - Get help
 
 ---
 
-*Let's get started!*
+*Everything in this handbook is FREE to customize. Let's get started!*
