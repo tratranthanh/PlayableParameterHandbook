@@ -2,31 +2,30 @@
 
 Find quick answers to frequently asked questions.
 
-## Pricing & Costs
+## Dashboard Parameters
 
-### What's adjustable via dashboard?
+### What can I adjust?
 
-Parameters that appear in your dashboard. Each playable has different parameters based on its build.
+Parameters in your dashboard are default (built-in) — adjust and apply automatically, no order needed.
 
-### What requires a quote?
+### What's included in my dashboard?
 
-Complex tasks requiring development work:
+Each playable has different parameters based on its build. Common types:
+* Images (logos, icons, backgrounds)
+* Text (headlines, CTA, instructions)
+* Colors (buttons, UI, backgrounds)
+* Audio (music, sound effects)
+* Animation presets (fade, bounce, slide)
+
+### What if I need something not in my dashboard?
+
+We can build it through custom development. Common requests:
 * Generate map from image
-* Update animation frames
-* Change 3D model/texture
-* New game mechanics
-* Game logic changes
+* Create new animations
+* Add game mechanics
+* New screen types
 
-See [Pricing](pricing.md) for details.
-
-### How do quotes work?
-
-1. Tell us what you need
-2. We assess the work required
-3. You receive a quote with timeline
-4. You decide if you want to proceed
-
-No obligation and no pressure!
+See [Custom Development](custom-development.md) to request.
 
 ## Making Changes
 
@@ -94,7 +93,7 @@ Use the "Forgot Password" link on the login page. You'll receive an email to res
 
 ### Can I change [specific feature]?
 
-Check your dashboard for available parameters. Some are simple (UI styling), some are complex (require development). See [Pricing](pricing.md) or contact support.
+Check your dashboard for available parameters. If it's visible, it's ready to adjust. For features not in your dashboard, see [Custom Development](custom-development.md).
 
 ### Why can't I edit some things?
 

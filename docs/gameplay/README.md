@@ -40,6 +40,6 @@ If the UI component exists in your build:
 
 Configurable: preset type, speed, delay, loop.
 
-## Complex Changes
+## Need Something Custom?
 
-AI behavior, spawn patterns, new mechanics require development. See [Pricing](../help/pricing.md).
+AI behavior, spawn patterns, or new mechanics not in your dashboard? See [Custom Development](../help/custom-development.md).

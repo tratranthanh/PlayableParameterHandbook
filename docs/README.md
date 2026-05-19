@@ -21,9 +21,9 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ---
 
-## Included (No Extra Cost)
+## Default Parameters
 
-UI parameters that auto-apply:
+Parameters in your dashboard are built-in — adjust and apply automatically:
 
 | Type | Examples |
 |------|----------|
@@ -34,22 +34,24 @@ UI parameters that auto-apply:
 | **Styling** | Button appearance, visibility toggles, opacity |
 | **Animation Presets** | Fade, scale, bounce, pulse, slide, tap (speed/delay adjustable) |
 
-See [Pricing](help/pricing.md) for full list.
+> 💡 **Tip:** If it's in your dashboard, no order needed — just customize.
 
-### Requires Quote
+---
 
-Complex tasks requiring development work:
+## Custom Development
 
-| Task | Why It's Charged |
-|------|------------------|
-| **Generate map from image** | Requires image processing + level generation code |
-| **Update animation frames** | Requires animation system changes |
-| **Change 3D model/texture** | Requires asset pipeline + rendering updates |
-| **Add new game mechanics** | Requires game flow implementation |
-| **New screen types** | Requires UI system changes |
-| **New button behaviors** | Requires event handling code |
+Need something not in your dashboard? We can build it:
 
-See [Pricing Details](help/pricing.md) for quote requests.
+| Request | What's Involved |
+|---------|-----------------|
+| Generate map from image | Image processing + level generation |
+| New animation frames | Sprite editing + animation system |
+| 3D model/texture changes | Asset pipeline + rendering |
+| New game mechanics | Game flow implementation |
+| New screen types | UI system development |
+| New interactions | Event handling code |
+
+See [Custom Development](help/custom-development.md) to request.
 
 ---
 

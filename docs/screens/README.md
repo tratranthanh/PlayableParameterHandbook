@@ -44,6 +44,6 @@ Configurable: preset type, speed, delay, loop.
 
 Tutorial and end card text can use **Typewriter** preset — reveals characters one-by-one.
 
-## Complex Changes
+## Need Something Custom?
 
-New screen types or custom transitions require development. See [Pricing](../help/pricing.md).
+New screen types or custom transitions not in your dashboard? See [Custom Development](../help/custom-development.md).

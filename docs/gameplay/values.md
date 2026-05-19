@@ -2,16 +2,16 @@
 
 Adjust point values, rewards, and numeric settings.
 
-## UI Config vs Game Logic
+## Dashboard vs Custom Development
 
-| UI Config (if in dashboard) | Game Logic (requires quote) |
-|-----------------------------|----------------------------|
+| Default (in dashboard) | Custom Development |
+|--------------------------|-------------------|
 | Score display format | Point calculation formulas |
 | Currency icon/color | Reward distribution logic |
 | Progress bar style | Combo multiplier systems |
 | Toggle visibility | Feature implementation |
 
-**Rule:** UI display settings are adjustable via dashboard. Game logic changes require development.
+**Tip:** Parameters visible in your dashboard apply instantly. Game logic changes need development.
 
 ---
 
@@ -28,14 +28,14 @@ If these appear in your dashboard:
 
 ---
 
-## What Requires Quote (Game Logic)
+## Custom Development (Game Logic)
 
-| Setting | Why It's Complex |
-|---------|------------------|
-| Point formulas | Requires calculation code |
-| Combo systems | Requires streak tracking |
-| Reward amounts | May affect game balance |
-| Win conditions | Requires game flow changes |
+| Request | What's Involved |
+|---------|-----------------|
+| Point formulas | Calculation code |
+| Combo systems | Streak tracking |
+| Reward amounts | Game balance work |
+| Win conditions | Game flow changes |
 
 ---
 
@@ -66,4 +66,4 @@ Some games have visibility toggles:
 
 * [Difficulty & Balance](difficulty.md) — Challenge adjustments
 * [Timing & Speed](timing.md) — Timer settings
-* [Pricing](../help/pricing.md) — What requires a quote
+* [Custom Development](../help/custom-development.md) — Request new features

@@ -42,6 +42,6 @@ Configurable: preset type, speed, delay, loop settings.
 - [ ] End card customized
 - [ ] Audio set (if available)
 
-## Complex Changes
+## Need Something Custom?
 
-Custom fonts, new animations, or effects not in dashboard require development. See [Pricing](../help/pricing.md).
+Custom fonts, new animations, or effects not in your dashboard? See [Custom Development](../help/custom-development.md).

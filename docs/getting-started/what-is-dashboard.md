@@ -17,7 +17,7 @@ The Parameter Dashboard at [app.playablelabs.ai](https://app.playablelabs.ai/) i
 
 ## The Simple Rule
 
-The dashboard shows parameters for your specific build. Some are simple (UI styling), some are complex (require development). See [Pricing](../help/pricing.md) for details.
+Parameters in your dashboard are default (built-in) — adjust and apply automatically, no order needed. Need something not in your dashboard? See [Custom Development](../help/custom-development.md).
 
 ## How It Works
 

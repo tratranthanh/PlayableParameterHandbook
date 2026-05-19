@@ -2,17 +2,17 @@
 
 Adjust how challenging your playable ad is for users.
 
-## Simple vs Complex Difficulty
+## Dashboard vs Custom Development
 
-| Simple (if in dashboard) | Complex (requires quote) |
-|--------------------------|--------------------------|
+| Default (in dashboard) | Custom Development |
+|--------------------------|-------------------|
 | Timer duration | Enemy AI behavior |
 | HP values | Spawn patterns/logic |
 | Speed multipliers | Level generation |
 | Damage numbers | Win/lose conditions |
 | Basic counts | Game flow changes |
 
-**Rule:** Simple numeric values in your dashboard can be changed. Difficulty that requires game logic changes needs development work.
+**Tip:** Parameters visible in your dashboard apply instantly. Game logic changes need development.
 
 ---
 
@@ -30,17 +30,17 @@ If these appear in your dashboard, you can adjust them:
 
 ---
 
-## Complex Difficulty (Requires Quote)
+## Custom Development (Game Logic)
 
-These require game logic implementation:
+These need development work:
 
-| Change | Why It's Complex |
-|--------|------------------|
-| Smarter enemy AI | Requires behavior code |
-| Dynamic spawn patterns | Requires spawn system changes |
-| Procedural levels | Requires level generation code |
-| New win/lose conditions | Requires game flow changes |
-| Adaptive difficulty | Requires player tracking logic |
+| Request | What's Involved |
+|---------|-----------------|
+| Smarter enemy AI | Behavior code |
+| Dynamic spawn patterns | Spawn system changes |
+| Procedural levels | Level generation code |
+| New win/lose conditions | Game flow changes |
+| Adaptive difficulty | Player tracking logic |
 
 ---
 
@@ -70,4 +70,4 @@ After adjusting difficulty:
 
 * [Timing & Speed](timing.md) — Timer adjustments
 * [Gameplay Values](values.md) — Point values
-* [Pricing](../help/pricing.md) — What requires a quote
+* [Custom Development](../help/custom-development.md) — Request new features

@@ -12,9 +12,7 @@ Welcome to the Parameter Dashboard! This section will help you get up and runnin
 
 ## Important
 
-The dashboard shows your playable's parameters. Some are simple (UI styling), some are complex (require development).
-
-See [Pricing](../help/pricing.md) for details.
+Parameters in your dashboard are default (built-in) — no order needed. For features not in your dashboard, see [Custom Development](../help/custom-development.md).
 
 ## Ready to Start?
 
