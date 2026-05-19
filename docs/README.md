@@ -65,7 +65,7 @@ See [Custom Development](help/custom-development.md) for details.
 ## Pricing
 
 | Type | What It Means | What You Provide | Cost | Apply Time |
-|------|---------------|------------------|:----:|------------|
+|------|---------------|------------------|------|------------|
 | **Included** | Parameters already in your build | Just the new values (image files, text, colors, numbers) | ✓ No cost | Instant |
 | **Recurring** | Custom parameters reused in future games | List of parameters to standardize | ✓ No cost | Instant (after first game) |
 | **Custom** | New systems we build for you | Requirements, references, timeline | Quote required | Development time |
@@ -74,8 +74,8 @@ See [Custom Development](help/custom-development.md) for details.
 
 Tell us which custom parameters will repeat across future games:
 
-| | First Game | Future Games |
-|---|---|---|
+| Stage | First Game | Future Games |
+|-------|------------|--------------|
 | **Cost** | Quote required | ✓ No cost |
 | **What you provide** | Requirements + references | Just the new values |
 | **Setup** | We build it | Already in template |
