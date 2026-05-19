@@ -23,35 +23,32 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ## What's Included
 
-Parameters already in your build — adjust and apply automatically.
+All parameters in your dashboard — adjust instantly, no quote needed.
 
-| Category | Parameter Type | ✓ |
-|----------|---------------|:---:|
-| **UI Layer** | | |
-| | Images (logo, icons, backgrounds) | ✓ |
-| | Text (headlines, labels, CTA) | ✓ |
-| | Colors (buttons, UI, backgrounds) | ✓ |
-| | Audio (music, sound effects) | ✓ |
-| | Styling (appearance, opacity) | ✓ |
-| | Animation presets (fade, bounce, slide) | ✓ |
-| **Config Layer** | | |
-| | Health/Damage values | ✓ |
-| | Timing (duration, delay, cooldown) | ✓ |
-| | Speed (movement, animation rate) | ✓ |
-| | Counts (bullets, enemies, attempts) | ✓ |
-| | Flags (show/hide, enable/disable) | ✓ |
+### 🎨 UI Layer
+- **Images** — Logo, app icon, backgrounds, character sprites, UI icons
+- **Text** — Headlines, labels, CTA text, instructions, end card messages
+- **Colors** — Button colors, text colors, UI colors, background colors
+- **Audio** — Background music, sound effects
+- **Styling** — Button appearance, visibility toggles, opacity
+- **Animation Presets** — Fade, scale, bounce, pulse, slide, tap, swipe, drag (20+ built-in)
+
+### ⚙️ Config Layer
+- **Health/Damage** — Player HP, enemy HP, damage values
+- **Timing** — Duration, delay, cooldown, timeout
+- **Speed** — Movement speed, animation rate, game pace
+- **Counts** — Max bullets, enemy count, attempt limits
+- **Flags** — Show/hide tutorial, enable power-ups, toggle UI elements
 
 ---
 
 ## Custom Development
 
-New systems that don't exist in your build yet.
+New systems not in your build — we create them for you (quote required).
 
-| Category | Examples |
-|----------|----------|
-| **Asset Processing** | Generate map from image, new animation frames, 3D model changes |
-| **Game Logic** | New mechanics, new AI behavior, new spawn patterns |
-| **UI Systems** | New screen types, new interactions, new components |
+- **Asset Processing** — Generate map from image, new animation frames, 3D model changes
+- **Game Logic** — New mechanics, new AI behavior, new spawn patterns
+- **UI Systems** — New screen types, new interactions, new components
 
 See [Custom Development](help/custom-development.md) for details.
 
@@ -65,23 +62,23 @@ See [Custom Development](help/custom-development.md) for details.
 
 ---
 
-## Pricing
+## Pricing Summary
 
-| Type | Cost | Description |
-|------|:----:|-------------|
-| **Included Parameters** | No cost | UI + Config values already in your build |
-| **Recurring Parameters** | No cost | Custom parameters reused across future games (after first implementation) |
-| **Custom Development** | Quote required | New systems, mechanics, or assets not in your build |
+| What | Cost |
+|------|------|
+| **Included** — UI + Config parameters already in your build | ✓ No cost |
+| **Recurring** — Custom parameters reused in future games | ✓ No cost (after first game) |
+| **Custom** — New systems, mechanics, or assets | Quote required |
 
 ### Recurring Parameters Offer
 
-Custom parameters that repeat across future games become included after first implementation.
+Tell us which custom parameters will repeat across future games:
 
 | | First Game | Future Games |
-|---|:---:|:---:|
+|---|---|---|
 | **Cost** | Quote required | ✓ No cost |
 | **Setup** | We build it | Already in template |
 
-> 💡 **To qualify:** List the recurring parameters when requesting. We add them to your standard template.
+> 💡 **To qualify:** List the recurring parameters when requesting.
 
 See [Custom Development](help/custom-development.md) for quote requests.
