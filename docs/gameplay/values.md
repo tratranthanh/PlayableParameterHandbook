@@ -2,16 +2,17 @@
 
 Adjust point values, rewards, and numeric settings.
 
-## Dashboard vs Custom Development
+## Included vs Custom Development
 
-| Included (UI/Config) | Custom Development |
-|--------------------------|-------------------|
-| Score display format | Point calculation formulas |
-| Currency icon/color | Reward distribution logic |
-| Progress bar style | Combo multiplier systems |
-| Toggle visibility | Feature implementation |
+| Included (Adjust Existing) | Custom Development (New Systems) |
+|----------------------------|----------------------------------|
+| Score display format | New scoring formulas |
+| Currency icon/color | New reward distribution |
+| Progress bar style | New combo systems |
+| Point/reward values | New calculation logic |
+| Toggle visibility | New features |
 
-**Tip:** UI/config parameters are included. Game logic changes require a quote.
+**Tip:** Adjusting existing values = included. Building new systems = quote required.
 
 ---
 

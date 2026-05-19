@@ -2,17 +2,18 @@
 
 Adjust how challenging your playable ad is for users.
 
-## Dashboard vs Custom Development
+## Included vs Custom Development
 
-| Included (Simple Config) | Custom Development |
-|--------------------------|-------------------|
-| Timer duration | Enemy AI behavior |
-| HP values | Spawn patterns/logic |
-| Speed multipliers | Level generation |
-| Damage numbers | Win/lose conditions |
-| Basic counts | Game flow changes |
+| Included (Adjust Existing Values) | Custom Development (New Systems) |
+|-----------------------------------|----------------------------------|
+| Timer duration | New timer mechanics |
+| HP values | New health systems |
+| Speed multipliers | New movement mechanics |
+| Damage numbers | New damage calculations |
+| Spawn counts | New spawn pattern logic |
+| Difficulty flags | New AI behavior |
 
-**Tip:** Simple config parameters are included. Game logic changes require a quote.
+**Tip:** Adjusting existing values = included. Building new systems = quote required.
 
 ---
 

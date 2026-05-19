@@ -1,25 +1,26 @@
 # Custom Development
 
-Complex tasks that require development work beyond simple parameter changes.
+New systems that require development work (not just adjusting existing values).
 
 ## Included vs Custom
 
-| Included (UI/Visual) | Custom Development |
-|---------------------|-------------------|
-| Images, text, colors, styling | Game logic, new mechanics |
+| Included (Already in Build) | Custom Development (New Systems) |
+|-----------------------------|----------------------------------|
+| UI: images, text, colors, styling | New UI components/screens |
+| Config: HP, timing, speed, counts | New game mechanics |
+| Flags: show/hide, enable/disable | New AI behavior/patterns |
 | Apply automatically | Requires development work |
-| No quote needed | Quote required |
 
 ## Examples
 
-| Included | Custom (requires quote) |
-|----------|------------------------|
+| Included (adjust existing) | Custom (build new) |
+|---------------------------|-------------------|
+| Change HP value | Add new health mechanics |
+| Adjust timer duration | Add new timer logic |
+| Change spawn count | Add new spawn patterns |
+| Toggle power-up visibility | Add new power-up system |
+| Adjust movement speed | Add new movement mechanics |
 | Change button color | Add new button type |
-| Edit existing text | Add new text fields |
-| Replace images | Generate map from image |
-| Adjust timer display | Add new timer logic |
-| Style HP bar | Add health mechanics |
-| Adjust animation presets | Create new animations |
 
 ---
 
@@ -50,7 +51,7 @@ Custom development is quoted per project. Your quote includes:
 | Cost | Total price |
 | Timeline | Delivery time |
 
-> 💡 **Included parameters** (UI/visual) have no additional cost — adjust freely.
+> 💡 **Included**: Adjusting existing values (UI + config) has no additional cost.
 
 ### Recurring Parameters
 

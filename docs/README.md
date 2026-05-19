@@ -23,8 +23,9 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ## Included Parameters
 
-UI and visual parameters — adjust and apply automatically:
+Parameters already in your build — adjust and apply automatically:
 
+### UI Layer
 | Type | Examples |
 |------|----------|
 | **Images** | Logo, app icon, backgrounds, character sprites, UI icons |
@@ -34,11 +35,20 @@ UI and visual parameters — adjust and apply automatically:
 | **Styling** | Button appearance, visibility toggles, opacity |
 | **Animation Presets** | Fade, scale, bounce, pulse, slide, tap (speed/delay adjustable) |
 
+### Config Layer (Simple Values)
+| Type | Examples |
+|------|----------|
+| **Health/Damage** | Player HP, enemy HP, damage values |
+| **Timing** | Duration, delay, cooldown, timeout |
+| **Speed** | Movement speed, animation rate, game pace |
+| **Counts** | Max bullets, enemy count, attempt limits |
+| **Flags** | Show/hide tutorial, enable power-ups, visible UI |
+
 ---
 
 ## Custom Development
 
-Complex tasks requiring development work:
+New systems requiring development work (not just adjusting existing values):
 
 | Task | What's Involved |
 |------|-----------------|
@@ -46,8 +56,8 @@ Complex tasks requiring development work:
 | New animation frames | Sprite editing + animation system |
 | 3D model/texture changes | Asset pipeline + rendering |
 | New game mechanics | Game flow implementation |
+| New AI behavior/patterns | Behavior code + spawn systems |
 | New screen types | UI system development |
-| New interactions | Event handling code |
 
 See [Custom Development](help/custom-development.md) to request a quote.
 
