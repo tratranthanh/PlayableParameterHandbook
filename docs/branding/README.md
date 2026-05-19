@@ -1,6 +1,8 @@
 # Images & Colors
 
-Customize visual elements: logos, colors, images, text, and buttons.
+Customize visual elements in your playable ad.
+
+> **Note:** Each playable has different parameters. Below are common examples.
 
 ## What's in This Section
 
@@ -12,26 +14,34 @@ Customize visual elements: logos, colors, images, text, and buttons.
 | [Text](text.md) | Change text content and styles |
 | [Buttons](buttons.md) | Style CTA and action buttons |
 
-## Common Changes
+## Parameter Types
 
-1. **Replace logo** - Upload your own logo image
-2. **Change colors** - Update buttons, text, UI elements
-3. **Update CTA button** - Change text and style
+| Type | Examples |
+|------|----------|
+| **Images** | Logo, app icon, backgrounds, character sprites, UI icons |
+| **Text** | Headlines, labels, CTA text, instructions |
+| **Colors** | Button colors, text colors, UI colors |
+| **Audio** | Background music, sound effects |
+| **Animation Presets** | Fade, scale, bounce, pulse, slide (speed/delay adjustable) |
 
-## Checklist
+## Animation Presets
 
-- [ ] Logo uploaded (512x512 PNG, transparent)
-- [ ] Colors applied to buttons
-- [ ] Headlines updated
-- [ ] CTA button text set
+If the UI component exists in your build, its animation preset is adjustable:
+
+- **General:** Fade In/Out, Scale In/Out, Bounce, Pulse, Slide Up/Down
+- **Tutorial:** Tap, Hold, Swipe (4 directions), Drag
+- **End Card:** Bounce In, Slide Up
+
+Configurable: preset type, speed, delay, loop settings.
+
+## Quick Checklist
+
+- [ ] Logo uploaded
+- [ ] Colors applied
+- [ ] CTA button styled
 - [ ] End card customized
+- [ ] Audio set (if available)
 
-## Tips
+## Complex Changes
 
-* **Use exact hex codes** for consistent colors
-* **Test contrast** - Ensure text is readable
-* **Check file sizes** - Keep images under limits
-
-## Need Something Custom?
-
-If you need custom fonts, animations, or effects not in the dashboard, see [Custom Development](../help/custom-development.md).
+Custom fonts, new animations, or effects not in dashboard require development. See [Pricing](../help/pricing.md).

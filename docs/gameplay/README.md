@@ -1,8 +1,8 @@
 # Gameplay
 
-Adjust gameplay: difficulty, timing, UI elements, and values.
+Adjust gameplay elements in your playable ad.
 
-> **Note:** UI styling parameters are adjustable. Game logic changes may require development. See [Pricing](../help/pricing.md).
+> **Note:** Each playable has different parameters. Below are common examples.
 
 ## What's in This Section
 
@@ -13,31 +13,33 @@ Adjust gameplay: difficulty, timing, UI elements, and values.
 | [Timing & Speed](timing.md) | Control game pacing |
 | [Gameplay Values](values.md) | Modify points, rewards, thresholds |
 
-## Visual vs Gameplay Changes
+## Parameter Types
 
-| Visual Changes | Gameplay Changes |
-|----------------|------------------|
-| HP bar colors | HP amounts |
-| Timer font style | Timer duration |
-| Score display look | Point values |
-| Instant preview | May need review |
+| Type | Examples |
+|------|----------|
+| **UI Styling** | HP bar colors, timer style, score display |
+| **Simple Config** | Timer duration, HP values, speed multipliers |
+| **Visibility** | Show/hide tutorial, UI elements |
+| **Animation Presets** | UI entrance/exit animations (speed/delay adjustable) |
 
-UI styling is adjustable via dashboard. Game logic changes require development.
+## UI Styling vs Game Logic
 
-## Common Adjustments
+| UI Styling (adjustable) | Game Logic (requires development) |
+|-------------------------|-----------------------------------|
+| HP bar colors | HP calculation formulas |
+| Timer display style | Timer behavior logic |
+| Score appearance | Point calculation systems |
+| Animation presets | New game mechanics |
 
-| Goal | What to Change |
-|------|----------------|
-| Make it easier | Lower enemy HP, increase player HP |
-| Make it faster | Reduce timer, speed up spawns |
-| More rewarding | Increase point values |
-| Less overwhelming | Reduce enemy count |
+## Animation Presets for Game UI
 
-## Testing Your Changes
+If the UI component exists in your build:
+- Fade In/Out, Scale In/Out for panels
+- Bounce, Pulse for feedback
+- Typewriter for text reveals
 
-After adjusting gameplay:
+Configurable: preset type, speed, delay, loop.
 
-1. Play through the entire ad yourself
-2. Check if it's completable
-3. Verify it's still engaging
-4. Ensure it represents your game well
+## Complex Changes
+
+AI behavior, spawn patterns, new mechanics require development. See [Pricing](../help/pricing.md).

@@ -2,7 +2,9 @@
 
 Customize the screens users see throughout your playable ad.
 
-## In This Section
+> **Note:** Each playable has different parameters. Below are common examples.
+
+## What's in This Section
 
 | Screen | What You'll Learn |
 |--------|-------------------|
@@ -16,13 +18,32 @@ Customize the screens users see throughout your playable ad.
 Loading Screen → Tutorial → Gameplay → End Card (Win/Lose)
 ```
 
-## Key Screens
+## Parameter Types
 
-### Loading Screen
-The first thing users see. Customize the background, logo, and loading indicator.
+| Type | Examples |
+|------|----------|
+| **Images** | Backgrounds, logos, icons |
+| **Text** | Headlines, instructions, CTA text, win/lose messages |
+| **Colors** | Background colors, text colors, button colors |
+| **Audio** | Background music, win/lose sounds |
+| **Animation Presets** | Screen entrance/exit animations |
 
-### Tutorial
-Teach users how to play with clear, simple instructions.
+## Animation Presets for Screens
 
-### End Cards
-Customize win/lose messages and the CTA button.
+If the screen exists in your build:
+
+| Screen | Common Presets |
+|--------|----------------|
+| **Loading** | Fade In, Pulse (loading indicator) |
+| **Tutorial** | Tap, Swipe, Drag (hand gestures) |
+| **End Card** | Bounce In, Slide Up (title/button entrance) |
+
+Configurable: preset type, speed, delay, loop.
+
+## Rich Text Animation
+
+Tutorial and end card text can use **Typewriter** preset — reveals characters one-by-one.
+
+## Complex Changes
+
+New screen types or custom transitions require development. See [Pricing](../help/pricing.md).
