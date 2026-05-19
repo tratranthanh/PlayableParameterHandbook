@@ -6,40 +6,73 @@ Welcome to the Parameter Dashboard Handbook! This guide will help you customize 
 
 This handbook is for ad network clients who want to customize their playable ads using the Parameter Dashboard. No technical knowledge required!
 
-## What Can You Do?
-
-With the Parameter Dashboard, you can:
-
-* **Change text** - Update headlines, button labels, and instructions
-* **Replace images** - Use your own logos, icons, and backgrounds
-* **Adjust colors** - Match your brand colors throughout the ad
-* **Customize buttons** - Style call-to-action buttons your way
-* **Modify game elements** - Adjust HP bars, timers, and score displays
-* **Configure settings** - Fine-tune difficulty, timing, and gameplay
-
 ## The Golden Rule
 
 > **If you see it in the dashboard, you can change it for free.**
 
-Everything visible in the Parameter Dashboard is included at no extra cost. Only custom development work (features that don't exist yet) requires a quote.
+Everything visible in the Parameter Dashboard is included at no extra cost. Only custom development work requires a quote.
 
-## Quick Navigation
+---
+
+## What Do You Need?
+
+| 🎨 **Branding** | 🎮 **Gameplay** | 📱 **Screens** |
+|-----------------|-----------------|----------------|
+| [Add my logo](branding/logos-icons.md) | [Adjust difficulty](gameplay/difficulty.md) | [Edit end card](screens/end-cards.md) |
+| [Use brand colors](branding/colors.md) | [Change timing](gameplay/timing.md) | [Customize loading](screens/loading.md) |
+| [Style buttons](branding/buttons.md) | [Modify UI elements](gameplay/ui-elements.md) | [Tutorial screens](screens/tutorial.md) |
+| [Update text](branding/text.md) | [Gameplay values](gameplay/values.md) | |
+
+---
+
+## Quick Links
 
 | I want to... | Go to... |
 |--------------|----------|
-| Get started | [Quick Start Guide](getting-started/quick-start.md) |
-| Change text | [Text & Headlines](text-headlines/changing-text.md) |
-| Replace my logo | [Logos & Icons](images-visuals/logos-icons.md) |
-| Use my brand colors | [Brand Colors](colors-branding/brand-colors.md) |
-| Customize the CTA button | [Buttons](interactive-elements/buttons.md) |
-| Edit end screens | [End Cards](screens-views/end-cards.md) |
-| Request custom work | [Request a Quote](custom-development/request-quote.md) |
-| Get help | [FAQ](faq/common-questions.md) |
+| Get started fast | [Quick Start Guide](getting-started/quick-start.md) |
+| See all my options | [All Parameters](reference/all-parameters.md) |
+| Check file requirements | [File Formats](reference/file-formats.md) |
+| Request custom work | [Custom Development](help/custom-development.md) |
+| Get help | [FAQ](help/faq.md) |
+
+---
+
+## What Can You Customize?
+
+### Branding & Visuals
+* **Logos & Icons** - Replace with your brand assets
+* **Colors** - Apply your brand palette everywhere
+* **Backgrounds** - Custom images and colors
+* **Text** - Headlines, labels, instructions
+* **Buttons** - Style your call-to-action
+
+### Gameplay
+* **UI Elements** - HP bars, timers, scores
+* **Difficulty** - Balance for your audience
+* **Timing** - Control pacing and speed
+* **Values** - Points, rewards, thresholds
+
+### Screens
+* **Loading** - First impression branding
+* **Tutorial** - Onboarding instructions
+* **End Cards** - Win/lose screens with CTA
+
+---
+
+## Getting Started
+
+1. **[Quick Start](getting-started/quick-start.md)** - Make your first change in 3 steps
+2. **[Common Tasks](getting-started/common-tasks.md)** - Checklist for essential customizations
+3. **[All Parameters](reference/all-parameters.md)** - Complete reference
+
+---
 
 ## Need Help?
 
-* Check the [FAQ](faq/common-questions.md) for quick answers
-* See [Troubleshooting](faq/troubleshooting.md) if something isn't working
-* [Contact Support](faq/contact.md) for personalized help
+* [FAQ](help/faq.md) - Quick answers to common questions
+* [Troubleshooting](help/troubleshooting.md) - Fix common issues
+* [Contact Support](help/contact.md) - Get personalized help
 
-Let's get started!
+---
+
+*Let's get started!*
