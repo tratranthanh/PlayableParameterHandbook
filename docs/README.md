@@ -1,6 +1,6 @@
 # Parameter Dashboard Handbook
 
-Everything in this dashboard is **FREE to customize**. No hidden costs.
+Customize your playable ad using the Parameter Dashboard.
 
 ---
 
@@ -21,18 +21,33 @@ Everything in this dashboard is **FREE to customize**. No hidden costs.
 
 ---
 
-## What's FREE?
+## What's Included?
 
-**Everything in the dashboard.** Change any parameter you see — logos, colors, text, buttons, gameplay settings, screens — all included.
+**UI components and visual changes** are included with your playable ad:
+- Images, logos, icons
+- Colors, backgrounds
+- Text labels, headlines
+- Button styling
 
-| FREE (Dashboard) | Requires Quote |
-|------------------|----------------|
-| Change button color | Add new button type |
-| Replace logo | Add new animations |
-| Adjust difficulty | New game mechanics |
-| Edit end card text | New screen types |
+**Gameplay config** that's already wired in your build is also adjustable via dashboard.
 
-Only **custom development** (features not in dashboard) requires a quote. See [Custom Development](help/custom-development.md).
+---
+
+## What Requires a Quote?
+
+Changes that need **game flow implementation** require custom development:
+
+| Included | Requires Quote |
+|----------|----------------|
+| Replace existing logo | Add new logo positions |
+| Change button color | Add new button behaviors |
+| Edit existing text | Add new text fields |
+| Adjust pre-wired difficulty | Add new difficulty mechanics |
+| Modify existing timers | Add new timer features |
+
+**Rule:** If the parameter exists in your dashboard, you can change it. If you need something new that affects game flow, it requires development work.
+
+See [Custom Development](help/custom-development.md) for quote requests.
 
 ---
 

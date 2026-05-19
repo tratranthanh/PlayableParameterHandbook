@@ -230,12 +230,35 @@ This addresses the Diátaxis "Reference" gap — power users want quick lookup.
 
 ---
 
+## Content Rules
+
+### FREE vs Requires Quote (Critical)
+
+**Source:** `t1k-cocos-cocos-base-playable-parameter` skill — parameter system architecture.
+
+| Layer | What's Included | Requires Quote |
+|-------|-----------------|----------------|
+| **UI Layer** | Visual components (Sprite, Label, Button, colors) — auto-applied | N/A |
+| **Config Layer** (pre-wired) | Gameplay values already in ParameterController | N/A |
+| **Config Layer** (new) | Gameplay values requiring game flow implementation | **Yes** |
+
+**Rule:** "All Customizations Are FREE" is **misleading**. Only:
+- UI components (images, colors, text labels, button styling)
+- Simple config data already wired in the build
+
+Changes requiring **game flow implementation/update** need custom development and a quote.
+
+**Anti-pattern:** Saying "change difficulty is FREE" when no difficulty parameter exists in that playable's build. If the parameter isn't in the dashboard, it doesn't exist for that build.
+
+---
+
 ## Common Pitfalls to Avoid
 
 1. **Don't nest more than 2 levels** — GitBook's sidebar becomes cluttered
 2. **Don't duplicate content** — link instead (GitBook doesn't allow same file twice in SUMMARY.md)
 3. **Don't organize by internal structure** — organize by user goals
 4. **Don't hide the Reference** — power users need quick lookup without narrative
+5. **Don't claim "ALL FREE"** — only dashboard-visible parameters are included; new features require development
 
 ---
 
