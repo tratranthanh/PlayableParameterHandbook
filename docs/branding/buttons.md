@@ -1,10 +1,10 @@
 # Buttons
 
-> **FREE** - All button customizations are included at no extra cost
+The most important interactive elements in your ad.
 
-Buttons are the most important interactive elements in your ad. Learn how to make them perfect for your brand.
+## Button Parameters
 
-## What You Can Customize
+If these appear in your dashboard:
 
 | Property | What It Does |
 |----------|--------------|

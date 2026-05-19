@@ -4,7 +4,7 @@ The Parameter Dashboard at [app.playablelabs.ai](https://app.playablelabs.ai/) i
 
 <figure><img src="../.gitbook/assets/dashboard-overview.png" alt="Parameter Dashboard Overview"><figcaption>The Parameter Dashboard interface</figcaption></figure>
 
-## What You Can Customize
+## Parameter Categories
 
 | Category | Examples |
 |----------|----------|

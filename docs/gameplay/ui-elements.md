@@ -1,14 +1,14 @@
 # Game UI Elements
 
-> **FREE** - All UI styling is included at no extra cost
+Customize UI styling: health bars, timers, scores, currency displays.
 
-Customize the visual appearance of in-game UI: health bars, timers, scores, and currency displays.
+> **Note:** These are visual styling parameters. Game logic changes require development.
 
 ## HP Bars
 
 Health bars show player or enemy health status.
 
-### What You Can Customize
+### Parameters
 
 | Property | What It Does |
 |----------|--------------|
@@ -39,7 +39,7 @@ Health bars show player or enemy health status.
 
 Timer displays show countdowns or elapsed time.
 
-### What You Can Customize
+### Parameters
 
 | Property | What It Does |
 |----------|--------------|
@@ -60,7 +60,7 @@ Timer displays show countdowns or elapsed time.
 
 Score counters show points earned during gameplay.
 
-### What You Can Customize
+### Parameters
 
 | Property | What It Does |
 |----------|--------------|
@@ -73,7 +73,7 @@ Score counters show points earned during gameplay.
 
 Currency shows in-game money or collectibles.
 
-### What You Can Customize
+### Parameters
 
 | Property | What It Does |
 |----------|--------------|

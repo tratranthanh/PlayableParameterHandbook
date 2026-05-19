@@ -1,19 +1,10 @@
 # Tutorial
 
-> **FREE** - All tutorial customizations are included at no extra cost
+Customize how users learn to play.
 
-Customize how users learn to play your playable ad.
+## Tutorial Parameters
 
-## What is the Tutorial?
-
-The tutorial teaches users how to play. It typically includes:
-
-* Instruction text
-* Hand/finger pointer showing where to tap
-* Step-by-step guidance
-* Visual highlights
-
-## What You Can Customize
+If these appear in your dashboard:
 
 | Element | Options |
 |---------|---------|

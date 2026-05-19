@@ -1,19 +1,10 @@
 # Loading Screen
 
-> **FREE** - All loading screen customizations are included at no extra cost
+The first thing users see while your playable ad loads.
 
-Make a great first impression with a branded loading screen.
+## Loading Screen Parameters
 
-## What is the Loading Screen?
-
-The loading screen is the first thing users see while your playable ad loads. It typically includes:
-
-* Background color or image
-* Loading indicator (spinner, progress bar)
-* Game name or logo
-* Brand elements
-
-## What You Can Customize
+If these appear in your dashboard:
 
 | Element | Options |
 |---------|---------|

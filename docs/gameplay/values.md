@@ -15,7 +15,7 @@ Adjust point values, rewards, and numeric settings.
 
 ---
 
-## What You Can Adjust (UI Config)
+## UI Config Parameters
 
 If these appear in your dashboard:
 

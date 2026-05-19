@@ -12,7 +12,7 @@ End cards are the final screens users see — your best chance to convert.
 | Lose Screen | User fails |
 | Time's Up | Timer runs out |
 
-## What You Can Customize
+## End Card Parameters
 
 <figure><img src="../.gitbook/assets/end-card-elements.png" alt="End Card Elements"><figcaption>Customizable elements: Background, Title, Subtitle, CTA Button</figcaption></figure>
 

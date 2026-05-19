@@ -1,12 +1,10 @@
 # Timing & Speed
 
-> **FREE** - All timing adjustments are included at no extra cost
-> 
-> *Note: Some gameplay changes may require brief review before going live*
+Control timing in your playable ad.
 
-Control how fast or slow different elements of your playable ad behave.
+## Timer Parameters
 
-## What You Can Adjust
+If these appear in your dashboard:
 
 | Setting | What It Does |
 |---------|--------------|

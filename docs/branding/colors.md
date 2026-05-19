@@ -28,7 +28,7 @@ Customize colors using hex codes or the color picker.
 | Green | #00C853 | #1B5E20 | #FFFFFF |
 | Red | #E53935 | #B71C1C | #FFC107 |
 
-## What You Can Color
+## Color Parameters
 
 | Element | Where |
 |---------|-------|
