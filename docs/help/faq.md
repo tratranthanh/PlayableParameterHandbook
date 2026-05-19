@@ -94,7 +94,7 @@ Use the "Forgot Password" link on the login page. You'll receive an email to res
 
 ### Can I change [specific feature]?
 
-If the parameter appears in your dashboard, you can adjust it. If it doesn't appear, it may require development. Contact support to check.
+Check your dashboard for available parameters. Some are simple (UI styling), some are complex (require development). See [Pricing](pricing.md) or contact support.
 
 ### Why can't I edit some things?
 

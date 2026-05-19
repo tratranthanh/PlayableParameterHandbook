@@ -31,7 +31,7 @@ UI components and visual changes already in your build:
 * Button styling
 * Pre-wired gameplay config
 
-**Rule:** If the parameter appears in your dashboard, you can change it.
+See [Pricing](help/pricing.md) for what's simple vs complex.
 
 ---
 

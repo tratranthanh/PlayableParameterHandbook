@@ -12,7 +12,7 @@ Parameters that appear in your dashboard:
 | **UI Styling** | Button colors, HP bar colors, timer style |
 | **Pre-wired Config** | Difficulty, timing, values already in your build |
 
-**Rule:** If the parameter appears in your dashboard, you can change it.
+Dashboard shows your parameters. Simple ones (UI styling) vs complex ones (asset processing, game logic) — see tables below.
 
 ---
 

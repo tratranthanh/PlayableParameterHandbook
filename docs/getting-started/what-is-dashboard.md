@@ -17,9 +17,7 @@ The Parameter Dashboard at [app.playablelabs.ai](https://app.playablelabs.ai/) i
 
 ## The Simple Rule
 
-> **If the parameter appears in your dashboard, you can change it.**
-
-The dashboard shows all customizable parameters for your specific build. Parameters vary by playable — you can only change what's already wired into your build.
+The dashboard shows parameters for your specific build. Some are simple (UI styling), some are complex (require development). See [Pricing](../help/pricing.md) for details.
 
 ## How It Works
 

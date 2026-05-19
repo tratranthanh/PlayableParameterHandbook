@@ -10,11 +10,11 @@ Welcome to the Parameter Dashboard! This section will help you get up and runnin
 | [Quick Start Guide](quick-start.md) | Make your first change in 3 steps |
 | [Common Tasks Checklist](common-tasks.md) | Essential customizations checklist |
 
-## The Rule
+## Important
 
-> **If the parameter appears in your dashboard, you can adjust it.**
+The dashboard shows your playable's parameters. Some are simple (UI styling), some are complex (require development).
 
-Parameters vary by playable. Complex changes (game logic, asset processing) require development. See [Pricing](../help/pricing.md).
+See [Pricing](../help/pricing.md) for details.
 
 ## Ready to Start?
 
