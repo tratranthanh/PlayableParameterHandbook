@@ -1,68 +1,45 @@
 # Quick Start Guide
 
-> **FREE** - All changes you make are included at no extra cost
+Make your first customization in 3 steps.
 
-Make your first customization in just 3 steps! This guide will walk you through changing a text element.
+## Step 1: Log In
 
-## Your First Change in 3 Steps
+Go to [app.playablelabs.ai](https://app.playablelabs.ai/) and sign in with your account.
 
-### Step 1: Find a Text Element
+<figure><img src="../.gitbook/assets/quick-start-login.png" alt="Login Screen"><figcaption>Sign in to access your playable ads</figcaption></figure>
 
-1. Log in to your dashboard
-2. Look for a text element like a headline or button label
-3. Click on the text setting to select it
+## Step 2: Select a Parameter
 
-### Step 2: Edit the Text
+Find the parameter you want to change in the sidebar. Start with something simple like a text label or button color.
 
-1. In the text field, delete the current text
-2. Type your new text (e.g., change "Play Now" to "Try It Free!")
-3. You'll see a preview update as you type
+<figure><img src="../.gitbook/assets/quick-start-select-parameter.png" alt="Parameter Selection"><figcaption>Click a parameter in the sidebar to select it</figcaption></figure>
 
-### Step 3: Preview and Save
+## Step 3: Edit and Save
 
-1. Check the preview to see how it looks
-2. Make any final adjustments
-3. Click "Save" to apply your changes
+Make your change using the editor panel. Preview updates instantly. Click Save when done.
 
-That's it! You've just customized your first element.
+<figure><img src="../.gitbook/assets/quick-start-edit-save.png" alt="Edit and Save"><figcaption>Edit the value, preview, then save</figcaption></figure>
 
-## Before and After Example
+## Before and After
 
-| Before | After |
-|--------|-------|
-| "Play Now" | "Try It Free!" |
-| Generic blue button | Your brand color |
-| Stock background | Your custom image |
-
-## Screenshot
-
-<!-- TODO: Add first-change-before.png and first-change-after.png showing the transformation -->
+<figure><img src="../.gitbook/assets/quick-start-before-after.png" alt="Before and After Example"><figcaption>Example: Changing CTA button text from "Play Now" to "Download Free"</figcaption></figure>
 
 ## Tips for Success
 
-* **Start small** - Begin with one or two changes to get comfortable
-* **Use preview** - Always check how changes look before saving
-* **Be consistent** - Use the same brand colors and style throughout
-* **Take notes** - Keep track of hex codes and settings you use
+* **Start small** — Begin with one change to get comfortable
+* **Use preview** — Always check before saving
+* **Be consistent** — Use the same colors and style throughout
 
 ## Common First Changes
 
-Here are popular things to customize first:
+| What | Where |
+|------|-------|
+| CTA Button Text | Screens > End Cards |
+| Logo | Images > Logos |
+| Brand Colors | Images > Colors |
+| End Card Message | Screens > End Cards |
 
-1. **CTA Button Text** - Make it match your campaign message
-2. **Logo** - Replace with your company logo
-3. **Brand Colors** - Update buttons and text to match your brand
-4. **End Card Message** - Customize the final screen
+## Next Steps
 
-## What to Try Next
-
-Now that you've made your first change, explore more:
-
-* [Change Text & Headlines](../text-headlines/changing-text.md)
-* [Replace Your Logo](../images-visuals/logos-icons.md)
-* [Use Your Brand Colors](../colors-branding/brand-colors.md)
-* [Customize Buttons](../interactive-elements/buttons.md)
-
-## Need Help?
-
-Stuck or confused? Check our [FAQ](../faq/common-questions.md) or [Contact Support](../faq/contact.md).
+* [Common Tasks Checklist](common-tasks.md) — Essential customizations
+* [All Parameters](../reference/all-parameters.md) — Full reference

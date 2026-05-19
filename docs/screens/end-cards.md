@@ -1,104 +1,74 @@
 # End Cards
 
-> **FREE** - All end card customizations are included at no extra cost
+End cards are the final screens users see — your best chance to convert.
 
-End cards are the final screens users see. They're your best chance to convert!
+<figure><img src="../.gitbook/assets/end-card-overview.png" alt="End Card Overview"><figcaption>Win screen (left) and Lose screen (right)</figcaption></figure>
 
-## What Are End Cards?
+## End Card Types
 
-End cards appear when gameplay finishes:
-
-* **Win Screen** - When user succeeds
-* **Lose Screen** - When user fails
-* **Time's Up** - When timer runs out
+| Type | When It Appears |
+|------|-----------------|
+| Win Screen | User succeeds |
+| Lose Screen | User fails |
+| Time's Up | Timer runs out |
 
 ## What You Can Customize
+
+<figure><img src="../.gitbook/assets/end-card-elements.png" alt="End Card Elements"><figcaption>Customizable elements: Background, Title, Subtitle, CTA Button</figcaption></figure>
 
 | Element | Options |
 |---------|---------|
 | Background | Image or color |
-| Title Text | "You Won!", "Game Over", etc. |
+| Title | "You Won!", "Game Over", etc. |
 | Subtitle | Secondary message |
-| CTA Button | The most important element! |
+| CTA Button | Text, color, style |
 
 ## The CTA Button is Critical
 
-The Call-to-Action button on end cards is the most important element in your entire ad. This is what converts viewers into downloads.
+The Call-to-Action button converts viewers into downloads.
 
-### CTA Button Options
+<figure><img src="../.gitbook/assets/end-card-cta.png" alt="CTA Button Customization"><figcaption>Customize CTA text, color, and style</figcaption></figure>
+
+### CTA Options
 
 | Property | Customization |
 |----------|---------------|
-| Text | "Download Now", "Play More", etc. |
-| Background | Button color or image |
-| Text Color | Label text color |
-| Text Size | Font size |
+| Text | "Download Now", "Play More" |
+| Background | Button color |
+| Text Color | Label color |
 
-## Making Effective End Cards
+### Good vs Weak CTAs
 
-### Win Screen Tips
+| Good | Weak |
+|------|------|
+| "Download Now" | "Click Here" |
+| "Play Free" | "Continue" |
+| "Get the App" | "OK" |
+
+## Win Screen Tips
 
 | Element | Recommendation |
 |---------|----------------|
-| Title | Celebrate! "You Won!", "Amazing!" |
+| Title | Celebrate! "You Won!" |
 | Subtitle | "Keep the fun going" |
-| Background | Bright, positive colors |
-| CTA | "Download Now", "Keep Playing" |
+| CTA | "Download Now" |
 
-### Lose Screen Tips
+## Lose Screen Tips
 
 | Element | Recommendation |
 |---------|----------------|
 | Title | Encouraging, not negative |
 | Subtitle | "Want to try again?" |
-| Background | Still appealing (not depressing) |
-| CTA | "Try Again", "Get the Full Game" |
+| CTA | "Try Again", "Get Full Game" |
 
-## CTA Best Practices
+## Testing End Cards
 
-### Text That Converts
-
-| Good CTAs | Weak CTAs |
-|-----------|-----------|
-| "Download Now" | "Click Here" |
-| "Play Free" | "Continue" |
-| "Get the App" | "OK" |
-| "Keep Playing" | "Submit" |
-
-### Button Design
-
-* **High contrast** - Button should pop off the background
-* **Large size** - Easy to tap on mobile
-* **Brand colors** - Use your accent color
-* **Clear text** - Readable at a glance
-
-## Customizing End Cards
-
-1. Find end card settings in the dashboard
-2. Customize win screen elements
-3. Customize lose screen elements
-4. Pay special attention to CTA buttons
-5. Preview both outcomes
-6. Save
-
-## Testing Your End Cards
-
-* Play to a win - Check win screen
-* Play to a loss - Check lose screen
-* Tap the CTA - Verify it works
-* Check on mobile - Ensure touch targets are good
-
-## Common Mistakes
-
-| Mistake | Fix |
-|---------|-----|
-| Boring CTA text | Use action-oriented language |
-| Button blends in | Use contrasting colors |
-| Negative lose message | Keep it encouraging |
-| Too much text | Keep it simple |
+1. Play to a win — check win screen
+2. Play to a loss — check lose screen
+3. Tap the CTA — verify it works
+4. Check on mobile — ensure buttons are tappable
 
 ## Related
 
-* [Buttons](../branding/buttons.md) - Button styling
-* [Loading Screen](loading.md) - First impression
-* [Tutorial](tutorial.md) - Onboarding
+* [Buttons](../branding/buttons.md)
+* [Loading Screen](loading.md)

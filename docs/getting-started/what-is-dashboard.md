@@ -1,48 +1,42 @@
 # What is the Parameter Dashboard?
 
-> **FREE** - All dashboard features are included at no extra cost
+The Parameter Dashboard at [app.playablelabs.ai](https://app.playablelabs.ai/) is your control center for customizing playable ads. Change how your ad looks and feels without any technical skills.
 
-The Parameter Dashboard is your control center for customizing playable ads. Think of it as a simple editor where you can change how your ad looks and feels, without needing any technical skills.
+<figure><img src="../.gitbook/assets/dashboard-overview.png" alt="Parameter Dashboard Overview"><figcaption>The Parameter Dashboard interface</figcaption></figure>
 
 ## What You Can Customize
 
-With the dashboard, you can change:
-
 | Category | Examples |
 |----------|----------|
+| Images | Logos, icons, backgrounds |
+| Colors | Button colors, text colors, UI colors |
 | Text | Headlines, button labels, instructions |
-| Images | Logos, icons, backgrounds, characters |
-| Colors | Brand colors, button colors, text colors |
-| Buttons | Style, text, and appearance of clickable buttons |
-| Game Elements | HP bars, timers, scores, currency displays |
-| Settings | Difficulty, timing, speed adjustments |
-| Screens | Loading screens, tutorials, end cards |
+| Buttons | Style and appearance |
+| Game UI | HP bars, timers, scores |
+| Screens | Loading, tutorial, end cards |
 
 ## The Simple Rule
 
-> **If you see it in the dashboard, you can change it for free.**
+> **If you see it in the dashboard, you can change it.**
 
-This is the most important thing to remember. The dashboard shows you everything that's customizable. If a setting appears in the dashboard, it's yours to change at no extra cost.
+The dashboard shows all customizable parameters for your specific build. Parameters vary by playable — you can only change what's already wired into your build.
 
 ## How It Works
 
-1. **Log in** to your dashboard account
-2. **Browse** the available settings
-3. **Make changes** using simple controls (text fields, color pickers, image uploads)
+<figure><img src="../.gitbook/assets/dashboard-workflow.png" alt="Dashboard Workflow"><figcaption>Select parameter → Edit value → Preview → Save</figcaption></figure>
+
+1. **Log in** at [app.playablelabs.ai](https://app.playablelabs.ai/)
+2. **Select** a parameter from the sidebar
+3. **Edit** using simple controls (text fields, color pickers, image uploads)
 4. **Preview** your changes instantly
-5. **Save** when you're happy with the result
+5. **Save** when ready
 
 ## What Makes It Special
 
-* **No coding required** - Everything is point-and-click
-* **Instant preview** - See your changes right away
-* **Brand flexibility** - Match your company's look and feel
-* **Safe to experiment** - You can always revert to the original
-
-## Screenshot
-
-<!-- TODO: Add dashboard-overview.png showing the full dashboard interface -->
+* **No coding** — Point and click
+* **Instant preview** — See changes immediately
+* **Safe to experiment** — Revert anytime
 
 ## Next Steps
 
-Ready to get started? Head to [Accessing the Dashboard](accessing-dashboard.md) to learn how to log in.
+[Quick Start Guide](quick-start.md) — Make your first change in 3 steps

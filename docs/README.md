@@ -1,6 +1,6 @@
 # Parameter Dashboard Handbook
 
-Customize your playable ad using the Parameter Dashboard.
+Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/).
 
 ---
 
