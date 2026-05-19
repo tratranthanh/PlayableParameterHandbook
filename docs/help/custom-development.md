@@ -52,6 +52,21 @@ Custom development is quoted per project. Your quote includes:
 
 > 💡 **Included parameters** (UI/visual) have no additional cost — adjust freely.
 
+### Recurring Parameters
+
+Have a custom parameter that will repeat across future games?
+
+| | First Game | Future Games |
+|-|------------|--------------|
+| **Cost** | Quote required | Included |
+| **Setup** | Custom development | Already in template |
+
+**How to qualify:**
+1. Tell us which parameters will recur
+2. We implement for the first game (quoted)
+3. We add to your standard template
+4. Future games get it included
+
 ---
 
 ## Related

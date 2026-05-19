@@ -51,6 +51,14 @@ Complex tasks requiring development work:
 
 See [Custom Development](help/custom-development.md) to request a quote.
 
+### Recurring Parameters
+
+If a custom parameter will repeat across future games, tell us upfront:
+1. **First game**: Custom development (quote required)
+2. **Future games**: Included (no additional cost)
+
+> 💡 **To qualify:** List the recurring parameters when requesting. We'll add them to your standard template.
+
 ---
 
 ## Get Started
