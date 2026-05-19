@@ -1,10 +1,8 @@
 # Gameplay
 
-> **FREE** - All gameplay adjustments are included at no extra cost
-> 
-> *Note: Some gameplay changes may require brief review before going live*
+Adjust gameplay: difficulty, timing, UI elements, and values.
 
-Adjust how your playable ad plays: difficulty, timing, UI elements, and values.
+> **Note:** UI styling parameters are adjustable. Game logic changes may require development. See [Pricing](../help/pricing.md).
 
 ## What's in This Section
 
@@ -24,7 +22,7 @@ Adjust how your playable ad plays: difficulty, timing, UI elements, and values.
 | Score display look | Point values |
 | Instant preview | May need review |
 
-You can style how things look freely. Changing how things work may require a brief review.
+UI styling is adjustable via dashboard. Game logic changes require development.
 
 ## Common Adjustments
 

@@ -1,8 +1,6 @@
 # Backgrounds
 
-> **FREE** - All background changes are included at no extra cost
-
-Transform the look of your playable ad with custom background images.
+Custom background images for your playable ad.
 
 ## Background Types
 

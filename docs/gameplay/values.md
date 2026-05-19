@@ -11,7 +11,7 @@ Adjust point values, rewards, and numeric settings.
 | Progress bar style | Combo multiplier systems |
 | Toggle visibility | Feature implementation |
 
-**Rule:** UI display settings are included. Game logic changes require development.
+**Rule:** UI display settings are adjustable via dashboard. Game logic changes require development.
 
 ---
 

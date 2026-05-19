@@ -1,8 +1,6 @@
 # Images & Colors
 
-> **FREE** - All visual changes are included at no extra cost
-
-Customize visual elements in your playable ad: logos, colors, images, text, and buttons.
+Customize visual elements: logos, colors, images, text, and buttons.
 
 ## What's in This Section
 

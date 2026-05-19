@@ -10,11 +10,11 @@ Welcome to the Parameter Dashboard! This section will help you get up and runnin
 | [Quick Start Guide](quick-start.md) | Make your first change in 3 steps |
 | [Common Tasks Checklist](common-tasks.md) | Essential customizations checklist |
 
-## The Golden Rule
+## The Rule
 
-> **If you see it in the dashboard, you can change it for free.**
+> **If the parameter appears in your dashboard, you can adjust it.**
 
-Everything visible in the Parameter Dashboard is included at no extra cost. Only custom development work requires a quote.
+Parameters vary by playable. Complex changes (game logic, asset processing) require development. See [Pricing](../help/pricing.md).
 
 ## Ready to Start?
 

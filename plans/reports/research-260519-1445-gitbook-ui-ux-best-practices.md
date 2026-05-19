@@ -250,6 +250,17 @@ Changes requiring **game flow implementation/update** need custom development an
 
 **Anti-pattern:** Saying "change difficulty is FREE" when no difficulty parameter exists in that playable's build. If the parameter isn't in the dashboard, it doesn't exist for that build.
 
+### Wording Rules
+
+| Avoid | Use Instead |
+|-------|-------------|
+| "FREE" / "included" / "no extra cost" | "adjustable via dashboard" |
+| "What You Can Adjust/Customize" | "{Type} Parameters" |
+| "If you see it, you can change it" | "If the parameter appears in your dashboard" |
+| "can be changed" (implies limitation) | "is adjustable" or just list the parameters |
+
+**Reason:** "FREE" implies no cost but complex parameters (game logic, map generation, animation frames) require quotes. "What You Can" implies only those options exist, when actually other things ARE possible via development.
+
 ---
 
 ## Common Pitfalls to Avoid

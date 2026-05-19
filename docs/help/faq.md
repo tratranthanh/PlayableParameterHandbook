@@ -4,17 +4,20 @@ Find quick answers to frequently asked questions.
 
 ## Pricing & Costs
 
-### Is customization really free?
+### What's adjustable via dashboard?
 
-**Yes!** Everything you can change in the dashboard is included at no extra cost. If you see a setting, you can change it for free.
+Parameters that appear in your dashboard. Each playable has different parameters based on its build.
 
 ### What requires a quote?
 
-Only custom development work that isn't available in the dashboard:
-* New features that don't exist
+Complex tasks requiring development work:
+* Generate map from image
+* Update animation frames
+* Change 3D model/texture
 * New game mechanics
-* Special integrations
-* Anything not in the dashboard
+* Game logic changes
+
+See [Pricing](pricing.md) for details.
 
 ### How do quotes work?
 
@@ -91,7 +94,7 @@ Use the "Forgot Password" link on the login page. You'll receive an email to res
 
 ### Can I change [specific feature]?
 
-If you see it in the dashboard, you can change it! If you don't see it, it might require custom development. Contact support to check.
+If the parameter appears in your dashboard, you can adjust it. If it doesn't appear, it may require development. Contact support to check.
 
 ### Why can't I edit some things?
 

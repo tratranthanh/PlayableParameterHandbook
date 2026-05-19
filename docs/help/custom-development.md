@@ -2,25 +2,25 @@
 
 Custom development is when you need something that goes beyond the dashboard's built-in options.
 
-## The Simple Rule
+## The Rule
 
-> **If you see it in the dashboard = FREE**
+> **Dashboard parameter = Adjustable**
 > 
-> **If it doesn't exist yet = Custom (quote required)**
+> **Complex change = Quote required**
 
-Everything visible in the Parameter Dashboard can be changed at no extra cost. Custom development is for features that need to be built from scratch.
+Parameters in your dashboard are adjustable. Custom development is for complex tasks requiring code changes.
 
-## Free vs Custom Examples
+## Dashboard vs Custom Examples
 
-| FREE (In Dashboard) | Custom (Quote Required) |
-|---------------------|------------------------|
-| Change button color | Add a new button |
-| Edit existing text | Add new text elements |
-| Replace existing images | Add new visual effects |
-| Adjust timer duration | Add a new timer feature |
-| Change HP bar colors | Add new health mechanics |
-| Modify end card text | Add new end card screens |
-| Style the CTA button | Add new CTA behavior |
+| Dashboard Parameter | Custom Development |
+|---------------------|-------------------|
+| Change button color | Add new button type |
+| Edit existing text | Add new text fields |
+| Replace images | Generate map from image |
+| Adjust timer display | Add new timer logic |
+| Style HP bar | Add health mechanics |
+| Edit end card text | Add new screen types |
+| Update animation frames | Requires quote |
 
 ## Why the Difference?
 
@@ -55,13 +55,13 @@ If you can imagine it, we can probably build it:
 
 Ask yourself:
 
-1. **Can I see this option in the dashboard?**
-   * Yes = Make the change yourself (FREE)
-   * No = It might need custom development
+1. **Does this parameter appear in my dashboard?**
+   * Yes = You can adjust it
+   * No = It may need custom development
 
-2. **Does the feature exist in any form?**
-   * Yes = You can probably customize it (FREE)
-   * No = It might need to be built (Custom)
+2. **Is this a visual/UI change or game logic?**
+   * UI styling = Usually adjustable
+   * Game logic = Usually requires development
 
 3. **Am I trying to add something completely new?**
    * Yes = Likely custom development

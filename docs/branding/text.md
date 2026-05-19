@@ -1,8 +1,6 @@
 # Text & Headlines
 
-> **FREE** - All text changes are included at no extra cost
-
-Learn how to find and edit text elements throughout your playable ad.
+Edit text elements throughout your playable ad.
 
 ## Finding Text Elements
 
