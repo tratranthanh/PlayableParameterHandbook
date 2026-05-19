@@ -32,6 +32,7 @@ UI parameters that auto-apply:
 | **Colors** | Button colors, text colors, UI colors, backgrounds |
 | **Audio** | Background music, sound effects |
 | **Styling** | Button appearance, visibility toggles, opacity |
+| **Animation Presets** | Fade, scale, bounce, pulse, slide, tap (speed/delay adjustable) |
 
 See [Pricing](help/pricing.md) for full list.
 

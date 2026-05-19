@@ -43,6 +43,20 @@ UI parameters that auto-apply when changed:
 | **Visibility** | Show/hide tutorial, UI elements |
 | **Opacity** | Transparency levels |
 
+### Animation Presets (if UI already included)
+| Parameter | Examples |
+|-----------|----------|
+| **Preset Type** | Fade In/Out, Scale In/Out, Bounce, Pulse, Slide |
+| **Speed** | Animation duration multiplier |
+| **Delay** | Seconds before animation starts |
+| **Loop** | Enable/disable repeat |
+
+20 built-in presets:
+- **General:** Fade In/Out, Scale In/Out, Bounce, Bounce In, Pulse, Slide Up/Down
+- **Tutorial:** Tap, Hold, Swipe (Left/Right/Up/Down), Drag
+- **Rich Text:** Typewriter (character-by-character reveal)
+- **End Card:** Bounce In, Slide Up (entrance animations)
+
 ---
 
 ## Requires Quote
