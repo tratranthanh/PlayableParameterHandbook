@@ -17,7 +17,7 @@ The Parameter Dashboard at [app.playablelabs.ai](https://app.playablelabs.ai/) i
 
 ## The Simple Rule
 
-Parameters in your dashboard are default (built-in) — adjust and apply automatically, no order needed. Need something not in your dashboard? See [Custom Development](../help/custom-development.md).
+UI and visual parameters are included — adjust and apply automatically. Complex tasks require development work. See [Custom Development](../help/custom-development.md).
 
 ## How It Works
 

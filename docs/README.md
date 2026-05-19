@@ -21,9 +21,9 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ---
 
-## Default Parameters
+## Included Parameters
 
-Parameters in your dashboard are built-in — adjust and apply automatically:
+UI and visual parameters — adjust and apply automatically:
 
 | Type | Examples |
 |------|----------|
@@ -34,16 +34,14 @@ Parameters in your dashboard are built-in — adjust and apply automatically:
 | **Styling** | Button appearance, visibility toggles, opacity |
 | **Animation Presets** | Fade, scale, bounce, pulse, slide, tap (speed/delay adjustable) |
 
-> 💡 **Tip:** If it's in your dashboard, no order needed — just customize.
-
 ---
 
 ## Custom Development
 
-Need something not in your dashboard? We can build it:
+Complex tasks requiring development work:
 
-| Request | What's Involved |
-|---------|-----------------|
+| Task | What's Involved |
+|------|-----------------|
 | Generate map from image | Image processing + level generation |
 | New animation frames | Sprite editing + animation system |
 | 3D model/texture changes | Asset pipeline + rendering |
@@ -51,7 +49,7 @@ Need something not in your dashboard? We can build it:
 | New screen types | UI system development |
 | New interactions | Event handling code |
 
-See [Custom Development](help/custom-development.md) to request.
+See [Custom Development](help/custom-development.md) to request a quote.
 
 ---
 

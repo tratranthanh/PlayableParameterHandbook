@@ -6,7 +6,7 @@ Find quick answers to frequently asked questions.
 
 ### What can I adjust?
 
-Parameters in your dashboard are default (built-in) — adjust and apply automatically, no order needed.
+UI and visual parameters are included — adjust and apply automatically, no quote needed.
 
 ### What's included in my dashboard?
 

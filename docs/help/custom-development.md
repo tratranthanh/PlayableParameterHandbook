@@ -1,19 +1,19 @@
 # Custom Development
 
-Need something not in your dashboard? We can build it.
+Complex tasks that require development work beyond simple parameter changes.
 
-## Default vs Custom
+## Included vs Custom
 
-| Default Parameters | Custom Development |
-|-------------------|-------------------|
-| In your dashboard | Not in dashboard |
-| Built-in, apply automatically | Requires development |
-| No order needed | Order required |
+| Included (UI/Visual) | Custom Development |
+|---------------------|-------------------|
+| Images, text, colors, styling | Game logic, new mechanics |
+| Apply automatically | Requires development work |
+| No quote needed | Quote required |
 
 ## Examples
 
-| Default (no order needed) | Custom (order required) |
-|---------------------------|------------------------|
+| Included | Custom (requires quote) |
+|----------|------------------------|
 | Change button color | Add new button type |
 | Edit existing text | Add new text fields |
 | Replace images | Generate map from image |
@@ -50,7 +50,7 @@ Custom development is quoted per project. Your quote includes:
 | Cost | Total price |
 | Timeline | Delivery time |
 
-> 💡 **Default parameters** (in your dashboard) have no additional cost — adjust freely.
+> 💡 **Included parameters** (UI/visual) have no additional cost — adjust freely.
 
 ---
 

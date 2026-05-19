@@ -4,7 +4,7 @@ Adjust how challenging your playable ad is for users.
 
 ## Dashboard vs Custom Development
 
-| Default (in dashboard) | Custom Development |
+| Included (Simple Config) | Custom Development |
 |--------------------------|-------------------|
 | Timer duration | Enemy AI behavior |
 | HP values | Spawn patterns/logic |
@@ -12,7 +12,7 @@ Adjust how challenging your playable ad is for users.
 | Damage numbers | Win/lose conditions |
 | Basic counts | Game flow changes |
 
-**Tip:** Parameters visible in your dashboard apply instantly. Game logic changes need development.
+**Tip:** Simple config parameters are included. Game logic changes require a quote.
 
 ---
 

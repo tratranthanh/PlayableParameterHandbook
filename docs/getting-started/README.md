@@ -12,7 +12,7 @@ Welcome to the Parameter Dashboard! This section will help you get up and runnin
 
 ## Important
 
-Parameters in your dashboard are default (built-in) — no order needed. For features not in your dashboard, see [Custom Development](../help/custom-development.md).
+UI and visual parameters are included — no quote needed. Complex tasks require development work. See [Custom Development](../help/custom-development.md).
 
 ## Ready to Start?
 

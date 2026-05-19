@@ -4,14 +4,14 @@ Adjust point values, rewards, and numeric settings.
 
 ## Dashboard vs Custom Development
 
-| Default (in dashboard) | Custom Development |
+| Included (UI/Config) | Custom Development |
 |--------------------------|-------------------|
 | Score display format | Point calculation formulas |
 | Currency icon/color | Reward distribution logic |
 | Progress bar style | Combo multiplier systems |
 | Toggle visibility | Feature implementation |
 
-**Tip:** Parameters visible in your dashboard apply instantly. Game logic changes need development.
+**Tip:** UI/config parameters are included. Game logic changes require a quote.
 
 ---
 
