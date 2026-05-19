@@ -34,9 +34,12 @@ Parameters vary by playable. Below are common parameters found in most builds.
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | Timer Duration | Number | Countdown time (seconds) |
-| Difficulty | Number | Game difficulty level |
+| Player HP | Number | Player health value |
+| Speed Multiplier | Number | Movement/game speed |
 | HP Bar Color | Color | Health bar fill color |
 | Score Color | Color | Score display color |
+
+> **Note:** Complex difficulty (AI behavior, spawn logic) requires development. See [Pricing](../help/pricing.md).
 
 ---
 

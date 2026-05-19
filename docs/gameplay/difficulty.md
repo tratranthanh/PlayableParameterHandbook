@@ -1,93 +1,73 @@
 # Difficulty & Balance
 
-> **FREE** - All difficulty adjustments are included at no extra cost
-> 
-> *Note: Some gameplay changes may require brief review before going live*
-
 Adjust how challenging your playable ad is for users.
 
-## Why Adjust Difficulty?
+## Simple vs Complex Difficulty
 
-The right difficulty level:
+| Simple (if in dashboard) | Complex (requires quote) |
+|--------------------------|--------------------------|
+| Timer duration | Enemy AI behavior |
+| HP values | Spawn patterns/logic |
+| Speed multipliers | Level generation |
+| Damage numbers | Win/lose conditions |
+| Basic counts | Game flow changes |
 
-* Keeps users engaged (not too hard)
-* Shows gameplay depth (not too easy)
-* Matches your target audience
-* Maximizes conversion rates
+**Rule:** Simple numeric values in your dashboard can be changed. Difficulty that requires game logic changes needs development work.
 
-## What You Can Adjust
+---
 
-Depending on your game, difficulty settings may include:
+## Simple Difficulty Parameters
 
-| Setting | What It Does |
-|---------|--------------|
-| Enemy HP | How much damage enemies can take |
-| Player HP | How much damage player can take |
-| Damage values | How much damage is dealt |
-| Spawn rates | How many enemies appear |
-| Win conditions | How easy it is to win |
+If these appear in your dashboard, you can adjust them:
 
-## Adjusting Difficulty
+| Parameter | What It Does |
+|-----------|--------------|
+| Timer | Shorter = harder, longer = easier |
+| Player HP | Lower = harder, higher = easier |
+| Enemy HP | Higher = harder, lower = easier |
+| Speed | Faster = harder, slower = easier |
+| Damage | Higher = harder/easier depending on source |
 
-1. Find difficulty settings in the dashboard
-2. Review current values
-3. Adjust sliders or enter new values
-4. Preview the gameplay
-5. Save (may require review)
+---
 
-## Difficulty Guidelines
+## Complex Difficulty (Requires Quote)
 
-### For Playable Ads
+These require game logic implementation:
+
+| Change | Why It's Complex |
+|--------|------------------|
+| Smarter enemy AI | Requires behavior code |
+| Dynamic spawn patterns | Requires spawn system changes |
+| Procedural levels | Requires level generation code |
+| New win/lose conditions | Requires game flow changes |
+| Adaptive difficulty | Requires player tracking logic |
+
+---
+
+## Difficulty Guidelines for Playable Ads
 
 | Goal | Recommendation |
 |------|----------------|
 | Show gameplay | Medium difficulty |
 | Quick engagement | Easier start |
-| Demonstrate skill | Moderate challenge |
 | Drive downloads | Beatable but engaging |
-
-### Common Adjustments
-
-| Change | Effect |
-|--------|--------|
-| Lower enemy HP | Enemies die faster |
-| Higher player HP | Player survives longer |
-| Slower enemies | More time to react |
-| Fewer enemies | Less overwhelming |
-
-## Finding the Sweet Spot
-
-The ideal difficulty for playable ads:
-
-* **Easy enough** to show success is possible
-* **Challenging enough** to show depth
-* **Engaging enough** to want more
 
 Most successful playable ads are slightly easier than the full game.
 
-## Why Review May Be Required
-
-Gameplay changes affect user experience differently than visual changes:
-
-| Visual Changes | Gameplay Changes |
-|----------------|------------------|
-| Instant preview | May need review |
-| No gameplay impact | Affects how game plays |
-| Safe to experiment | Impacts user experience |
-
-This review ensures your ad plays well and represents your game effectively.
+---
 
 ## Testing Your Changes
 
 After adjusting difficulty:
 
-1. Play through the entire ad yourself
+1. Play through the entire ad
 2. Check if it's completable
 3. Verify it's still engaging
-4. Ensure it represents your game well
+
+---
 
 ## Related
 
-* [Timing & Speed](timing.md) - Time-based adjustments
-* [Gameplay Values](values.md) - Point and reward values
-* [Game UI Elements](ui-elements.md) - Style HP bars and indicators
+* [Timing & Speed](timing.md) — Timer adjustments
+* [Gameplay Values](values.md) — Point values
+* [Pricing](../help/pricing.md) — What requires a quote
