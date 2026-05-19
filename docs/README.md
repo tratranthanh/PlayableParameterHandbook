@@ -42,15 +42,9 @@ Parameters already built into your playable — adjust via dashboard, apply inst
 
 ---
 
-## Custom Development
+## Need Something More?
 
-New systems not yet in your build — we create them for you.
-
-- **Asset Processing** — Generate map from image, new animation frames, 3D model changes
-- **Game Logic** — New mechanics, new AI behavior, new spawn patterns
-- **UI Systems** — New screen types, new interactions, new components
-
-See [Custom Development](help/custom-development.md) for details.
+See [Custom Development](help/custom-development.md) for new systems, pricing, and recurring parameters offer.
 
 ---
 
@@ -59,27 +53,3 @@ See [Custom Development](help/custom-development.md) for details.
 1. **[Quick Start](getting-started/quick-start.md)** — Make your first change
 2. **[Common Tasks](getting-started/common-tasks.md)** — Essential customizations checklist
 3. **[Common Parameters](reference/common-parameters.md)** — Full reference list
-
----
-
-## Pricing
-
-| Type | What It Means | What You Provide | Cost | Apply Time |
-|------|---------------|------------------|------|------------|
-| **Included** | Parameters already in your build | Just the new values (image files, text, colors, numbers) | ✓ No cost | Instant |
-| **Recurring** | Custom parameters reused in future games | List of parameters to standardize | ✓ No cost | Instant (after first game) |
-| **Custom** | New systems we build for you | Requirements, references, timeline | Quote required | Development time |
-
-### Recurring Parameters Offer
-
-Tell us which custom parameters will repeat across future games:
-
-| Stage | First Game | Future Games |
-|-------|------------|--------------|
-| **Cost** | Quote required | ✓ No cost |
-| **What you provide** | Requirements + references | Just the new values |
-| **Setup** | We build it | Already in template |
-
-> 💡 **To qualify:** List the recurring parameters when requesting.
-
-See [Custom Development](help/custom-development.md) for quote requests.
