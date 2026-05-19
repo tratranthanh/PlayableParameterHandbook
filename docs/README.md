@@ -21,51 +21,39 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ---
 
-## What's Included vs Custom Development
+## What's Included
 
-| Category | Parameter Type | Included | Custom |
-|----------|---------------|:--------:|:------:|
-| **UI Layer** | | | |
-| | Images (logo, icons, backgrounds) | ✓ | |
-| | Text (headlines, labels, CTA) | ✓ | |
-| | Colors (buttons, UI, backgrounds) | ✓ | |
-| | Audio (music, sound effects) | ✓ | |
-| | Styling (appearance, opacity) | ✓ | |
-| | Animation presets (fade, bounce, slide) | ✓ | |
-| **Config Layer** | | | |
-| | Health/Damage values | ✓ | |
-| | Timing (duration, delay, cooldown) | ✓ | |
-| | Speed (movement, animation rate) | ✓ | |
-| | Counts (bullets, enemies, attempts) | ✓ | |
-| | Flags (show/hide, enable/disable) | ✓ | |
-| **New Systems** | | | |
-| | Generate map from image | | ✓ |
-| | New animation frames/sprites | | ✓ |
-| | 3D model/texture changes | | ✓ |
-| | New game mechanics | | ✓ |
-| | New AI behavior/patterns | | ✓ |
-| | New screen types | | ✓ |
+Parameters already in your build — adjust and apply automatically.
 
-| | Included | Custom Development |
-|---|:---:|:---:|
-| **What it means** | Adjust existing values | Build new systems |
-| **Quote needed** | No | Yes |
-| **Apply time** | Instant | Development time |
-
-See [Custom Development](help/custom-development.md) for quote requests.
+| Category | Parameter Type | ✓ |
+|----------|---------------|:---:|
+| **UI Layer** | | |
+| | Images (logo, icons, backgrounds) | ✓ |
+| | Text (headlines, labels, CTA) | ✓ |
+| | Colors (buttons, UI, backgrounds) | ✓ |
+| | Audio (music, sound effects) | ✓ |
+| | Styling (appearance, opacity) | ✓ |
+| | Animation presets (fade, bounce, slide) | ✓ |
+| **Config Layer** | | |
+| | Health/Damage values | ✓ |
+| | Timing (duration, delay, cooldown) | ✓ |
+| | Speed (movement, animation rate) | ✓ |
+| | Counts (bullets, enemies, attempts) | ✓ |
+| | Flags (show/hide, enable/disable) | ✓ |
 
 ---
 
-## Recurring Parameters Offer
+## Custom Development
 
-Custom parameters that repeat across future games become included after first implementation.
+New systems that don't exist in your build yet.
 
-| | First Game | Future Games |
-|---|:---:|:---:|
-| **Cost** | Quote required | ✓ Included |
-| **Setup** | We build it | Already in template |
+| Category | Examples |
+|----------|----------|
+| **Asset Processing** | Generate map from image, new animation frames, 3D model changes |
+| **Game Logic** | New mechanics, new AI behavior, new spawn patterns |
+| **UI Systems** | New screen types, new interactions, new components |
 
-> 💡 **To qualify:** List the recurring parameters when requesting. We add them to your standard template.
+See [Custom Development](help/custom-development.md) for details.
 
 ---
 
@@ -74,3 +62,26 @@ Custom parameters that repeat across future games become included after first im
 1. **[Quick Start](getting-started/quick-start.md)** — Make your first change
 2. **[Common Tasks](getting-started/common-tasks.md)** — Essential customizations checklist
 3. **[Common Parameters](reference/common-parameters.md)** — Full reference list
+
+---
+
+## Pricing
+
+| Type | Cost | Description |
+|------|:----:|-------------|
+| **Included Parameters** | No cost | UI + Config values already in your build |
+| **Recurring Parameters** | No cost | Custom parameters reused across future games (after first implementation) |
+| **Custom Development** | Quote required | New systems, mechanics, or assets not in your build |
+
+### Recurring Parameters Offer
+
+Custom parameters that repeat across future games become included after first implementation.
+
+| | First Game | Future Games |
+|---|:---:|:---:|
+| **Cost** | Quote required | ✓ No cost |
+| **Setup** | We build it | Already in template |
+
+> 💡 **To qualify:** List the recurring parameters when requesting. We add them to your standard template.
+
+See [Custom Development](help/custom-development.md) for quote requests.
