@@ -1,14 +1,14 @@
-# Screens & Flow
+# Screens
 
-Customize the screens users see throughout your playable ad experience.
+Customize the screens users see throughout your playable ad.
 
 ## In This Section
 
 | Screen | What You'll Learn |
 |--------|-------------------|
-| [Loading Screen](loading.md) | First impression branding |
-| [Tutorial](tutorial.md) | Onboarding instructions |
-| [End Cards](end-cards.md) | Win/lose screens with CTA |
+| [Loading Screen](loading.md) | Customize loading appearance |
+| [Tutorial](tutorial.md) | Edit onboarding instructions |
+| [End Cards](end-cards.md) | Win/lose screens and CTA |
 
 ## The User Journey
 
@@ -16,15 +16,13 @@ Customize the screens users see throughout your playable ad experience.
 Loading Screen → Tutorial → Gameplay → End Card (Win/Lose)
 ```
 
-Each screen is an opportunity to reinforce your brand and guide users toward conversion.
-
 ## Key Screens
 
 ### Loading Screen
-The first thing users see. Set the tone with your brand colors and logo.
+The first thing users see. Customize the background, logo, and loading indicator.
 
 ### Tutorial
 Teach users how to play with clear, simple instructions.
 
 ### End Cards
-Your best chance to convert! Customize win/lose messages and CTAs.
+Customize win/lose messages and the CTA button.

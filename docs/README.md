@@ -16,10 +16,10 @@ Everything visible in the Parameter Dashboard is included at no extra cost. Only
 
 ## What Do You Need?
 
-| 🎨 **Branding** | 🎮 **Gameplay** | 📱 **Screens** |
-|-----------------|-----------------|----------------|
+| 🖼️ **Images & Colors** | 🎮 **Gameplay** | 📱 **Screens** |
+|------------------------|-----------------|----------------|
 | [Add my logo](branding/logos-icons.md) | [Adjust difficulty](gameplay/difficulty.md) | [Edit end card](screens/end-cards.md) |
-| [Use brand colors](branding/colors.md) | [Change timing](gameplay/timing.md) | [Customize loading](screens/loading.md) |
+| [Change colors](branding/colors.md) | [Change timing](gameplay/timing.md) | [Customize loading](screens/loading.md) |
 | [Style buttons](branding/buttons.md) | [Modify UI elements](gameplay/ui-elements.md) | [Tutorial screens](screens/tutorial.md) |
 | [Update text](branding/text.md) | [Gameplay values](gameplay/values.md) | |
 
@@ -39,21 +39,21 @@ Everything visible in the Parameter Dashboard is included at no extra cost. Only
 
 ## What Can You Customize?
 
-### Branding & Visuals
-* **Logos & Icons** - Replace with your brand assets
-* **Colors** - Apply your brand palette everywhere
-* **Backgrounds** - Custom images and colors
+### Images & Colors
+* **Logos & Icons** - Replace logo and app icon images
+* **Colors** - Change element colors with hex codes
+* **Backgrounds** - Custom background images
 * **Text** - Headlines, labels, instructions
-* **Buttons** - Style your call-to-action
+* **Buttons** - Style CTA buttons
 
 ### Gameplay
 * **UI Elements** - HP bars, timers, scores
-* **Difficulty** - Balance for your audience
+* **Difficulty** - Adjust challenge level
 * **Timing** - Control pacing and speed
 * **Values** - Points, rewards, thresholds
 
 ### Screens
-* **Loading** - First impression branding
+* **Loading** - Loading screen appearance
 * **Tutorial** - Onboarding instructions
 * **End Cards** - Win/lose screens with CTA
 

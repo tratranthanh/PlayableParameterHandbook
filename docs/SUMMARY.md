@@ -7,26 +7,26 @@
   * [Quick Start Guide](getting-started/quick-start.md)
   * [Common Tasks Checklist](getting-started/common-tasks.md)
 
-## Branding & Visuals
+## Images & Colors
 
-* [Branding & Visuals](branding/README.md)
+* [Images & Colors](branding/README.md)
   * [Logos & Icons](branding/logos-icons.md)
-  * [Colors & Themes](branding/colors.md)
+  * [Colors](branding/colors.md)
   * [Backgrounds](branding/backgrounds.md)
-  * [Text & Headlines](branding/text.md)
+  * [Text](branding/text.md)
   * [Buttons](branding/buttons.md)
 
-## Gameplay Customization
+## Gameplay
 
-* [Gameplay Customization](gameplay/README.md)
+* [Gameplay](gameplay/README.md)
   * [Game UI Elements](gameplay/ui-elements.md)
   * [Difficulty & Balance](gameplay/difficulty.md)
   * [Timing & Speed](gameplay/timing.md)
   * [Gameplay Values](gameplay/values.md)
 
-## Screens & Flow
+## Screens
 
-* [Screens & Flow](screens/README.md)
+* [Screens](screens/README.md)
   * [Loading Screen](screens/loading.md)
   * [Tutorial](screens/tutorial.md)
   * [End Cards](screens/end-cards.md)
@@ -38,9 +38,9 @@
   * [File Formats](reference/file-formats.md)
   * [Limits & Constraints](reference/limits.md)
 
-## Help & Support
+## Help
 
-* [Help & Support](help/README.md)
+* [Help](help/README.md)
   * [FAQ](help/faq.md)
   * [Troubleshooting](help/troubleshooting.md)
   * [Custom Development](help/custom-development.md)

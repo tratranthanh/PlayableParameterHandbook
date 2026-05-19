@@ -1,4 +1,4 @@
-# Help & Support
+# Help
 
 Get answers and assistance with the Parameter Dashboard.
 

@@ -2,18 +2,18 @@
 
 Quick lookup for all customizable parameters in the Parameter Dashboard.
 
-## Branding & Visuals
+## Images & Colors
 
 | Parameter | Type | Location | Example | Limits |
 |-----------|------|----------|---------|--------|
-| Logo | Image | Branding > Logos | 512x512 PNG | 500KB max |
-| App Icon | Image | Branding > Icons | 256x256 PNG | 300KB max |
-| Primary Color | Color | Branding > Colors | #FF5722 | Hex format |
-| Secondary Color | Color | Branding > Colors | #0066CC | Hex format |
-| Background Image | Image | Branding > Backgrounds | 1920x1080 | 2MB max |
-| Button Background | Color | Branding > Buttons | #00C853 | Hex format |
-| Button Text | Text | Branding > Buttons | "Play Now" | 25 chars |
-| Headline | Text | Branding > Text | "Your Game" | 50 chars |
+| Logo | Image | Images > Logos | 512x512 PNG | 500KB max |
+| App Icon | Image | Images > Icons | 256x256 PNG | 300KB max |
+| Primary Color | Color | Images > Colors | #FF5722 | Hex format |
+| Secondary Color | Color | Images > Colors | #0066CC | Hex format |
+| Background Image | Image | Images > Backgrounds | 1920x1080 | 2MB max |
+| Button Background | Color | Images > Buttons | #00C853 | Hex format |
+| Button Text | Text | Images > Buttons | "Play Now" | 25 chars |
+| Headline | Text | Images > Text | "Your Game" | 50 chars |
 
 ## Gameplay
 

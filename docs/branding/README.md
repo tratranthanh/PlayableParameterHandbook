@@ -1,45 +1,39 @@
-# Branding & Visuals
+# Images & Colors
 
-> **FREE** - All branding changes are included at no extra cost
+> **FREE** - All visual changes are included at no extra cost
 
-Make your playable ad unmistakably yours. This section covers everything visual: logos, colors, images, text styling, and buttons.
+Customize visual elements in your playable ad: logos, colors, images, text, and buttons.
 
 ## What's in This Section
 
 | Topic | What You'll Learn |
 |-------|-------------------|
 | [Logos & Icons](logos-icons.md) | Replace logos and app icons |
-| [Colors & Themes](colors.md) | Apply your brand colors |
+| [Colors](colors.md) | Change element colors |
 | [Backgrounds](backgrounds.md) | Custom background images |
-| [Text & Headlines](text.md) | Change text content and styles |
+| [Text](text.md) | Change text content and styles |
 | [Buttons](buttons.md) | Style CTA and action buttons |
 
-## Quick Wins
+## Common Changes
 
-Most clients start with these three changes:
+1. **Replace logo** - Upload your own logo image
+2. **Change colors** - Update buttons, text, UI elements
+3. **Update CTA button** - Change text and style
 
-1. **Add your logo** - Replace the placeholder with your brand
-2. **Apply brand colors** - Update buttons, text, and UI elements
-3. **Customize CTA button** - Match your campaign message
-
-## The Branding Checklist
-
-Use this checklist to ensure consistent branding:
+## Checklist
 
 - [ ] Logo uploaded (512x512 PNG, transparent)
-- [ ] Primary brand color applied to buttons
-- [ ] Secondary color applied to accents
-- [ ] Headlines updated with your messaging
-- [ ] CTA button text matches your campaign
-- [ ] End card uses your branding
+- [ ] Colors applied to buttons
+- [ ] Headlines updated
+- [ ] CTA button text set
+- [ ] End card customized
 
-## Tips for Consistent Branding
+## Tips
 
-* **Use exact hex codes** - Get them from your brand guidelines
-* **Limit your palette** - 3-4 colors maximum
-* **Test contrast** - Ensure text is readable on all backgrounds
-* **Stay consistent** - Same colors and style throughout
+* **Use exact hex codes** for consistent colors
+* **Test contrast** - Ensure text is readable
+* **Check file sizes** - Keep images under limits
 
 ## Need Something Custom?
 
-If you need custom fonts, animations, or visual effects not available in the dashboard, see [Custom Development](../help/custom-development.md).
+If you need custom fonts, animations, or effects not in the dashboard, see [Custom Development](../help/custom-development.md).

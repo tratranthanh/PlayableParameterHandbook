@@ -1,32 +1,28 @@
 # Common Tasks Checklist
 
-Quick reference for the most common customizations. Check off each task as you complete it.
+Quick reference for the most common customizations.
 
 ## First-Time Setup
 
-Complete these essentials to brand your playable ad:
+Complete these essentials:
 
 - [ ] **Upload your logo** → [Logos & Icons](../branding/logos-icons.md)
-- [ ] **Set brand colors** → [Colors & Themes](../branding/colors.md)
+- [ ] **Set colors** → [Colors](../branding/colors.md)
 - [ ] **Customize CTA button** → [Buttons](../branding/buttons.md)
 - [ ] **Update end card text** → [End Cards](../screens/end-cards.md)
 
-## Branding Checklist
-
-Ensure consistent branding throughout:
+## Images & Colors Checklist
 
 | Task | Location | Status |
 |------|----------|--------|
-| Logo uploaded (512x512 PNG) | Branding > Logos | ☐ |
-| Primary color applied | Branding > Colors | ☐ |
-| Secondary color applied | Branding > Colors | ☐ |
-| CTA button styled | Branding > Buttons | ☐ |
-| Headlines updated | Branding > Text | ☐ |
-| Background customized | Branding > Backgrounds | ☐ |
+| Logo uploaded (512x512 PNG) | Images > Logos | ☐ |
+| Primary color applied | Images > Colors | ☐ |
+| Secondary color applied | Images > Colors | ☐ |
+| CTA button styled | Images > Buttons | ☐ |
+| Headlines updated | Images > Text | ☐ |
+| Background customized | Images > Backgrounds | ☐ |
 
 ## Screen Customizations
-
-Update each screen:
 
 | Screen | Key Elements | Status |
 |--------|--------------|--------|
@@ -44,7 +40,7 @@ Fine-tune the experience (may require review):
 |------|----------|--------|
 | Difficulty | Is it beatable but engaging? | ☐ |
 | Timer | 30-45 seconds optimal | ☐ |
-| UI colors | Match brand? | ☐ |
+| UI colors | Visible and clear? | ☐ |
 | Point values | Feel rewarding? | ☐ |
 
 ## Quick Reference
@@ -61,18 +57,18 @@ Fine-tune the experience (may require review):
 
 | Color | Hex Code | Used For |
 |-------|----------|----------|
-| Primary | #______ | Main brand color |
+| Primary | #______ | Main color |
 | Secondary | #______ | Supporting color |
 | Accent | #______ | CTAs, highlights |
 
 ### Essential Text to Prepare
 
-| Element | Current | Your Version |
-|---------|---------|--------------|
-| Headline | | |
-| CTA Text | | |
-| Win Message | | |
-| Lose Message | | |
+| Element | Your Version |
+|---------|--------------|
+| Headline | |
+| CTA Text | |
+| Win Message | |
+| Lose Message | |
 
 ## Testing Checklist
 
@@ -84,13 +80,11 @@ Before going live:
 - [ ] Played through to lose screen
 - [ ] Verified CTA button works
 - [ ] Checked text is readable
-- [ ] Confirmed colors match brand
+- [ ] Confirmed colors are correct
 
 ## Next Steps
 
-After completing the basics:
-
-1. **Review gameplay** → [Gameplay Customization](../gameplay/overview.md)
+1. **Review gameplay** → [Gameplay](../gameplay/README.md)
 2. **Check all parameters** → [All Parameters](../reference/all-parameters.md)
 3. **Test thoroughly** → Preview on multiple devices
 4. **Go live** → Confirm with your account manager
