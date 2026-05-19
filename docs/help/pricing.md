@@ -2,7 +2,7 @@
 
 ## Included (No Extra Cost)
 
-All dashboard parameters are included with your playable ad:
+Parameters that appear in your dashboard:
 
 | Category | What's Included |
 |----------|-----------------|
@@ -12,7 +12,7 @@ All dashboard parameters are included with your playable ad:
 | **UI Styling** | Button colors, HP bar colors, timer style |
 | **Pre-wired Config** | Difficulty, timing, values already in your build |
 
-**Simple rule:** If you see it in the dashboard, you can change it.
+**Rule:** If the parameter appears in your dashboard, you can change it.
 
 ---
 
@@ -38,22 +38,14 @@ Complex tasks that require development work:
 | **New button behaviors** | Add interactions beyond simple taps |
 | **New UI elements** | Add components not currently in build |
 
-### Integration Work
-
-| Task | Description |
-|------|-------------|
-| **SDK integrations** | Connect to analytics, attribution, etc. |
-| **Platform-specific features** | iOS/Android specific functionality |
-| **Custom tracking** | Event logging beyond standard setup |
-
 ---
 
 ## Why the Difference?
 
-### Dashboard Changes (Included)
+### Dashboard Parameters (Included)
 
 You're adjusting values the system already knows:
-* Elements exist in the build
+* Parameter exists in your dashboard
 * Framework is already implemented
 * You're changing settings, not code
 

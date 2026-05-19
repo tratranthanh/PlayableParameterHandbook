@@ -31,7 +31,7 @@ UI components and visual changes already in your build:
 * Button styling
 * Pre-wired gameplay config
 
-**Rule:** If the parameter exists in your dashboard, you can change it.
+**Rule:** If the parameter appears in your dashboard, you can change it.
 
 ---
 
