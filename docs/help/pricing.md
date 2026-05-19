@@ -2,77 +2,84 @@
 
 ## Included (No Extra Cost)
 
-Parameters that appear in your dashboard:
+UI parameters that auto-apply when changed:
 
-| Category | What's Included |
-|----------|-----------------|
-| **Images** | Replace logos, icons, backgrounds |
-| **Colors** | Change any color via picker or hex code |
-| **Text** | Edit labels, headlines, CTA text |
-| **UI Styling** | Button colors, HP bar colors, timer style |
-| **Pre-wired Config** | Difficulty, timing, values already in your build |
+### Images (SpriteParameter)
+| Parameter | Examples |
+|-----------|----------|
+| **Logo** | Company logo, brand mark |
+| **App Icon** | Store icon display |
+| **Background** | Screen backgrounds, gameplay backgrounds |
+| **Icons** | UI icons, currency icons, item icons |
+| **Character Sprites** | Player/enemy visuals (swap, not animate) |
 
-Dashboard shows your parameters. Simple ones (UI styling) vs complex ones (asset processing, game logic) — see tables below.
+### Text (LabelParameter)
+| Parameter | Examples |
+|-----------|----------|
+| **Headlines** | Screen titles, section headers |
+| **Labels** | UI labels, button text |
+| **Instructions** | Tutorial text, help text |
+| **CTA Text** | "Download Now", "Play Free" |
+| **End Card Text** | Win/lose messages |
+
+### Colors (ColorParameter)
+| Parameter | Examples |
+|-----------|----------|
+| **Button Colors** | CTA background, secondary buttons |
+| **Text Colors** | Headlines, labels, instructions |
+| **UI Colors** | HP bar fill, timer, score display |
+| **Background Colors** | Solid color backgrounds |
+
+### Audio (AudioParameter)
+| Parameter | Examples |
+|-----------|----------|
+| **Music** | Background music track |
+| **Sound Effects** | Button clicks, win/lose sounds |
+
+### UI Styling
+| Parameter | Examples |
+|-----------|----------|
+| **Button Style** | CTA appearance, corners, borders |
+| **Visibility** | Show/hide tutorial, UI elements |
+| **Opacity** | Transparency levels |
 
 ---
 
 ## Requires Quote
 
-Complex tasks that require development work:
+Complex tasks requiring development:
 
 ### Asset Processing
+| Task | Why It's Complex |
+|------|------------------|
+| **Generate map from image** | Image processing + level generation code |
+| **Update animation frames** | Sprite sheet editing + animation system |
+| **Change 3D model/texture** | Asset pipeline + rendering changes |
 
-| Task | Description |
-|------|-------------|
-| **Generate map from image** | Convert uploaded image to playable level data |
-| **Update animation frames** | Modify sprite sheets, animation timing, sequences |
-| **Change 3D model/texture** | Replace or modify 3D assets and materials |
-| **Process video/audio** | Convert or integrate multimedia assets |
-
-### Game Flow Changes
-
-| Task | Description |
-|------|-------------|
-| **New game mechanics** | Add features not in current build |
-| **New screen types** | Create screens beyond existing templates |
-| **New button behaviors** | Add interactions beyond simple taps |
-| **New UI elements** | Add components not currently in build |
+### Game Logic Changes
+| Task | Why It's Complex |
+|------|------------------|
+| **New game mechanics** | Game flow implementation |
+| **Difficulty logic** | AI behavior, spawn patterns |
+| **New screen types** | UI system changes |
+| **New interactions** | Event handling code |
 
 ---
 
-## Why the Difference?
+## The Difference
 
-### Dashboard Parameters (Included)
+**Included:** UI parameters that swap values (image A → image B, color X → color Y, text "Play" → "Download")
 
-You're adjusting values the system already knows:
-* Parameter exists in your dashboard
-* Framework is already implemented
-* You're changing settings, not code
-
-### Development Work (Quoted)
-
-Creating something new requires:
-* Design planning
-* Code implementation
-* Testing & QA
-* Deployment
+**Quoted:** Tasks requiring code changes, asset processing, or game logic implementation
 
 ---
 
 ## Request a Quote
 
 Contact us with:
+1. What you need
+2. Why you need it
+3. References (screenshots, examples)
+4. Timeline
 
-1. **What you need** — Describe the feature
-2. **Why you need it** — Business goal
-3. **References** — Screenshots, examples, sketches
-4. **Timeline** — When you need it
-
-See [Contact](contact.md) for how to reach us.
-
----
-
-## Related
-
-* [Custom Development](custom-development.md) — Full quote request process
-* [FAQ](faq.md) — Common pricing questions
+See [Contact](contact.md) to reach us.

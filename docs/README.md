@@ -21,32 +21,19 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ---
 
-## What's Included?
+## Included (No Extra Cost)
 
-UI components and visual changes already in your build:
-
-* Images, logos, icons
-* Colors, backgrounds
-* Text labels, headlines
-* Button styling
-* Pre-wired gameplay config
-
-See [Pricing](help/pricing.md) for what's simple vs complex.
-
----
-
-## Pricing
-
-### Included (No Extra Cost)
-
-Simple parameter changes visible in your dashboard:
+UI parameters that auto-apply:
 
 | Type | Examples |
 |------|----------|
-| Images | Replace logo, swap background, change icons |
-| Colors | Button color, text color, UI colors |
-| Text | Headlines, labels, CTA text |
-| Config | Pre-wired difficulty, timers, values |
+| **Images** | Logo, app icon, backgrounds, character sprites, UI icons |
+| **Text** | Headlines, labels, CTA text, instructions, end card messages |
+| **Colors** | Button colors, text colors, UI colors, backgrounds |
+| **Audio** | Background music, sound effects |
+| **Styling** | Button appearance, visibility toggles, opacity |
+
+See [Pricing](help/pricing.md) for full list.
 
 ### Requires Quote
 
