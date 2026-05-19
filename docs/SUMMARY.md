@@ -26,7 +26,7 @@
   * [End Cards](screens/end-cards.md)
 
 * [Reference](reference/README.md)
-  * [All Parameters](reference/all-parameters.md)
+  * [Common Parameters](reference/common-parameters.md)
   * [File Formats](reference/file-formats.md)
   * [Limits & Constraints](reference/limits.md)
 

@@ -1,12 +1,12 @@
 # Reference
 
-Quick lookup guides for all Parameter Dashboard settings.
+Quick lookup guides for Parameter Dashboard.
 
 ## In This Section
 
 | Guide | What You'll Find |
 |-------|------------------|
-| [All Parameters](all-parameters.md) | Complete parameter lookup table |
+| [Common Parameters](common-parameters.md) | Parameters found in most playables |
 | [File Formats](file-formats.md) | Image and asset specifications |
 | [Limits & Constraints](limits.md) | Character limits and file sizes |
 
@@ -15,8 +15,8 @@ Quick lookup guides for all Parameter Dashboard settings.
 ### Need to prepare assets?
 Check [File Formats](file-formats.md) for size and format requirements.
 
-### Looking for a specific setting?
-See [All Parameters](all-parameters.md) for the complete list.
+### Looking for common settings?
+See [Common Parameters](common-parameters.md) — your dashboard shows your actual parameters.
 
 ### Hitting a limit?
 Review [Limits & Constraints](limits.md) for all size restrictions.

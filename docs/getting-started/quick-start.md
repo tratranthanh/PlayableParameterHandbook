@@ -42,4 +42,4 @@ Make your change using the editor panel. Preview updates instantly. Click Save w
 ## Next Steps
 
 * [Common Tasks Checklist](common-tasks.md) — Essential customizations
-* [All Parameters](../reference/all-parameters.md) — Full reference
+* [Common Parameters](../reference/common-parameters.md) — Full reference

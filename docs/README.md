@@ -16,7 +16,7 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ## Quick Links
 
-| 📋 [All Parameters](reference/all-parameters.md) | ❓ [FAQ](help/faq.md) | 🚀 [Quick Start](getting-started/quick-start.md) |
+| 📋 [Common Parameters](reference/common-parameters.md) | ❓ [FAQ](help/faq.md) | 🚀 [Quick Start](getting-started/quick-start.md) |
 |--------------------------------------------------|----------------------|--------------------------------------------------|
 
 ---
@@ -69,4 +69,4 @@ See [Pricing Details](help/pricing.md) for quote requests.
 
 1. **[Quick Start](getting-started/quick-start.md)** — Make your first change
 2. **[Common Tasks](getting-started/common-tasks.md)** — Essential customizations checklist
-3. **[All Parameters](reference/all-parameters.md)** — Full reference list
+3. **[Common Parameters](reference/common-parameters.md)** — Full reference list
