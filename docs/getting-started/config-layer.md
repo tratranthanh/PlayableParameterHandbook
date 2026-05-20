@@ -142,6 +142,27 @@ value: "medium"
 
 ---
 
+## RedirectParameter
+
+Controls the in-game store redirect (CTA frequency during gameplay).
+
+### Properties
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `active` | BooleanParameter | Enable/disable in-game redirect |
+| `count` | NumberParameter | Redirect after N interactions |
+
+### Common Configurations
+
+| Active | Count | Behavior |
+|--------|-------|----------|
+| `true` | `3` | Redirect to store every 3 taps |
+| `true` | `1` | Redirect on every interaction |
+| `false` | — | Disabled (end card CTA only) |
+
+---
+
 ## AudioParameter
 
 Audio asset references.

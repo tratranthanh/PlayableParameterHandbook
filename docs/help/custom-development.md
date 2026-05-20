@@ -60,17 +60,19 @@ Tell us:
 
 ---
 
-## Recurring Parameters Offer
+## Recurring Parameter Offer
 
-Custom parameters that repeat across future games become included after first implementation.
+Custom parameters that repeat across future games become **free** after first implementation.
 
 | Stage | First Game | Future Games |
 |-------|------------|--------------|
-| **Cost** | Quote required | ✓ No cost |
+| **Cost** | Quote required | ✓ Free |
 | **What you provide** | Requirements + references | Just the new values |
-| **Setup** | We build it | Already in template |
+| **Setup** | We build it | Already in your template |
 
 > 💡 **To qualify:** Tell us which parameters will recur when requesting.
+
+📋 **[Full Recurring Offer details →](../getting-started/recurring-offer.md)**
 
 ---
 

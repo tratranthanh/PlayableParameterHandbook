@@ -50,16 +50,17 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 📋 **[Full Config Layer reference →](getting-started/config-layer.md)**
 
-### 🔁 Recurring Offer — Store Redirect During Gameplay
+### 🔁 Recurring Parameter Offer — Pay Once, Reuse Forever
 
-**Included by default.** Triggers store redirect during gameplay (not just end card). Can be wired to any parameter or event.
+**Custom parameters become free across future games.** Pay once for development, reuse it forever — no extra charge when applied to new playables.
 
-| Property | Type | Example |
-|----------|------|---------|
-| `active` | BooleanParameter | `true` (enabled) |
-| `count` | NumberParameter | `3` (redirect every 3 interactions) |
+| Stage | First Game | Future Games |
+|-------|------------|--------------|
+| **Cost** | Quote required | ✓ Free |
+| **Setup** | We build it | Already in your template |
+| **Modifications** | N/A | Minor: free / Major: small fee |
 
-📋 **[Full Recurring Offer reference →](getting-started/recurring-offer.md)**
+📋 **[Full Recurring Offer details →](getting-started/recurring-offer.md)**
 
 ---
 

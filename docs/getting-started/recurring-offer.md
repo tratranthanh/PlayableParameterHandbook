@@ -1,76 +1,103 @@
-# Recurring Offer (Redirect Parameter)
+# Recurring Parameter Offer
 
-**The recurring offer triggers a store redirect during gameplay** — not just at the end card. It can be wired to any kind of trigger: UI taps, gameplay events, level completion, custom interactions.
+**Custom parameters become free across future games.** Pay once for development, reuse it forever — no extra charge when applied to new playables.
 
-<figure><img src="../.gitbook/assets/redirect-parameter-dashboard.png" alt="RedirectParameter Recurring Offer"><figcaption>RedirectParameter: enable recurring redirects, trigger after N interactions</figcaption></figure>
-
----
-
-## Why Recurring Offers Matter
-
-Ad networks reward playables that drive store visits **during** gameplay, not just at the end. The recurring offer captures users who don't reach the end card — typically 40-60% of impressions.
-
-| Strategy | Store Visits | Conversion |
-|----------|--------------|------------|
-| End card only | ~30-40% of users | Lower |
-| Recurring + End card | ~70-90% of users | Higher |
+<figure><img src="../.gitbook/assets/recurring-offer-flow.png" alt="Recurring Parameter Offer Flow"><figcaption>First game: development quote. Future games: included at no cost.</figcaption></figure>
 
 ---
 
-## RedirectParameter
+## How It Works
 
-Standalone parameter — not part of UI or Config layer specifically. It can be triggered by any parameter type.
+Any parameter that's **not in the standard included set** (UI Layer / Config Layer) normally requires custom development. With the Recurring Offer, once we build it for your first game, it becomes part of your template for all future games.
 
-### Properties
-
-| Property | Type | Description |
-|----------|------|-------------|
-| `active` | BooleanParameter | Enable/disable the recurring redirect |
-| `count` | NumberParameter | Number of interactions before redirecting (e.g., 3 = redirect on 3rd trigger) |
-
----
-
-## What Can Trigger It
-
-The recurring offer can hook into **any kind of parameter or event**:
-
-| Trigger Type | Example |
-|--------------|---------|
-| **UI taps** | Tap any button → counts toward redirect |
-| **Gameplay events** | Defeat enemy, complete level, collect item |
-| **Time-based** | Every 10 seconds of gameplay |
-| **Custom interactions** | Drag, swipe, drop, match |
-| **Complex parameters** | After N successful actions |
+| Stage | First Game | Future Games |
+|-------|------------|--------------|
+| **Cost** | Quote required | ✓ Free (no cost) |
+| **What you provide** | Requirements + references | Just the new values |
+| **Setup** | We build it | Already in your template |
+| **Modifications** | N/A | Minor: free / Major: small fee |
 
 ---
 
-## Common Configurations
+## What Qualifies
 
-| Use Case | Active | Count | Behavior |
-|----------|--------|-------|----------|
-| **Aggressive** | `true` | `1` | Redirect on every interaction |
-| **Balanced (recommended)** | `true` | `3` | Redirect every 3 interactions |
-| **Light touch** | `true` | `5` | Redirect every 5 interactions |
-| **End card only** | `false` | — | Disable recurring (CTA at end only) |
+Any custom parameter you'd want to **reuse across multiple games**:
+
+| Example Custom Parameter | First Game | Reused In |
+|--------------------------|------------|-----------|
+| Custom difficulty curve | Quote | Match-3, Puzzle, Runner — all free |
+| Branded loading animation | Quote | Every future game — free |
+| Custom win celebration | Quote | Win screens in all games — free |
+| Specific spawn pattern | Quote | Reuse with new values — free |
+| Tutorial branching logic | Quote | All tutorials — free |
+| Custom HUD layout | Quote | All game UIs — free |
 
 ---
 
-## Implementation Note
+## How to Qualify
 
-The redirect parameter is **included in every build by default**. The trigger logic (what counts as an "interaction") is defined per-playable based on its game type:
+When requesting custom development, **tell us upfront** which parameters you plan to reuse:
 
-- **Match-3:** Each match counts
-- **Shooter:** Each shot fired
-- **Puzzle:** Each piece placed
-- **Runner:** Each obstacle passed
+> 💡 **"This parameter will recur in our future playables"** — that's all you need to say.
 
-Custom trigger logic requires development. See [Custom Development](../help/custom-development.md).
+We'll:
+1. Build it once for your first game
+2. Add it to your account's parameter template
+3. Apply it automatically to all future games at **no cost**
+
+---
+
+## Cost Comparison
+
+| Scenario | Without Offer | With Recurring Offer |
+|----------|---------------|----------------------|
+| 1 custom parameter, 1 game | $X | $X |
+| 1 custom parameter, 5 games | 5 × $X | $X (only first) |
+| 1 custom parameter, 10 games | 10 × $X | $X (only first) |
+| 5 custom parameters, 10 games | 50 × $X | 5 × $X |
+
+**Savings scale with game volume.** The more games you produce, the more you save.
+
+---
+
+## Modifications to Recurring Parameters
+
+If a recurring parameter needs adjustments for a future game:
+
+| Modification Type | Cost |
+|-------------------|------|
+| **Value changes only** (e.g., change duration from 3s to 5s) | ✓ Free |
+| **Minor tweaks** (e.g., add one new option) | ✓ Free |
+| **Behavior changes** (e.g., new trigger logic) | Small fee |
+| **Complete redesign** | New quote |
+
+---
+
+## Examples
+
+### Example 1: Custom Difficulty Curve
+
+**First game (Match-3):** Quote for custom difficulty scaling — $X
+**Game 2 (Puzzle):** Same difficulty curve — free
+**Game 3 (Runner):** Same difficulty curve, different values — free
+**Game 4 (Shooter):** Same logic, modified trigger — small fee
+
+### Example 2: Branded Loading Animation
+
+**First game:** Quote for custom logo animation — $X
+**All future games:** Same animation, just swap the logo PNG — free
+
+### Example 3: Custom Win Celebration
+
+**First game:** Quote for confetti + sound + animation — $X
+**Game 2:** Reuse celebration, change confetti color — free
+**Game 3:** Reuse celebration, add new particle — small fee
 
 ---
 
 ## Related
 
-- [UI Layer](ui-layer.md) — Visual parameters
-- [Config Layer](config-layer.md) — Gameplay values
-- [End Cards](../screens/end-cards.md) — End card CTA configuration
-- [Custom Development](../help/custom-development.md) — Custom trigger logic
+- [UI Layer](ui-layer.md) — Visual parameters (always free)
+- [Config Layer](config-layer.md) — Gameplay values (free if in dashboard)
+- [Custom Development](../help/custom-development.md) — Request custom work
+- [Contact](../help/contact.md) — Get started
