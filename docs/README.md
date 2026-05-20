@@ -23,28 +23,40 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ## What's Included
 
-Parameters already built into your playable — adjust via dashboard, apply instantly.
+**If it's in your dashboard, you can change it — no extra cost.**
 
-### 🎨 UI Layer
-- **Images** — Logo, app icon, backgrounds, character sprites, UI icons
-- **Text** — Headlines, labels, CTA text, instructions, end card messages
-- **Colors** — Button colors, text colors, UI colors, background colors
-- **Audio** — Background music, sound effects
-- **Styling** — Button appearance, visibility toggles, opacity
-- **Animation Presets** — Fade, scale, bounce, pulse, slide, tap, swipe, drag (20+ built-in)
+Parameters are organized into two layers:
 
-### ⚙️ Config Layer
-- **Health/Damage** — Player HP, enemy HP, damage values
-- **Timing** — Duration, delay, cooldown, timeout
-- **Speed** — Movement speed, animation rate, game pace
-- **Counts** — Max bullets, enemy count, attempt limits
-- **Flags** — Show/hide tutorial, enable power-ups, toggle UI elements
+| Layer | What You Change | Examples |
+|-------|-----------------|----------|
+| **UI Layer** | Visual appearance | Images, text, colors, buttons, opacity, animations |
+| **Config Layer** | Gameplay values | HP, damage, timers, speed, counts, toggles |
+
+### UI Layer Parameters
+- **Sprite** — Logo, icons, backgrounds, characters (`spriteFrame`, `spriteColor`, `position`, `scale`)
+- **Label** — All text (`string`, `labelColor`, `fontSize`, `outline`, `shadow`)
+- **Button** — CTA buttons (`spriteFrame`, `labelString`, `labelColor`, `labelFontSize`)
+- **Color** — Any color value (hex format: `#FF5722` or with alpha: `#FF572280`)
+
+### Config Layer Parameters
+- **Number** — HP, damage, timer duration, speed, counts
+- **Boolean** — Show/hide toggles, enable/disable features
+- **Range** — Sliders with min/max (difficulty, volume)
+- **Select** — Dropdown choices (presets, themes)
+
+### Composite Parameters
+- **End Card** — Background + title + subtitle + CTA button
+- **Loading Screen** — Background color + icon + game name
+- **Tutorial Hand** — Hand sprite + animation preset
+- **Rich Text** — Label + entrance/exit animations
+
+📋 **[Full parameter reference →](reference/whats-included.md)**
 
 ---
 
 ## Need Something More?
 
-See [Custom Development](help/custom-development.md) for new systems, pricing, and recurring parameters offer.
+Parameters not in your dashboard require development. See [Custom Development](help/custom-development.md).
 
 ---
 

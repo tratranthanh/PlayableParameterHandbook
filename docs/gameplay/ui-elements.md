@@ -2,112 +2,163 @@
 
 Customize UI styling: health bars, timers, scores, currency displays.
 
-> **Note:** These are visual styling parameters. Game logic changes require development.
+> **These are visual (UI Layer) parameters.** Gameplay values (Config Layer) are in [Difficulty & Balance](difficulty.md).
+
+---
 
 ## HP Bars
 
 Health bars show player or enemy health status.
 
-### Parameters
+### SpriteParameter Properties
 
-| Property | What It Does |
-|----------|--------------|
-| Main Color | The health fill color |
-| Indicator Color | Damage flash or secondary color |
-| Background Color | The empty bar background |
-| Border | Outline around the bar |
+| Property | Config Key | Type | Description |
+|----------|------------|------|-------------|
+| `spriteColor` | Fill color | `ColorParameter` | The health fill color |
+| `enable` | Visibility | `BooleanParameter` | Show or hide HP bar |
+| `position` | Location | `CoordinatesParameter` | Position on screen |
+| `scale` | Size | `CoordinatesParameter` | Size multiplier |
 
-### Common Color Schemes
+### Common HP Bar Color Properties
 
-| Style | Main | Indicator | Background |
-|-------|------|-----------|------------|
-| Classic | Green | Yellow | Dark gray |
-| Modern | Teal | White | Black |
-| Aggressive | Red | Orange | Dark red |
-| Brand | Your primary | Your accent | Neutral |
+| Element | Property | Example |
+|---------|----------|---------|
+| Health fill | `spriteColor` | `#00FF00` (green) |
+| Damage indicator | `indicatorColor` | `#FFFF00` (yellow flash) |
+| Empty background | `backgroundColor` | `#333333` (dark gray) |
+| Border | `borderColor` | `#000000` (black) |
 
 ### HP Bar Anatomy
 
 ```
-[##########..........] 50% HP
- ^         ^
- |         |
- Fill      Empty (background)
+┌────────────────────────────────┐
+│ ████████████░░░░░░░░░░░░░░░░░░ │  ← Border
+│ ↑ Fill      ↑ Background       │
+└────────────────────────────────┘
 ```
+
+### Color Scheme Examples
+
+| Style | Fill | Background | Border |
+|-------|------|------------|--------|
+| Classic | `#00C853` | `#424242` | `#000000` |
+| Modern | `#00BCD4` | `#263238` | `#FFFFFF` |
+| Aggressive | `#F44336` | `#B71C1C` | `#000000` |
+| Brand | Your primary | Neutral | Optional |
+
+---
 
 ## Timers
 
 Timer displays show countdowns or elapsed time.
 
-### Parameters
+### LabelParameter Properties
 
-| Property | What It Does |
-|----------|--------------|
-| Text Color | Timer number color |
-| Background | Container background |
-| Warning Color | Color when time is low |
-| Font Style | Timer text appearance |
+| Property | Config Key | Type | Description |
+|----------|------------|------|-------------|
+| `labelColor` | Text color | `ColorParameter` | Timer number color |
+| `fontSize` | Text size | `NumberParameter` | Font size in pixels |
+| `outlineColor` | Outline | `ColorParameter` | Text outline color |
+| `outlineWidth` | Outline size | `NumberParameter` | Outline thickness |
+| `enable` | Visibility | `BooleanParameter` | Show or hide timer |
 
-### Timer States
+### Timer State Colors
 
-| State | Typical Color |
-|-------|---------------|
-| Normal | White or brand color |
-| Warning | Yellow or orange |
-| Critical | Red |
+| State | When | Suggested Color |
+|-------|------|-----------------|
+| Normal | > 10 seconds | `#FFFFFF` (white) |
+| Warning | 5-10 seconds | `#FFC107` (yellow) |
+| Critical | < 5 seconds | `#F44336` (red) |
+
+> **Note:** Timer state colors may be separate `ColorParameter` entries in your dashboard.
+
+---
 
 ## Score Displays
 
 Score counters show points earned during gameplay.
 
-### Parameters
+### LabelParameter Properties
 
-| Property | What It Does |
-|----------|--------------|
-| Text Color | Score number color |
-| Background | Score container background |
-| Icon | Coin or point icon |
-| Animation | Pop or glow on score change |
+| Property | Config Key | Type | Description |
+|----------|------------|------|-------------|
+| `string` | Format | `TextParameter` | Score prefix (e.g., "Score: ") |
+| `labelColor` | Color | `ColorParameter` | Score number color |
+| `fontSize` | Size | `NumberParameter` | Font size |
+| `enable` | Visibility | `BooleanParameter` | Show or hide score |
+
+### Score Icon (SpriteParameter)
+
+| Property | Config Key | Type | Description |
+|----------|------------|------|-------------|
+| `spriteFrame` | Icon | `ImageParameter` | Coin or star icon |
+| `spriteColor` | Tint | `ColorParameter` | Icon color tint |
+| `scale` | Size | `CoordinatesParameter` | Icon size |
+
+---
 
 ## Currency Displays
 
 Currency shows in-game money or collectibles.
 
-### Parameters
+### Combined Parameters
 
-| Property | What It Does |
-|----------|--------------|
-| Icon | Currency symbol or image |
-| Text Color | Amount color |
-| Background | Container background |
+| Element | Parameter Type | Properties |
+|---------|---------------|------------|
+| Icon | `SpriteParameter` | `spriteFrame`, `spriteColor`, `scale` |
+| Amount | `LabelParameter` | `labelColor`, `fontSize` |
+| Background | `SpriteParameter` | `spriteFrame`, `spriteColor` (optional) |
+
+---
+
+## What You CAN Change (UI Layer)
+
+| Element | Changeable Properties |
+|---------|----------------------|
+| HP Bar | Colors, visibility, position, scale |
+| Timer | Text color, font size, outline, visibility |
+| Score | Text color, font size, icon, visibility |
+| Currency | Icon image, text color, visibility |
+
+---
+
+## What You CANNOT Change Without Development
+
+| Element | Requires Development |
+|---------|---------------------|
+| HP Bar | Actual HP values, damage calculation |
+| Timer | Duration, countdown logic, pause behavior |
+| Score | Point values, scoring formula |
+| Currency | Starting amount, earn rates |
+
+For gameplay value changes, see:
+- [Difficulty & Balance](difficulty.md) — HP, damage, timer duration
+- [Gameplay Values](values.md) — Scores, multipliers
+- [Custom Development](../help/custom-development.md) — New mechanics
+
+---
 
 ## Best Practices
 
 ### Color Choices
 
-* **Match your brand** - Use brand colors where appropriate
-* **Maintain clarity** - UI must be readable at a glance
-* **Use contrast** - Numbers visible against backgrounds
-* **Be consistent** - Same style across all UI elements
+- **Match your brand** — Use brand colors where appropriate
+- **Maintain clarity** — UI must be readable at a glance
+- **Use contrast** — Numbers visible against backgrounds
+- **Be consistent** — Same style across all UI elements
 
 ### Visual Hierarchy
 
-* Most important info (HP, time) should be most visible
-* Secondary info (score, currency) can be subtler
-* Warning states should stand out
+| Priority | Elements | Treatment |
+|----------|----------|-----------|
+| High | HP, Timer | Most visible, larger |
+| Medium | Score, Currency | Visible but secondary |
+| Low | Labels, Icons | Subtle, supporting |
 
-## What You Cannot Change
-
-| You CAN change | You CANNOT change |
-|----------------|-------------------|
-| Bar colors | HP amounts |
-| Timer style | Timer duration |
-| Score appearance | Point values |
-| Currency icon | Currency amounts |
-
-For gameplay values, see [Difficulty & Balance](difficulty.md) and [Gameplay Values](values.md).
+---
 
 ## Related
 
-* [Difficulty & Balance](difficulty.md) - Adjust gameplay values
-* [Colors & Themes](../branding/colors.md) - Brand color application
+- [Difficulty & Balance](difficulty.md) — Change gameplay values
+- [Colors](../branding/colors.md) — Brand color application
+- [What's Included](../reference/whats-included.md) — Full parameter reference

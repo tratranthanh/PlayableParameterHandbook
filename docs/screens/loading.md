@@ -2,75 +2,164 @@
 
 The first thing users see while your playable ad loads.
 
-## Loading Screen Parameters
+<figure><img src="../.gitbook/assets/loading-screen-elements.png" alt="Loading Screen Elements"><figcaption>Loading screen components: Background, Logo, Icon, Game Name</figcaption></figure>
 
-If these appear in your dashboard:
+---
 
-| Element | Options |
-|---------|---------|
-| Background Color | Solid color using color picker |
-| Background Image | Upload custom image |
-| Loading Icon | Replace or color the spinner |
-| Game Name | Text and text styling |
-| Logo | Upload your brand logo |
+## LoadingScreenParameter (Composite)
 
-## Customizing Your Loading Screen
+Loading screens use the `LoadingScreenParameter` composite type, which bundles:
 
-1. Find loading screen settings in the dashboard
-2. Choose background (color or image)
-3. Customize the loading indicator
-4. Add or edit the game name text
-5. Upload your logo if desired
-6. Preview and save
+| Component | Parameter Type | What You Can Change |
+|-----------|---------------|---------------------|
+| Background | `ColorParameter` | Solid background color |
+| Icon | `SpriteParameter` | `spriteFrame`, `spriteColor` |
+| Game Name | `LabelParameter` | `string`, `labelColor`, `fontSize` |
+| Logo | `SpriteParameter` | `spriteFrame`, `position`, `scale` |
 
-## Loading Screen Best Practices
+---
 
-### First Impressions Matter
+## Background
 
-The loading screen is your first chance to establish brand identity:
+### ColorParameter
 
-* **Use brand colors** - Set the tone immediately
-* **Show your logo** - Build recognition
-* **Keep it simple** - Don't overwhelm before gameplay
-* **Match your game** - Preview the visual style
+| Property | Type | Description | Example |
+|----------|------|-------------|---------|
+| Color value | `ColorParameter` | Solid background | `#1A1A2E` |
 
-### What Works Well
+### Background Tips
+
+| Goal | Approach |
+|------|----------|
+| Brand alignment | Use brand primary color |
+| Dark theme | `#1A1A2E`, `#0D0D0D`, `#121212` |
+| Light theme | `#FFFFFF`, `#F5F5F5`, `#FAFAFA` |
+| High contrast | Ensure logo/text readable against it |
+
+---
+
+## Loading Icon
+
+### SpriteParameter Properties
+
+| Property | Type | Description | Example |
+|----------|------|-------------|---------|
+| `spriteFrame` | `ImageParameter` | Spinner/indicator image | Upload PNG |
+| `spriteColor` | `ColorParameter` | Icon color tint | `#FFFFFF` |
+| `enable` | `BooleanParameter` | Show or hide | `true` |
+| `scale` | `CoordinatesParameter` | Size | `{x: 1.0, y: 1.0}` |
+
+<figure><img src="../.gitbook/assets/loading-indicator-types.png" alt="Loading Indicator Types"><figcaption>Options: Spinner, Progress bar, Animated icon, None</figcaption></figure>
+
+### Loading Indicator Types
+
+| Type | Description | When to Use |
+|------|-------------|-------------|
+| Spinner | Rotating circular icon | Standard, always appropriate |
+| Progress bar | Filling horizontal bar | When actual progress is trackable |
+| Animated icon | Custom branded animation | Strong brand identity |
+| None | Just logo/background | Minimal, fast-loading ads |
+
+---
+
+## Game Name
+
+### LabelParameter Properties
+
+| Property | Type | Description | Example |
+|----------|------|-------------|---------|
+| `string` | `TextParameter` | Game title text | `"My Game"` |
+| `labelColor` | `ColorParameter` | Text color | `#FFFFFF` |
+| `fontSize` | `NumberParameter` | Text size | `48` |
+| `isBold` | `BooleanParameter` | Bold weight | `true` |
+| `enable` | `BooleanParameter` | Show or hide | `true` |
+
+---
+
+## Logo
+
+### SpriteParameter Properties
+
+| Property | Type | Description | Example |
+|----------|------|-------------|---------|
+| `spriteFrame` | `ImageParameter` | Logo image | Upload PNG (transparent) |
+| `spriteColor` | `ColorParameter` | Color tint | `#FFFFFF` (no tint) |
+| `position` | `CoordinatesParameter` | Location | `{x: 0, y: 100}` |
+| `scale` | `CoordinatesParameter` | Size | `{x: 1.0, y: 1.0}` |
+| `enable` | `BooleanParameter` | Show or hide | `true` |
+
+### Logo Tips
+
+| Requirement | Specification |
+|-------------|---------------|
+| Format | PNG with transparent background |
+| Size | 512 x 512 pixels minimum |
+| File size | Under 500KB |
+
+---
+
+## Best Practices
+
+### First Impressions
 
 | Element | Recommendation |
 |---------|----------------|
-| Background | Brand color or simple gradient |
+| Background | Brand color or simple solid |
 | Logo | Centered, appropriately sized |
 | Game name | Clear, readable font |
 | Loading indicator | Subtle but visible |
 
 ### What to Avoid
 
-* Cluttered layouts
-* Hard-to-read text
-* Generic/default appearance
-* Mismatched branding
+| Issue | Problem |
+|-------|---------|
+| Cluttered layout | Overwhelms before gameplay |
+| Hard-to-read text | Frustrates users |
+| Generic/default look | Misses branding opportunity |
+| Mismatched colors | Looks unprofessional |
 
-## Loading Indicator Options
+### Visual Hierarchy
 
-Depending on your ad, you might have:
+```
+┌─────────────────────────────────┐
+│                                 │
+│           [ LOGO ]              │  ← Primary focus
+│                                 │
+│          Game Name              │  ← Secondary
+│                                 │
+│            ◌                    │  ← Loading indicator
+│                                 │
+└─────────────────────────────────┘
+```
 
-| Type | Description |
-|------|-------------|
-| Spinner | Rotating circular icon |
-| Progress bar | Filling horizontal bar |
-| Animated icon | Custom loading animation |
-| None | Simple screen without indicator |
+---
 
-## Tips for Fast Loading Feel
+## Loading Screen Flow
 
-Even though you can't change actual load time, you can make it feel faster:
+```
+User taps ad → Loading screen appears → Assets load → Gameplay starts
+                    ↑
+              Your branding
+              opportunity
+```
 
-* **Engaging visuals** - Something interesting to look at
-* **Progress indication** - Shows something is happening
-* **Brand storytelling** - Use the time to build anticipation
+---
+
+## Configuration Example
+
+| Component | Value |
+|-----------|-------|
+| Background | `#1A1A2E` (dark blue) |
+| Logo | Your brand logo (PNG, transparent) |
+| Game Name | `"My Awesome Game"` |
+| Game Name Color | `#FFFFFF` (white) |
+| Loading Icon | Spinner, `#FFFFFF` tint |
+
+---
 
 ## Related
 
-* [Tutorial](tutorial.md) - What users see next
-* [End Cards](end-cards.md) - Final screens
-* [Colors & Themes](../branding/colors.md) - Color consistency
+- [Tutorial](tutorial.md) — What users see next
+- [End Cards](end-cards.md) — Final screens
+- [Logos & Icons](../branding/logos-icons.md) — Logo specifications
+- [Colors](../branding/colors.md) — Color consistency
