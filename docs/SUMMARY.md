@@ -7,6 +7,7 @@
   * [Quick Start Guide](getting-started/quick-start.md)
   * [What's Included — UI Layer](getting-started/ui-layer.md)
   * [What's Included — Config Layer](getting-started/config-layer.md)
+  * [Recurring Offer](getting-started/recurring-offer.md)
   * [Common Tasks Checklist](getting-started/common-tasks.md)
 
 * [Images & Colors](branding/README.md)

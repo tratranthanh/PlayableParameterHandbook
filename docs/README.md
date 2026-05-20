@@ -47,9 +47,19 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 | **Speed** | `speedMultiplier`, `playerSpeed`, `enemySpeed` |
 | **Counts** | `spawnCount`, `maxBullets`, `livesCount` |
 | **Toggles** | `showTutorial`, `enableSound`, `showHPBar` |
-| **Recurring Offer** | `RedirectParameter` — `active`, `count` (redirect to store every N taps) |
 
 📋 **[Full Config Layer reference →](getting-started/config-layer.md)**
+
+### 🔁 Recurring Offer — Store Redirect During Gameplay
+
+**Included by default.** Triggers store redirect during gameplay (not just end card). Can be wired to any parameter or event.
+
+| Property | Type | Example |
+|----------|------|---------|
+| `active` | BooleanParameter | `true` (enabled) |
+| `count` | NumberParameter | `3` (redirect every 3 interactions) |
+
+📋 **[Full Recurring Offer reference →](getting-started/recurring-offer.md)**
 
 ---
 

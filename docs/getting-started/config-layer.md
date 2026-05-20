@@ -142,33 +142,6 @@ value: "medium"
 
 ---
 
-## RedirectParameter
-
-Controls the **recurring offer** — when the playable redirects to the app store during gameplay (not just at the end card).
-
-<figure><img src="../.gitbook/assets/redirect-parameter-dashboard.png" alt="RedirectParameter Recurring Offer"><figcaption>RedirectParameter: enable recurring redirects, trigger after N interactions</figcaption></figure>
-
-### Properties
-
-| Property | Type | Description |
-|----------|------|-------------|
-| `active` | BooleanParameter | Enable/disable the recurring redirect |
-| `count` | NumberParameter | Number of interactions before redirecting (e.g., 3 = redirect on 3rd tap) |
-
-### Common Uses
-
-| Parameter | Active | Count | Behavior |
-|-----------|--------|-------|----------|
-| `recurringRedirect` | `true` | `3` | Redirect to store every 3 taps |
-| `recurringRedirect` | `true` | `1` | Redirect on every interaction |
-| `recurringRedirect` | `false` | — | Disable recurring redirect (end card only) |
-
-{% hint style="info" %}
-**Why recurring?** Ad networks reward playables that drive store visits during gameplay, not just at the end. Use the recurring offer to capture users who don't reach the end card.
-{% endhint %}
-
----
-
 ## AudioParameter
 
 Audio asset references.
