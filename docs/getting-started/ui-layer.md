@@ -393,8 +393,58 @@ Pre-built presets for common UI patterns (auto-detected during scan):
 
 ---
 
+## Animation Presets
+
+Animation presets add visual polish to UI elements. Used for tutorial hands, text entrances, button feedback.
+
+### Entrance Animations
+
+| Preset | Description |
+|--------|-------------|
+| `fadeIn` | Opacity 0 → 1 |
+| `scaleUp` | Scale from 0 → 1 |
+| `slideInLeft` | Slide from off-screen left |
+| `slideInRight` | Slide from off-screen right |
+| `slideInTop` | Slide from off-screen top |
+| `slideInBottom` | Slide from off-screen bottom |
+| `bounceIn` | Scale with bounce easing |
+| `pop` | Quick scale overshoot then settle |
+
+### Exit Animations
+
+| Preset | Description |
+|--------|-------------|
+| `fadeOut` | Opacity 1 → 0 |
+| `scaleDown` | Scale from 1 → 0 |
+| `slideOutLeft` | Slide to off-screen left |
+| `slideOutRight` | Slide to off-screen right |
+| `slideOutTop` | Slide to off-screen top |
+| `slideOutBottom` | Slide to off-screen bottom |
+| `shrink` | Scale down and fade |
+
+### Emphasis Animations
+
+| Preset | Description |
+|--------|-------------|
+| `pulse` | Scale up/down rhythmically |
+| `shake` | Horizontal shake |
+| `bounce` | Vertical bounce |
+| `wiggle` | Rotation wiggle |
+| `glow` | Brightness pulse |
+| `heartbeat` | Double-pulse scale |
+
+### Interactive Animations
+
+| Preset | Description |
+|--------|-------------|
+| `tap` | Tap/press motion (tutorial hand) |
+| `press` | Press and release |
+| `swipe` | Swipe gesture motion |
+| `drag` | Drag motion |
+
+---
+
 ## Related
 
 - [Config Layer](config-layer.md) — Gameplay values (HP, timers, speed)
-- [Composite Parameters](whats-included.md) — Pre-built screen bundles (EndCard, Loading, Tutorial)
-- [File Formats](file-formats.md) — Image specifications
+- [File Formats](../reference/file-formats.md) — Image specifications

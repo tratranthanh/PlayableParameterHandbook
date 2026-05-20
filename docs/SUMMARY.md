@@ -5,6 +5,8 @@
 * [Getting Started](getting-started/README.md)
   * [What is the Dashboard?](getting-started/what-is-dashboard.md)
   * [Quick Start Guide](getting-started/quick-start.md)
+  * [What's Included — UI Layer](getting-started/ui-layer.md)
+  * [What's Included — Config Layer](getting-started/config-layer.md)
   * [Common Tasks Checklist](getting-started/common-tasks.md)
 
 * [Images & Colors](branding/README.md)
@@ -26,9 +28,6 @@
   * [End Cards](screens/end-cards.md)
 
 * [Reference](reference/README.md)
-  * [UI Layer](reference/ui-layer.md)
-  * [Config Layer](reference/config-layer.md)
-  * [Composite Parameters](reference/whats-included.md)
   * [Common Parameters](reference/common-parameters.md)
   * [File Formats](reference/file-formats.md)
   * [Limits & Constraints](reference/limits.md)

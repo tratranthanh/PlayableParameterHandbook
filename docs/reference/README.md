@@ -1,45 +1,31 @@
 # Reference
 
-Complete parameter reference organized by layer.
+Technical reference for parameter types, file formats, and limits.
 
 ---
 
-## Parameter Layers
+## What's Included
 
-| Layer | What It Controls | Cost |
-|-------|------------------|------|
-| **[UI Layer](ui-layer.md)** | Visual appearance (images, text, colors, buttons) | ✅ Always included |
-| **[Config Layer](config-layer.md)** | Gameplay values (HP, timers, speed, toggles) | ✅ Included if in dashboard |
-| **[Composites](whats-included.md)** | Pre-built screen bundles | ✅ Included if in dashboard |
+See **[Getting Started](../getting-started/README.md)** for:
+- **[UI Layer](../getting-started/ui-layer.md)** — Visual parameters (always included)
+- **[Config Layer](../getting-started/config-layer.md)** — Gameplay values (if in dashboard)
 
 ---
 
 ## Quick Reference
 
-### UI Layer Components
-
-| Component | Node Type | Key Properties |
-|-----------|-----------|----------------|
-| `SpriteParameter` | `cc.Sprite` | `spriteFrame`, `spriteColor`, `position`, `scale` |
-| `LabelParameter` | `cc.Label` | `string`, `labelColor`, `fontSize`, `outline`, `shadow` |
-| `ButtonParameter` | `cc.Button` | Sprite + `labelString`, `labelColor`, `labelFontSize` |
-
-### Config Layer Types
+### Base Parameter Types
 
 | Type | Input | Example |
 |------|-------|---------|
-| `NumberParameter` | Number field | `100` |
-| `BooleanParameter` | Toggle | `true` |
+| `ImageParameter` | File upload | PNG/JPG |
+| `TextParameter` | Text field | `"Download Now"` |
+| `ColorParameter` | Color picker | `#FF5722` |
+| `NumberParameter` | Number input | `100` |
+| `BooleanParameter` | Toggle | `true` / `false` |
 | `RangeParameter` | Slider | `0.5` (min-max) |
+| `CoordinatesParameter` | X/Y fields | `{x: 0, y: 100}` |
 | `SelectParameter` | Dropdown | `"medium"` |
-
-### Composite Parameters
-
-| Composite | Components |
-|-----------|------------|
-| `EndCardParameter` | Background + Title + Subtitle + CTA |
-| `LoadingScreenParameter` | Background + Icon + Game Name |
-| `TutorialHandParameter` | Hand + Animation |
 
 ---
 

@@ -184,5 +184,4 @@ If the parameter **doesn't exist** in your dashboard:
 ## Related
 
 - [UI Layer](ui-layer.md) — Visual parameters (always included)
-- [What's Included](whats-included.md) — Complete parameter overview
 - [Custom Development](../help/custom-development.md) — Request new features

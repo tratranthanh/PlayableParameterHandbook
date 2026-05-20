@@ -33,7 +33,7 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 | **SliderComponentParameter** | `cc.Slider` | `progress`, `direction` |
 | **ToggleComponentParameter** | `cc.Toggle` | `isChecked`, `interactable` |
 
-📋 **[Full UI Layer reference →](reference/ui-layer.md)**
+📋 **[Full UI Layer reference →](getting-started/ui-layer.md)**
 
 ### ⚙️ Config Layer — Gameplay Values (Approval Required)
 
@@ -48,18 +48,7 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 | **Counts** | `spawnCount`, `maxBullets`, `livesCount` |
 | **Toggles** | `showTutorial`, `enableSound`, `showHPBar` |
 
-📋 **[Full Config Layer reference →](reference/config-layer.md)**
-
-### 📦 Composite Parameters — Pre-built Screen Bundles
-
-| Composite | Components |
-|-----------|------------|
-| **EndCardParameter** | Background (Sprite) + Title (Label) + Subtitle (Label) + CTA (Button) |
-| **LoadingScreenParameter** | Background (Color) + Icon (Sprite) + Game Name (Label) |
-| **TutorialHandParameter** | Hand (Sprite) + Animation Preset |
-| **RichTextParameter** | Label + Entrance Animation + Exit Animation + Auto-hide |
-
-📋 **[Full Composite reference →](reference/whats-included.md)**
+📋 **[Full Config Layer reference →](getting-started/config-layer.md)**
 
 ---
 
@@ -79,5 +68,5 @@ Parameters not in your dashboard require development. See [Custom Development](h
 ## Get Started
 
 1. **[Quick Start](getting-started/quick-start.md)** — Make your first change
-2. **[Common Tasks](getting-started/common-tasks.md)** — Essential customizations checklist
-3. **[UI Layer](reference/ui-layer.md)** — Full visual parameter reference
+2. **[What's Included — UI Layer](getting-started/ui-layer.md)** — Visual parameters (no cost)
+3. **[What's Included — Config Layer](getting-started/config-layer.md)** — Gameplay values
