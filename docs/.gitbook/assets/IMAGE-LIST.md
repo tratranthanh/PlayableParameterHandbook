@@ -21,7 +21,7 @@ Place all images in this folder (`docs/.gitbook/assets/`).
 
 ---
 
-## Config Layer — What's Included (5 images)
+## Config Layer — What's Included (6 images)
 
 | File | Dimensions | Description |
 |------|------------|-------------|
@@ -30,6 +30,7 @@ Place all images in this folder (`docs/.gitbook/assets/`).
 | `boolean-parameter-dashboard.png` | 600x150 | Dashboard toggle. Label "Show Tutorial", toggle ON (green). Maybe OFF state grayed below. |
 | `range-parameter-dashboard.png` | 600x150 | Dashboard slider. Label "Difficulty", slider at 7, min "1" max "10" labels, value "7" displayed. |
 | `select-parameter-dashboard.png` | 600x200 | Dashboard dropdown expanded. Label "Difficulty Preset", options: Easy, Medium (selected), Hard. |
+| `redirect-parameter-dashboard.png` | 700x250 | Recurring offer parameter. Show: ① `active` toggle (ON/OFF), ② `count` number input (e.g., 3), ③ visual diagram showing "tap 1 → tap 2 → tap 3 = redirect to store". Illustrate the recurring CTA behavior. |
 
 ---
 
@@ -67,16 +68,16 @@ Place all images in this folder (`docs/.gitbook/assets/`).
 
 ---
 
-## Total: 28 images
+## Total: 29 images
 
 | Section | Count |
 |---------|-------|
 | UI Layer (What's Included) | 10 |
-| Config Layer (What's Included) | 5 |
+| Config Layer (What's Included) | 6 |
 | Getting Started | 6 |
 | Branding | 4 |
 | Screens | 3 |
-| **Total** | **28** |
+| **Total** | **29** |
 
 ---
 

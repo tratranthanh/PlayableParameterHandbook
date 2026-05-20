@@ -47,6 +47,7 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 | **Speed** | `speedMultiplier`, `playerSpeed`, `enemySpeed` |
 | **Counts** | `spawnCount`, `maxBullets`, `livesCount` |
 | **Toggles** | `showTutorial`, `enableSound`, `showHPBar` |
+| **Recurring Offer** | `RedirectParameter` — `active`, `count` (redirect to store every N taps) |
 
 📋 **[Full Config Layer reference →](getting-started/config-layer.md)**
 
