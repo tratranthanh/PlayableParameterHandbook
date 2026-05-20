@@ -4,85 +4,79 @@ Place all images in this folder (`docs/.gitbook/assets/`).
 
 ---
 
+## UI Layer — What's Included (10 images)
+
+| File | Dimensions | Description |
+|------|------------|-------------|
+| `ui-layer-overview.png` | 1200x600 | Dashboard screenshot showing UI Layer parameters. Show: Sprite, Label, Button in sidebar. Preview panel updating in real-time. |
+| `sprite-parameter-anatomy.png` | 800x400 | Sprite element with callouts: ① `spriteFrame` (image), ② `spriteColor` (tint), ③ `position`, ④ `scale`, ⑤ `enable`. Show icon/logo example. |
+| `label-parameter-anatomy.png` | 800x400 | Text element with callouts: ① `string`, ② `labelColor`, ③ `fontSize`, ④ `outlineColor`/`outlineWidth`, ⑤ `shadowColor`/`shadowOffset`. |
+| `label-outline-examples.png` | 900x200 | "PLAY NOW" text 3x: outlineWidth 0 (none), 2 (thin), 4 (thick). Black outline on white text. Labels below. |
+| `button-parameter-anatomy.png` | 800x400 | CTA button with callouts: ① `spriteFrame` (bg), ② `spriteColor`, ③ `labelString`, ④ `labelColor`, ⑤ `labelFontSize`. Green button example. |
+| `progressbar-parameter-anatomy.png` | 800x200 | HP bar with callouts: ① Background track, ② Fill bar (green), ③ `progress` value (0.7 = 70%). |
+| `slider-parameter-anatomy.png` | 800x200 | Slider with callouts: ① Track, ② Handle/thumb, ③ `direction` indicator. Volume or difficulty slider. |
+| `toggle-parameter-anatomy.png` | 600x200 | Two states side-by-side: ① OFF (unchecked), ② ON (checked with checkmark). "Enable Sound" example. |
+| `color-parameter-format.png` | 600x200 | Hex format: `#FF5722` (solid orange swatch), `#FF572280` (50% transparent). Show alpha visualization. |
+| `animation-presets-overview.png` | 1000x400 | 4-panel grid: ① Entrance (appearing), ② Exit (disappearing), ③ Emphasis (pulsing), ④ Interactive (hand tap). Simple icons. |
+
+---
+
+## Config Layer — What's Included (5 images)
+
+| File | Dimensions | Description |
+|------|------------|-------------|
+| `config-layer-overview.png` | 1200x600 | Dashboard showing Config Layer. Show: HP, Timer, Difficulty parameters. Preview with HP bar and countdown updating. |
+| `number-parameter-dashboard.png` | 600x150 | Dashboard number input. Label "Player HP", input field "100", +/- buttons. Clean UI. |
+| `boolean-parameter-dashboard.png` | 600x150 | Dashboard toggle. Label "Show Tutorial", toggle ON (green). Maybe OFF state grayed below. |
+| `range-parameter-dashboard.png` | 600x150 | Dashboard slider. Label "Difficulty", slider at 7, min "1" max "10" labels, value "7" displayed. |
+| `select-parameter-dashboard.png` | 600x200 | Dashboard dropdown expanded. Label "Difficulty Preset", options: Easy, Medium (selected), Hard. |
+
+---
+
 ## Getting Started (6 images)
 
-| File | Description |
-|------|-------------|
-| `dashboard-overview.png` | Full dashboard interface. Show: ① Parameter sidebar (left), ② Preview panel (center), ③ Edit controls (right). Use numbered callouts. |
-| `dashboard-workflow.png` | Horizontal 4-step flow diagram: Select → Edit → Preview → Save. Arrows connecting each. |
-| `quick-start-login.png` | Login page screenshot. Show email field, password field, "Sign In" button. URL bar showing app.playablelabs.ai. |
-| `quick-start-select-parameter.png` | Dashboard with parameter highlighted in sidebar. Show cursor selecting "CTA Button" or similar. |
-| `quick-start-edit-save.png` | Edit panel close-up. Show text field being edited, live preview updating, Save button highlighted. |
-| `quick-start-before-after.png` | Side-by-side comparison. Left: "Before" with original button. Right: "After" with changed button. Clear labels. |
+| File | Dimensions | Description |
+|------|------------|-------------|
+| `dashboard-overview.png` | 1200x800 | Full dashboard. Callouts: ① Parameter sidebar, ② Preview panel, ③ Edit controls. |
+| `dashboard-workflow.png` | 1000x300 | 4-step flow: Select → Edit → Preview → Save. Arrows connecting. |
+| `quick-start-login.png` | 800x500 | Login page at app.playablelabs.ai. Email, password fields, Sign In button. |
+| `quick-start-select-parameter.png` | 1000x600 | Dashboard with "CTA Button" selected in sidebar. Cursor visible. |
+| `quick-start-edit-save.png` | 1000x600 | Edit panel close-up. Text field edited, preview updating, Save highlighted. |
+| `quick-start-before-after.png` | 1200x500 | Side-by-side: Before "Play Now" → After "Download Free". Clear labels. |
 
 ---
 
 ## Branding (4 images)
 
-| File | Description |
-|------|-------------|
-| `logo-upload-panel.png` | Logo upload interface. Show current logo thumbnail, Upload/Replace buttons, file size/format info. |
-| `logo-requirements.png` | Good vs bad comparison. Left: ✓ Correct (transparent PNG). Right: ✗ Incorrect (white background box). |
-| `color-picker.png` | Color picker interface. Show color wheel/gradient, selected swatch, hex input field showing `#FF5722`. |
-| `color-hex-input.png` | Close-up of hex input. Show format examples: `#FF5722` (solid), `#FF572280` (with alpha). |
+| File | Dimensions | Description |
+|------|------------|-------------|
+| `logo-upload-panel.png` | 800x500 | Logo upload UI. Current thumbnail, Upload/Replace buttons, file size info. |
+| `logo-requirements.png` | 1000x400 | Left: ✓ Correct (transparent PNG). Right: ✗ Incorrect (white background). |
+| `color-picker.png` | 600x400 | Color picker. Color wheel, selected swatch, hex input `#FF5722`. |
+| `color-hex-input.png` | 500x200 | Hex input close-up. `#FF5722` solid, `#FF572280` with alpha. |
 
 ---
 
-## UI Layer Reference (6 images)
+## Screens (3 images)
 
-| File | Description |
-|------|-------------|
-| `ui-layer-overview.png` | Diagram showing UI Layer components: Sprite, Label, Button nodes on a game screen. Callouts pointing to each. |
-| `sprite-parameter-anatomy.png` | Single sprite with callouts: ① `spriteFrame` (the image), ② `spriteColor` (tint), ③ `position`, ④ `scale`. |
-| `label-parameter-anatomy.png` | Single label with callouts: ① `string` (text), ② `labelColor`, ③ `fontSize`, ④ `outline`, ⑤ `shadow`. |
-| `label-outline-examples.png` | Same text shown 3 times with different outline widths: 0 (none), 2 (thin), 4 (thick). Labels below each. |
-| `button-parameter-anatomy.png` | Button with callouts: ① `spriteFrame` (background), ② `spriteColor`, ③ `labelString`, ④ `labelColor`, ⑤ `labelFontSize`. |
-| `color-parameter-format.png` | Color format diagram. Show: `#RRGGBB` breakdown with example `#FF5722`, plus `#RRGGBBAA` with alpha example. |
+| File | Dimensions | Description |
+|------|------------|-------------|
+| `end-card-overview.png` | 1200x600 | Win screen (left) and Lose screen (right). Clear labels. |
+| `loading-screen-elements.png` | 800x600 | Loading screen with callouts: ① Background, ② Logo, ③ Game Name, ④ Loading Icon. |
+| `loading-indicator-types.png` | 800x200 | 4 types: Spinner, Progress bar, Animated icon, None. Labels below. |
 
 ---
 
-## Config Layer Reference (1 image)
-
-| File | Description |
-|------|-------------|
-| `config-layer-overview.png` | Diagram showing Config Layer types: Number (slider), Boolean (toggle), Range (slider with min/max), Select (dropdown). |
-
----
-
-## Composite Parameters Reference (4 images)
-
-| File | Description |
-|------|-------------|
-| `composite-overview.png` | Diagram showing how composites bundle components. Show: Sprite + Label + Button = EndCardParameter. |
-| `endcard-parameter-anatomy.png` | End card screen with callouts: ① Background (Sprite), ② Title (Label), ③ Subtitle (Label), ④ CTA Button (Button). |
-| `loadingscreen-parameter-anatomy.png` | Loading screen with callouts: ① Background (Color), ② Logo (Sprite), ③ Game Name (Label), ④ Loading Icon (Sprite). |
-| `tutorialhand-parameter-anatomy.png` | Tutorial hand with callouts: ① Hand (Sprite), ② Animation preset indicator (tap/swipe/drag). |
-
----
-
-## Screens (5 images)
-
-| File | Description |
-|------|-------------|
-| `end-card-overview.png` | Win screen (left) and Lose screen (right) side-by-side. Clear "Win" / "Lose" labels. |
-| `end-card-elements.png` | Single end card with numbered callouts: ① Background, ② Title, ③ Subtitle, ④ CTA Button. |
-| `end-card-cta.png` | CTA button close-up with property controls visible: text input, color pickers for background and text. |
-| `loading-screen-elements.png` | Loading screen with callouts: ① Background, ② Logo, ③ Game Name, ④ Loading Icon. |
-| `loading-indicator-types.png` | 4 loading indicators side-by-side: Spinner, Progress bar, Animated icon, None. Labels below each. |
-
----
-
-## Total: 26 images
+## Total: 28 images
 
 | Section | Count |
 |---------|-------|
+| UI Layer (What's Included) | 10 |
+| Config Layer (What's Included) | 5 |
 | Getting Started | 6 |
 | Branding | 4 |
-| UI Layer Reference | 6 |
-| Config Layer Reference | 1 |
-| Composite Parameters | 4 |
-| Screens | 5 |
-| **Total** | **26** |
+| Screens | 3 |
+| **Total** | **28** |
 
 ---
 
@@ -90,16 +84,26 @@ Place all images in this folder (`docs/.gitbook/assets/`).
 
 | Property | Value |
 |----------|-------|
-| Format | PNG |
+| Format | PNG (transparency for callouts) |
 | Max width | 1200px |
 | Background | Light gray (#F5F5F5) or white |
-| Annotations | Red (#E53935) circles/arrows with white numbers |
-| Labels | Sans-serif font (Inter, Roboto, system) |
+| Annotations | Red (#E53935) circles with white numbers |
+| Font | Sans-serif (Inter, Roboto, system) |
 
 ### Annotation Style
 
 ```
-① ② ③ ④ ⑤  ← Use circled numbers for callouts
-✓ ✗         ← Use for correct/incorrect comparisons
-→            ← Use arrows for flow diagrams
+① ② ③ ④ ⑤  ← Circled numbers for callouts
+✓ ✗         ← Correct/incorrect comparisons
+→            ← Flow diagram arrows
 ```
+
+### Dashboard Screenshots
+- Use actual dashboard UI or high-fidelity mockup
+- Light theme preferred
+- Highlight active elements with subtle glow/border
+
+### Anatomy Images
+- Clean, isolated component on neutral background
+- Component large and centered
+- Callout lines should not overlap

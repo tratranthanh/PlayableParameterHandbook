@@ -275,6 +275,8 @@ Maps to `cc.Widget`. Controls anchoring and alignment.
 
 Maps to `cc.ProgressBar`. Controls progress indicators.
 
+<figure><img src="../.gitbook/assets/progressbar-parameter-anatomy.png" alt="ProgressBar Anatomy"><figcaption>ProgressBar: background, fill bar, progress value 0-1</figcaption></figure>
+
 ### Properties
 
 | Property | Config Key | Type | Description |
@@ -290,6 +292,8 @@ Maps to `cc.ProgressBar`. Controls progress indicators.
 
 Maps to `cc.Slider`. Controls slider inputs.
 
+<figure><img src="../.gitbook/assets/slider-parameter-anatomy.png" alt="Slider Anatomy"><figcaption>Slider: track, handle, direction indicator</figcaption></figure>
+
 ### Properties
 
 | Property | Config Key | Type | Description |
@@ -302,6 +306,8 @@ Maps to `cc.Slider`. Controls slider inputs.
 ## ToggleComponentParameter
 
 Maps to `cc.Toggle`. Controls checkbox/toggle states.
+
+<figure><img src="../.gitbook/assets/toggle-parameter-anatomy.png" alt="Toggle Anatomy"><figcaption>Toggle: checked state, unchecked state, checkmark sprite</figcaption></figure>
 
 ### Properties
 
@@ -396,6 +402,8 @@ Pre-built presets for common UI patterns (auto-detected during scan):
 ## Animation Presets
 
 Animation presets add visual polish to UI elements. Used for tutorial hands, text entrances, button feedback.
+
+<figure><img src="../.gitbook/assets/animation-presets-overview.png" alt="Animation Presets Overview"><figcaption>Animation presets: Entrance (appear), Exit (disappear), Emphasis (attention), Interactive (gestures)</figcaption></figure>
 
 ### Entrance Animations
 

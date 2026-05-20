@@ -26,6 +26,8 @@ The Config Layer controls **gameplay values** — health, damage, timing, speed,
 
 Numeric values for gameplay mechanics.
 
+<figure><img src="../.gitbook/assets/number-parameter-dashboard.png" alt="NumberParameter in Dashboard"><figcaption>NumberParameter: number input field with optional min/max/step</figcaption></figure>
+
 ### Properties
 
 | Property | Type | Description |
@@ -62,6 +64,8 @@ Numeric values for gameplay mechanics.
 
 True/false toggles for features.
 
+<figure><img src="../.gitbook/assets/boolean-parameter-dashboard.png" alt="BooleanParameter in Dashboard"><figcaption>BooleanParameter: on/off toggle switch</figcaption></figure>
+
 ### Properties
 
 | Property | Type | Description |
@@ -86,6 +90,8 @@ True/false toggles for features.
 
 Numeric values with defined min/max bounds. Displayed as sliders in the dashboard.
 
+<figure><img src="../.gitbook/assets/range-parameter-dashboard.png" alt="RangeParameter in Dashboard"><figcaption>RangeParameter: slider with min/max bounds and current value</figcaption></figure>
+
 ### Properties
 
 | Property | Type | Description |
@@ -109,6 +115,8 @@ Numeric values with defined min/max bounds. Displayed as sliders in the dashboar
 ## SelectParameter
 
 Dropdown selection from predefined options.
+
+<figure><img src="../.gitbook/assets/select-parameter-dashboard.png" alt="SelectParameter in Dashboard"><figcaption>SelectParameter: dropdown with predefined options (Easy/Medium/Hard)</figcaption></figure>
 
 ### Properties
 
