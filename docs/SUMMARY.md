@@ -26,7 +26,9 @@
   * [End Cards](screens/end-cards.md)
 
 * [Reference](reference/README.md)
-  * [What's Included](reference/whats-included.md)
+  * [UI Layer](reference/ui-layer.md)
+  * [Config Layer](reference/config-layer.md)
+  * [Composite Parameters](reference/whats-included.md)
   * [Common Parameters](reference/common-parameters.md)
   * [File Formats](reference/file-formats.md)
   * [Limits & Constraints](reference/limits.md)

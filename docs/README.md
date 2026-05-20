@@ -14,43 +14,59 @@ Customize your playable ad at [app.playablelabs.ai](https://app.playablelabs.ai/
 
 ---
 
-## Quick Links
+## What's Included
 
-| 📋 [Common Parameters](reference/common-parameters.md) | ❓ [FAQ](help/faq.md) | 🚀 [Quick Start](getting-started/quick-start.md) |
-|--------------------------------------------------|----------------------|--------------------------------------------------|
+**Two-layer system — UI is automatic, Config requires approval.**
+
+### 🎨 UI Layer — Visual Components (Auto)
+
+**Always included. No approval needed.** Changes apply instantly.
+
+| ComponentParameter | Cocos Component | What You Change |
+|--------------------|-----------------|-----------------|
+| **SpriteComponentParameter** | `cc.Sprite` | `spriteFrame`, `spriteColor`, `position`, `scale`, `contentSize`, `enable` |
+| **LabelComponentParameter** | `cc.Label` | `string`, `labelColor`, `fontSize`, `lineHeight`, `isBold`, `isItalic`, `outlineColor`, `outlineWidth`, `shadowColor`, `shadowOffset`, `enable` |
+| **ButtonComponentParameter** | `cc.Button` | All Sprite fields + `labelString`, `labelColor`, `labelFontSize`, `labelBold`, `labelOutlineColor`, `labelOutlineWidth` |
+| **TransformComponentParameter** | `cc.Node` | `position`, `rotation`, `scale` |
+| **UIOpacityComponentParameter** | `cc.UIOpacity` | `opacity` |
+| **ProgressBarComponentParameter** | `cc.ProgressBar` | `progress`, `totalLength`, `reverse` |
+| **SliderComponentParameter** | `cc.Slider` | `progress`, `direction` |
+| **ToggleComponentParameter** | `cc.Toggle` | `isChecked`, `interactable` |
+
+📋 **[Full UI Layer reference →](reference/ui-layer.md)**
+
+### ⚙️ Config Layer — Gameplay Values (Approval Required)
+
+**Included if parameter exists in your dashboard.** Affects gameplay balance.
+
+| Category | Parameters |
+|----------|------------|
+| **Health** | `playerHP`, `enemyHP`, `bossHP` |
+| **Damage** | `damage`, `playerDamage`, `enemyDamage` |
+| **Timing** | `timerDuration`, `cooldown`, `delay`, `spawnInterval` |
+| **Speed** | `speedMultiplier`, `playerSpeed`, `enemySpeed` |
+| **Counts** | `spawnCount`, `maxBullets`, `livesCount` |
+| **Toggles** | `showTutorial`, `enableSound`, `showHPBar` |
+
+📋 **[Full Config Layer reference →](reference/config-layer.md)**
+
+### 📦 Composite Parameters — Pre-built Screen Bundles
+
+| Composite | Components |
+|-----------|------------|
+| **EndCardParameter** | Background (Sprite) + Title (Label) + Subtitle (Label) + CTA (Button) |
+| **LoadingScreenParameter** | Background (Color) + Icon (Sprite) + Game Name (Label) |
+| **TutorialHandParameter** | Hand (Sprite) + Animation Preset |
+| **RichTextParameter** | Label + Entrance Animation + Exit Animation + Auto-hide |
+
+📋 **[Full Composite reference →](reference/whats-included.md)**
 
 ---
 
-## What's Included
+## Quick Links
 
-**If it's in your dashboard, you can change it — no extra cost.**
-
-Parameters are organized into two layers:
-
-| Layer | What You Change | Examples |
-|-------|-----------------|----------|
-| **UI Layer** | Visual appearance | Images, text, colors, buttons, opacity, animations |
-| **Config Layer** | Gameplay values | HP, damage, timers, speed, counts, toggles |
-
-### UI Layer Parameters
-- **Sprite** — Logo, icons, backgrounds, characters (`spriteFrame`, `spriteColor`, `position`, `scale`)
-- **Label** — All text (`string`, `labelColor`, `fontSize`, `outline`, `shadow`)
-- **Button** — CTA buttons (`spriteFrame`, `labelString`, `labelColor`, `labelFontSize`)
-- **Color** — Any color value (hex format: `#FF5722` or with alpha: `#FF572280`)
-
-### Config Layer Parameters
-- **Number** — HP, damage, timer duration, speed, counts
-- **Boolean** — Show/hide toggles, enable/disable features
-- **Range** — Sliders with min/max (difficulty, volume)
-- **Select** — Dropdown choices (presets, themes)
-
-### Composite Parameters
-- **End Card** — Background + title + subtitle + CTA button
-- **Loading Screen** — Background color + icon + game name
-- **Tutorial Hand** — Hand sprite + animation preset
-- **Rich Text** — Label + entrance/exit animations
-
-📋 **[Full parameter reference →](reference/whats-included.md)**
+| 📋 [Common Parameters](reference/common-parameters.md) | ❓ [FAQ](help/faq.md) | 🚀 [Quick Start](getting-started/quick-start.md) |
+|--------------------------------------------------------|----------------------|--------------------------------------------------|
 
 ---
 
@@ -64,4 +80,4 @@ Parameters not in your dashboard require development. See [Custom Development](h
 
 1. **[Quick Start](getting-started/quick-start.md)** — Make your first change
 2. **[Common Tasks](getting-started/common-tasks.md)** — Essential customizations checklist
-3. **[Common Parameters](reference/common-parameters.md)** — Full reference list
+3. **[UI Layer](reference/ui-layer.md)** — Full visual parameter reference

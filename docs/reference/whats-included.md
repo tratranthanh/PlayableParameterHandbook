@@ -1,256 +1,255 @@
-# What's Included
+# Composite Parameters
 
-Every parameter visible in your dashboard is included at no extra cost. This page explains exactly what you can customize.
+Composite parameters bundle multiple ComponentParameters into a single configurable unit using `ObjectParameter<T>`. These control entire screens or complex UI elements and are included in your dashboard.
 
----
+<figure><img src="../.gitbook/assets/composite-overview.png" alt="Composite Parameters Overview"><figcaption>Composites bundle Sprite + Label + Button into screen-level parameters</figcaption></figure>
 
-## The Two-Layer System
-
-Your playable ad parameters are organized into two layers:
-
-| Layer | What It Controls | Examples |
-|-------|------------------|----------|
-| **UI Layer** | Visual appearance | Images, text, colors, button styling, opacity |
-| **Config Layer** | Gameplay values | HP, damage, timers, speed, counts, toggles |
-
-**Both layers are included** — if you see the parameter in your dashboard, you can change it.
+{% hint style="info" %}
+**Architecture Rule:** Composites use flat structure with typed child fields. Never nest `ObjectParameter` inside `ObjectParameter`.
+{% endhint %}
 
 ---
 
-## UI Layer Parameters
+## EndCardParameter
 
-Visual components that change how things look.
+Controls the entire end card screen (win/lose). Defined in `PlayableParamterTool/parameter/composite/EndCardParameter.ts`.
 
-### Sprite Parameters (Images)
+<figure><img src="../.gitbook/assets/endcard-parameter-anatomy.png" alt="EndCardParameter Anatomy"><figcaption>EndCardParameter: Background (Sprite) + Title (Label) + Subtitle (Label) + CTA (Button)</figcaption></figure>
 
-Control any image element in your playable.
+### Components
 
-| Property | What It Does | Example Value |
-|----------|--------------|---------------|
-| `spriteFrame` | The image file | Upload PNG/JPG |
-| `spriteColor` | Tint overlay color | `#FFFFFF` (white = no tint) |
-| `enable` | Show or hide | `true` / `false` |
-| `position` | Location on screen | `{x: 0, y: 100}` |
-| `scale` | Size multiplier | `{x: 1.0, y: 1.0}` |
-| `contentSize` | Explicit dimensions | `{x: 512, y: 512}` |
+| Component | Type | All Properties Included |
+|-----------|------|-------------------------|
+| Background | `SpriteParameter` | `enable`, `position`, `contentSize`, `scale`, `spriteFrame`, `spriteColor` |
+| Title | `LabelParameter` | `enable`, `position`, `string`, `labelColor`, `fontSize`, `lineHeight`, `isBold`, `isItalic`, `outlineColor`, `outlineWidth`, `shadowColor`, `shadowOffset` |
+| Subtitle | `LabelParameter` | `enable`, `position`, `string`, `labelColor`, `fontSize` |
+| CTA Button | `ButtonParameter` | All SpriteParameter fields + `labelString`, `labelColor`, `labelFontSize`, `labelBold`, `labelOutlineColor`, `labelOutlineWidth` |
 
-**Common uses:** Logo, app icon, backgrounds, character sprites, UI icons, currency icons
+### Config Interface
 
----
+```typescript
+interface EndCardConfig {
+    background: SpriteParameterValues;
+    title: LabelParameterValues;
+    subtitle: LabelParameterValues;
+    ctaButton: ButtonParameterValues;
+}
+```
 
-### Label Parameters (Text)
+### Example Configuration
 
-Control any text element in your playable.
-
-| Property | What It Does | Example Value |
-|----------|--------------|---------------|
-| `string` | The text content | `"Download Now"` |
-| `labelColor` | Text color | `#FFFFFF` |
-| `fontSize` | Text size | `48` |
-| `lineHeight` | Line spacing | `0` (auto) |
-| `isBold` | Bold style | `true` / `false` |
-| `isItalic` | Italic style | `true` / `false` |
-| `isUnderline` | Underline style | `true` / `false` |
-| `outlineColor` | Text outline color | `#000000` |
-| `outlineWidth` | Outline thickness | `2` (0 = none) |
-| `shadowColor` | Drop shadow color | `#000000` |
-| `shadowOffset` | Shadow position | `{x: 2, y: -2}` |
-| `enable` | Show or hide | `true` / `false` |
-| `position` | Location on screen | `{x: 0, y: 200}` |
-
-**Common uses:** Headlines, CTA text, instructions, score labels, timer text, tutorial text
-
----
-
-### Button Parameters
-
-Buttons combine a sprite background with a text label.
-
-| Property | What It Does | Example Value |
-|----------|--------------|---------------|
-| `spriteFrame` | Button background image | Upload PNG |
-| `spriteColor` | Background tint | `#FF5722` |
-| `labelString` | Button text | `"Play Now"` |
-| `labelColor` | Text color | `#FFFFFF` |
-| `labelFontSize` | Text size | `36` |
-| `labelBold` | Bold text | `true` / `false` |
-| `labelOutlineColor` | Text outline | `#000000` |
-| `labelOutlineWidth` | Outline thickness | `0` |
-| `enable` | Show or hide | `true` / `false` |
-| `position` | Location on screen | `{x: 0, y: -200}` |
-| `scale` | Size multiplier | `{x: 1.0, y: 1.0}` |
-
-**Common uses:** CTA button, play button, retry button, skip button
+| Component | Property | Value |
+|-----------|----------|-------|
+| Background | `spriteFrame` | `"win-bg.png"` |
+| Background | `spriteColor` | `#000000` (darken overlay) |
+| Title | `string` | `"You Won!"` |
+| Title | `labelColor` | `#FFFFFF` |
+| Title | `fontSize` | `72` |
+| Title | `outlineWidth` | `4` |
+| Subtitle | `string` | `"Play the full game"` |
+| Subtitle | `labelColor` | `#CCCCCC` |
+| CTA Button | `labelString` | `"Download Now"` |
+| CTA Button | `spriteColor` | `#4CAF50` |
+| CTA Button | `labelColor` | `#FFFFFF` |
 
 ---
 
-### Color Parameters
+## LoadingScreenParameter
 
-Standalone color values for UI elements.
+Controls the loading screen appearance. Defined in `PlayableParamterTool/parameter/composite/LoadingScreenParameter.ts`.
 
-| Format | Example | Notes |
-|--------|---------|-------|
-| Hex (no alpha) | `#FF5722` | Solid color |
-| Hex (with alpha) | `#FF572280` | 50% transparent |
+<figure><img src="../.gitbook/assets/loadingscreen-parameter-anatomy.png" alt="LoadingScreenParameter Anatomy"><figcaption>LoadingScreenParameter: Background (Color) + Icon (Sprite) + Game Name (Label)</figcaption></figure>
 
-**Common uses:** HP bar fill, timer warning color, score highlight, UI backgrounds
+### Components
 
----
+| Component | Type | All Properties Included |
+|-----------|------|-------------------------|
+| Background | `ColorParameter` | Solid color value `#RRGGBB` |
+| Icon | `SpriteParameter` | `enable`, `position`, `contentSize`, `scale`, `spriteFrame`, `spriteColor` |
+| Game Name | `LabelParameter` | `enable`, `position`, `string`, `labelColor`, `fontSize`, `lineHeight`, `outlineColor`, `outlineWidth` |
 
-## Config Layer Parameters
+### Config Interface
 
-Gameplay values that change how the game plays.
+```typescript
+interface LoadingScreenConfig {
+    backgroundColor: ColorParameterValues;
+    icon: SpriteParameterValues;
+    gameName: LabelParameterValues;
+}
+```
 
-### Number Parameters
+### Example Configuration
 
-| Property | What It Does | Example Value |
-|----------|--------------|---------------|
-| Timer duration | Countdown time | `30` (seconds) |
-| Player HP | Health points | `100` |
-| Enemy HP | Enemy health | `50` |
-| Damage value | Attack strength | `25` |
-| Speed multiplier | Movement speed | `1.5` |
-| Spawn count | Number of enemies | `5` |
-| Attempt limit | Max tries | `3` |
-| Cooldown | Wait between actions | `2.0` (seconds) |
-
----
-
-### Boolean Parameters (Toggles)
-
-| Property | What It Does | Values |
-|----------|--------------|--------|
-| Show tutorial | Display tutorial | `true` / `false` |
-| Show timer | Display countdown | `true` / `false` |
-| Show score | Display points | `true` / `false` |
-| Show HP bar | Display health | `true` / `false` |
-| Enable sound | Play audio | `true` / `false` |
-| Enable haptics | Vibration feedback | `true` / `false` |
+| Component | Property | Value |
+|-----------|----------|-------|
+| Background | color | `#1A1A2E` |
+| Icon | `spriteFrame` | `"spinner.png"` |
+| Icon | `spriteColor` | `#FFFFFF` |
+| Game Name | `string` | `"My Game"` |
+| Game Name | `labelColor` | `#FFFFFF` |
+| Game Name | `fontSize` | `48` |
 
 ---
 
-### Range Parameters (Sliders)
+## TutorialHandParameter
 
-Numbers with defined minimum and maximum.
+Controls the animated tutorial hand indicator. Defined in `PlayableParamterTool/parameter/composite/TutorialHandParameter.ts`.
 
-| Property | Range | Example |
-|----------|-------|---------|
-| Difficulty | 1-10 | `5` |
-| Volume | 0-100 | `80` |
-| Speed | 0.5-2.0 | `1.0` |
+<figure><img src="../.gitbook/assets/tutorialhand-parameter-anatomy.png" alt="TutorialHandParameter Anatomy"><figcaption>TutorialHandParameter: Hand (Sprite) + Animation Preset</figcaption></figure>
 
----
+### Components
 
-### Select Parameters (Dropdowns)
+| Component | Type | All Properties Included |
+|-----------|------|-------------------------|
+| Hand | `SpriteParameter` | `enable`, `position`, `contentSize`, `scale`, `spriteFrame`, `spriteColor` |
+| Animation | `AnimationPresetParameter` | Preset selection from catalog |
 
-Choose from predefined options.
+### Config Interface
 
-| Property | Options | Example |
-|----------|---------|---------|
-| Difficulty preset | Easy, Medium, Hard | `Medium` |
-| Theme | Light, Dark, Custom | `Dark` |
-| Language | EN, ES, FR, etc. | `EN` |
+```typescript
+interface TutorialHandConfig {
+    sprite: SpriteParameterValues;
+    animation: AnimationPresetConfig;
+}
+```
 
----
-
-## Composite Parameters
-
-Pre-built combinations that control entire screens or complex elements.
-
-### End Card Parameter
-
-Controls the entire win/lose screen.
-
-| Component | What You Can Change |
-|-----------|---------------------|
-| Background | Image or color |
-| Title | Text, color, size, outline |
-| Subtitle | Text, color, size |
-| CTA Button | Image, text, colors, size |
-
----
-
-### Loading Screen Parameter
-
-Controls the loading screen appearance.
-
-| Component | What You Can Change |
-|-----------|---------------------|
-| Background | Solid color |
-| Icon | Loading spinner image |
-| Game Name | Text, color, size |
-
----
-
-### Tutorial Hand Parameter
-
-Controls the animated tutorial indicator.
-
-| Component | What You Can Change |
-|-----------|---------------------|
-| Hand Image | Sprite and color |
-| Animation | Preset animation style |
-
----
-
-### Rich Text Parameter
-
-Text with entrance/exit animations.
-
-| Component | What You Can Change |
-|-----------|---------------------|
-| Text | Content, color, size, styling |
-| Entrance Animation | Fade, slide, scale, etc. |
-| Exit Animation | Fade, slide, scale, etc. |
-| Auto Hide | Duration before hiding |
-
----
-
-## Animation Presets
-
-Built-in animation styles you can apply to any compatible element.
+### Animation Presets
 
 | Category | Presets |
 |----------|---------|
-| **Entrance** | Fade In, Scale Up, Slide In, Bounce In, Pop |
-| **Emphasis** | Pulse, Shake, Bounce, Wiggle, Glow |
-| **Exit** | Fade Out, Scale Down, Slide Out, Shrink |
-| **Interactive** | Tap, Press, Swipe, Drag |
+| **Interactive** | `tap`, `press`, `swipe`, `drag` |
+| **Entrance** | `fadeIn`, `scaleUp`, `slideIn`, `bounceIn`, `pop` |
+| **Emphasis** | `pulse`, `shake`, `bounce`, `wiggle`, `glow`, `heartbeat` |
 
 ---
 
-## Audio Parameters
+## RichTextParameter
 
-Sound customization options.
+Text with entrance and exit animations. Defined in `PlayableParamterTool/parameter/composite/RichTextParameter.ts`.
 
-| Property | What It Does | Format |
-|----------|--------------|--------|
-| Background Music | Looping audio track | MP3/OGG |
-| Sound Effects | One-shot audio clips | MP3/OGG |
-| Volume | Audio level | 0-100 |
-| Mute | Disable all audio | `true` / `false` |
+### Components
+
+| Component | Type | All Properties Included |
+|-----------|------|-------------------------|
+| Label | `LabelParameter` | `enable`, `position`, `string`, `labelColor`, `fontSize`, `lineHeight`, `isBold`, `isItalic`, `outlineColor`, `outlineWidth`, `shadowColor`, `shadowOffset` |
+| Entrance | `AnimationPresetParameter` | Animation when appearing |
+| Exit | `AnimationPresetParameter` | Animation when disappearing |
+| Auto Hide | `BooleanParameter` | Hide after duration |
+| Auto Hide Delay | `NumberParameter` | Display time (seconds) |
+
+### Config Interface
+
+```typescript
+interface RichTextConfig {
+    label: LabelParameterValues;
+    entrance: AnimationPresetConfig;
+    exit: AnimationPresetConfig;
+    autoHide: boolean;
+    autoHideDelay: number;
+}
+```
+
+### Animation Presets
+
+| Category | Options |
+|----------|---------|
+| **Entrance** | `fadeIn`, `scaleUp`, `slideInLeft`, `slideInRight`, `slideInTop`, `slideInBottom`, `bounceIn`, `pop` |
+| **Exit** | `fadeOut`, `scaleDown`, `slideOutLeft`, `slideOutRight`, `slideOutTop`, `slideOutBottom`, `shrink` |
 
 ---
 
-## What's NOT Included
+## AnimationPresetParameter
 
-These require [Custom Development](../help/custom-development.md):
+Standalone animation preset selection. Used within composites for entrance, exit, and emphasis animations.
 
-| Category | Examples |
-|----------|----------|
-| **New game mechanics** | New enemy types, new power-ups, new win conditions |
-| **New AI behavior** | Smarter enemies, dynamic difficulty, pathfinding |
-| **New spawn patterns** | Wave systems, procedural generation |
-| **Asset processing** | Generate map from image, new animation frames |
-| **New UI systems** | New screen types, new interactions |
-| **New parameters** | Adding parameters that don't exist in current build |
+### Available Presets
 
-**Rule of thumb:** If the parameter isn't in your dashboard, it doesn't exist in your build yet.
+| Category | Presets |
+|----------|---------|
+| **Entrance** | `fadeIn`, `scaleUp`, `slideInLeft`, `slideInRight`, `slideInTop`, `slideInBottom`, `bounceIn`, `pop` |
+| **Emphasis** | `pulse`, `shake`, `bounce`, `wiggle`, `glow`, `heartbeat` |
+| **Exit** | `fadeOut`, `scaleDown`, `slideOutLeft`, `slideOutRight`, `slideOutTop`, `slideOutBottom`, `shrink` |
+| **Interactive** | `tap`, `press`, `swipe`, `drag` |
+
+---
+
+## RedirectParameter
+
+Controls store redirect behavior (standalone, not a composite).
+
+### Properties
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `active` | `BooleanParameter` | Enable redirect |
+| `count` | `NumberParameter` | Redirect after N interactions |
+
+---
+
+## NodePreset Catalog
+
+Pre-built presets for common UI patterns. These are auto-detected during Canvas scan and composed from ComponentParameters.
+
+| Preset | Components | Use Case |
+|--------|------------|----------|
+| **Button** | Node + UITransform + Sprite + Label + Button + UIOpacity | CTA buttons |
+| **Image** | Node + UITransform + Sprite + UIOpacity | Backgrounds, icons |
+| **Text** | Node + UITransform + Label + UIOpacity | Titles, descriptions |
+| **Slider** | Node + UITransform + Sprite + Slider + UIOpacity | Settings sliders |
+| **Toggle** | Node + UITransform + Sprite + Toggle + UIOpacity | Checkboxes |
+| **CurrencyUI** | Node(root) + Node(icon) + Label(counter) | Currency displays (coins, gems) |
+| **HPBar** | Node(root) + Sprite(bg) + Sprite(fill) + Label(text)? | Health/progress bars |
+| **Countdown** | Node(root) + Label(prep) + Label(number) | Countdown timers |
+| **IconLabel** | Node(root) + Sprite(icon) + Label(text) | Icon + text combos |
+
+### CurrencyUI Preset Example
+
+```typescript
+export class CurrencyUIParameter {
+    rootNode: UINodeParameter;
+    icon: SpriteParameter;
+    counter: LabelParameter;
+}
+```
+
+### HPBar Preset Example
+
+```typescript
+export class HPBarUIParameter {
+    rootNode: UINodeParameter;
+    background: SpriteParameter;
+    fill: SpriteParameter;
+    text?: LabelParameter;  // optional
+}
+```
+
+---
+
+## Creating Custom Composites
+
+Custom composites are defined in `scripts/parameter/config/CustomParameter.ts` using flat `ObjectParameter<T>` structure:
+
+```typescript
+export class MyScreenParameter extends ObjectParameter<{
+  background: SpriteParameter;
+  title: LabelParameter;
+  button: ButtonParameter;
+}> {
+  // Flat structure — no nested ObjectParameter
+}
+```
+
+{% hint style="warning" %}
+**Never modify `PlayableParamterTool/`** (submodule) for project-specific types. All custom composites go in `CustomParameter.ts`.
+{% endhint %}
+
+Custom composites require development. See [Custom Development](../help/custom-development.md).
 
 ---
 
 ## Related
 
-- [Common Parameters](common-parameters.md) — Quick reference of typical parameters
-- [Custom Development](../help/custom-development.md) — Request new features
-- [File Formats](file-formats.md) — Asset specifications
+- [UI Layer](ui-layer.md) — ComponentParameters (auto-applied)
+- [Config Layer](config-layer.md) — Gameplay values (requires approval)
+- [End Cards](../screens/end-cards.md) — Using EndCardParameter
+- [Loading Screen](../screens/loading.md) — Using LoadingScreenParameter

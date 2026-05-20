@@ -1,22 +1,50 @@
 # Reference
 
-Quick lookup guides for Parameter Dashboard.
+Complete parameter reference organized by layer.
 
-## In This Section
+---
 
-| Guide | What You'll Find |
-|-------|------------------|
-| [Common Parameters](common-parameters.md) | Parameters found in most playables |
-| [File Formats](file-formats.md) | Image and asset specifications |
-| [Limits & Constraints](limits.md) | Character limits and file sizes |
+## Parameter Layers
 
-## Quick Links
+| Layer | What It Controls | Cost |
+|-------|------------------|------|
+| **[UI Layer](ui-layer.md)** | Visual appearance (images, text, colors, buttons) | ✅ Always included |
+| **[Config Layer](config-layer.md)** | Gameplay values (HP, timers, speed, toggles) | ✅ Included if in dashboard |
+| **[Composites](whats-included.md)** | Pre-built screen bundles | ✅ Included if in dashboard |
 
-### Need to prepare assets?
-Check [File Formats](file-formats.md) for size and format requirements.
+---
 
-### Looking for common settings?
-See [Common Parameters](common-parameters.md) — your dashboard shows your actual parameters.
+## Quick Reference
 
-### Hitting a limit?
-Review [Limits & Constraints](limits.md) for all size restrictions.
+### UI Layer Components
+
+| Component | Node Type | Key Properties |
+|-----------|-----------|----------------|
+| `SpriteParameter` | `cc.Sprite` | `spriteFrame`, `spriteColor`, `position`, `scale` |
+| `LabelParameter` | `cc.Label` | `string`, `labelColor`, `fontSize`, `outline`, `shadow` |
+| `ButtonParameter` | `cc.Button` | Sprite + `labelString`, `labelColor`, `labelFontSize` |
+
+### Config Layer Types
+
+| Type | Input | Example |
+|------|-------|---------|
+| `NumberParameter` | Number field | `100` |
+| `BooleanParameter` | Toggle | `true` |
+| `RangeParameter` | Slider | `0.5` (min-max) |
+| `SelectParameter` | Dropdown | `"medium"` |
+
+### Composite Parameters
+
+| Composite | Components |
+|-----------|------------|
+| `EndCardParameter` | Background + Title + Subtitle + CTA |
+| `LoadingScreenParameter` | Background + Icon + Game Name |
+| `TutorialHandParameter` | Hand + Animation |
+
+---
+
+## Other References
+
+- **[Common Parameters](common-parameters.md)** — Parameters found in most builds
+- **[File Formats](file-formats.md)** — Image and audio specifications
+- **[Limits & Constraints](limits.md)** — Size and character limits

@@ -8,8 +8,11 @@
 ## Summary
 
 - **Total images needed:** 32
-- **Documentation updated:** 7 files aligned with `t1k-cocos-cocos-base-playable-parameter` skill
-- **New page created:** `reference/whats-included.md` — comprehensive parameter reference
+- **Documentation structure:**
+  - `reference/ui-layer.md` — **NEW** — Detailed UI Layer reference (Sprite, Label, Button)
+  - `reference/config-layer.md` — **NEW** — Config Layer reference (Number, Boolean, Range)
+  - `reference/whats-included.md` — Renamed to Composite Parameters reference
+  - Navigation restructured: UI Layer → Config Layer → Composites → Common → Formats → Limits
 
 ---
 
@@ -131,26 +134,61 @@ Use numbered callouts (①②③④⑤) with legend below:
 
 ---
 
-## Parameter System Alignment
+## Parameter System Alignment (v5.1 — Two-Layer)
 
-Documentation now reflects the actual `t1k-cocos-cocos-base-playable-parameter` skill:
+Documentation now reflects the atomic ComponentParameter architecture from `t1k-cocos-cocos-base-playable-parameter` skill v2.2.0:
 
-### Base Types Documented
+### Two-Layer System
+| Layer | Flag | Approval | Use Case |
+|---|---|---|---|
+| **UI Layer** | `--ui` | None (auto) | Visual components — auto-scanned from Canvas |
+| **Config Layer** | `--config` | Required | Gameplay values — requires human approval |
+
+### Base Parameter Types
 - `NumberParameter`, `BooleanParameter`, `ColorParameter`, `TextParameter`
 - `ImageParameter`, `AudioParameter`, `RangeParameter`, `CoordinatesParameter`
-- `SelectParameter`
+- `SelectParameter`, `ObjectParameter<T>`
 
-### Component Types Documented
-- `SpriteParameter` — Images with position, scale, color
-- `LabelParameter` — Text with color, size, outline, shadow
-- `ButtonParameter` — Sprite + Label combined
-- `UINodeParameter` — Base for UI elements
+### ComponentParameter Registry (UI Layer)
+| Parameter | Maps To | Key Fields |
+|---|---|---|
+| `TransformComponentParameter` | cc.Node | position, rotation, scale |
+| `UIOpacityComponentParameter` | cc.UIOpacity | opacity |
+| `WidgetComponentParameter` | cc.Widget | top, bottom, left, right, alignMode |
+| `SpriteComponentParameter` | cc.Sprite | spriteFrame, color, type, fillType, fillStart, fillRange |
+| `LabelComponentParameter` | cc.Label | string, fontSize, color, outline (enable, color, width), shadow (enable, color, offset) |
+| `ButtonComponentParameter` | cc.Button | transition, interactable, zoomScale, normalColor, pressedColor |
+| `CameraComponentParameter` | cc.Camera | projection, fov, orthoHeight, clearColor |
+| `ProgressBarComponentParameter` | cc.ProgressBar | mode, totalLength, progress, reverse |
+| `SliderComponentParameter` | cc.Slider | direction, progress |
+| `ToggleComponentParameter` | cc.Toggle | isChecked, interactable |
+| `LayoutComponentParameter` | cc.Layout | type, resizeMode, spacing |
+| `MaskComponentParameter` | cc.Mask | inverted, alphaThreshold |
 
-### Composite Types Documented
-- `EndCardParameter` — Background + Title + Subtitle + CTA
-- `LoadingScreenParameter` — Background + Icon + Game Name
-- `TutorialHandParameter` — Hand + Animation preset
-- `RichTextParameter` — Label + entrance/exit animations
+### NodePreset Catalog
+| Preset | Components | Use Case |
+|---|---|---|
+| Button | Node + UITransform + Sprite + Label + Button + UIOpacity | CTA buttons |
+| Image | Node + UITransform + Sprite + UIOpacity | Backgrounds, icons |
+| Text | Node + UITransform + Label + UIOpacity | Titles, descriptions |
+| CurrencyUI | Node(root) + Node(icon) + Label(counter) | Currency displays |
+| HPBar | Node(root) + Sprite(bg) + Sprite(fill) + Label(text)? | Health/progress bars |
+| Countdown | Node(root) + Label(prep) + Label(number) | Countdown timers |
+| IconLabel | Node(root) + Sprite(icon) + Label(text) | Icon + text combos |
+
+### Composite Parameters
+| Type | Wraps | File |
+|---|---|---|
+| `TutorialHandParameter` | SpriteParameter + AnimationPresetParameter | TutorialHandParameter.ts |
+| `RichTextParameter` | LabelParameter + entrance/exit AnimationPresetParameter + autoHide | RichTextParameter.ts |
+| `EndCardParameter` | Background SpriteParameter + title/subtitle LabelParameter + CTA ButtonParameter | EndCardParameter.ts |
+| `LoadingScreenParameter` | Background color + icon SpriteParameter + game name LabelParameter | LoadingScreenParameter.ts |
+
+### Key Architecture Rules
+1. **Atomic Mapping:** Every ComponentParameter maps to exactly one Cocos component
+2. **Composition:** NodeParameters built by composing ComponentParameters, not inheritance
+3. **Flat Structure:** Never nest ObjectParameter inside ObjectParameter
+4. **Scene Values:** Use actual component property values as defaults
 
 ---
 
